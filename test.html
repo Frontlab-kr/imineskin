@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>Parallax (rAF + translate)</title>
+    <style>
+      * {
+        box-sizing: border-box;
+      }
+      body {
+        margin: 0;
+        font-family: system-ui, sans-serif;
+        color: #111;
+      }
+      .section {
+        position: relative;
+        height: 100vh;
+        overflow: hidden; /* 배경이 밖으로 나가지 않도록 */
+        display: grid;
+        place-items: center;
+      }
+      .section__bg {
+        position: absolute;
+        inset: -15vh 0; /* 살짝 크게 깔아 빈 공간 방지 */
+        background-size: cover;
+        background-position: center;
+        will-change: transform;
+        transform: translate3d(0, var(--y, 0), 0); /* JS가 --y를 갱신 */
+      }
+      .section__content {
+        position: relative;
+        z-index: 1;
+        background: rgba(255, 255, 255, 0.85);
+        padding: 2rem 2.5rem;
+        border-radius: 16px;
+        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+      }
+      .s1 .section__bg {
+        background-image: url('https://picsum.photos/id/1018/1600/900');
+      }
+      .s2 .section__bg {
+        background-image: url('https://picsum.photos/id/1021/1600/900');
+      }
+      .s3 .section__bg {
+        background-image: url('https://picsum.photos/id/1005/1600/900');
+      }
+
+      /* 사용자 접근성 고려: 모션 최소화 선호 시 비활성화 */
+      @media (prefers-reduced-motion: reduce) {
+        .section__bg {
+          transform: none !important;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <section class="section s1">
+      <div class="section__bg" data-speed="0.25" aria-hidden="true"></div>
+      <div class="section__content">
+        <h1>패럴랙스(스크립트)</h1>
+        <p>스크롤해 보세요.</p>
+      </div>
+    </section>
+
+    <section class="section s2">
+      <div class="section__bg" data-speed="0.4" aria-hidden="true"></div>
+      <div class="section__content">
+        <h2>속도 조절</h2>
+        <p><code>data-speed</code>를 0.1~0.6 정도로 조정합니다.</p>
+      </div>
+    </section>
+
+    <section class="section s3">
+      <div class="section__bg" data-speed="0.15" aria-hidden="true"></div>
+      <div class="section__content">
+        <h2>부드러운 스크롤</h2>
+        <p>requestAnimationFrame 기반으로 끊김이 적습니다.</p>
+      </div>
+    </section>
+
+    <script>
+      (function () {
+        const $items = Array.from(document.querySelectorAll('[data-speed]'));
+        let ticking = false;
+
+        function clamp(n, min, max) {
+          return Math.max(min, Math.min(max, n));
+        }
+
+        function update() {
+          const vh = window.innerHeight;
+          for (const el of $items) {
+            // 섹션 기준 진행도(뷰포트 내 위치)를 0~1로 계산
+            const host = el.parentElement; // .section
+            const rect = host.getBoundingClientRect();
+            const progress = clamp((vh - rect.top) / (vh + rect.height), 0, 1);
+            const speed = parseFloat(el.dataset.speed || 0.3);
+            // 진행도를 -1~1 범위로 변환하여 이동량 결정
+            const delta = (progress - 0.5) * 2; // -1 .. 1
+            const move = delta * speed * 120; // 픽셀 이동량(가감 가능)
+            el.style.setProperty('--y', `${move}px`);
+          }
+          ticking = false;
+        }
+
+        function onScroll() {
+          if (!ticking) {
+            requestAnimationFrame(update);
+            ticking = true;
+          }
+        }
+
+        window.addEventListener('scroll', onScroll, { passive: true });
+        window.addEventListener('resize', onScroll);
+        update(); // 초기 1회
+      })();
+    </script>
+  </body>
+</html>
