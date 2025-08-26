@@ -368,3 +368,36 @@ document.addEventListener('click', function (e) {
 
   isDraggingFromModal = false;
 });
+
+//
+$(document).ready(function () {
+  const $shareWrap = $(".imine-board-detail-head-info__share");
+  const $shareButton = $shareWrap.find("> button"); // 공유 버튼
+  const $closeButton = $shareWrap.find(".imine-board-detail-head-info__layer-head button"); // 닫기 버튼
+  const $dimButton = $shareWrap.find(".imine-board-detail-head-info__layer-dim"); // dim 버튼
+
+  // 공유 버튼 클릭 시 active 토글
+  $shareButton.on("click", function (e) {
+    e.stopPropagation(); 
+    $shareWrap.toggleClass("active");
+  });
+
+  // 닫기 버튼 클릭 시 active 제거
+  $closeButton.on("click", function (e) {
+    e.stopPropagation();
+    $shareWrap.removeClass("active");
+  });
+
+  // dim 버튼 클릭 시 active 제거
+  $dimButton.on("click", function (e) {
+    e.stopPropagation();
+    $shareWrap.removeClass("active");
+  });
+
+  // 바깥 영역 클릭 시 active 제거
+  $(document).on("click", function (e) {
+    if (!$shareWrap.is(e.target) && $shareWrap.has(e.target).length === 0) {
+      $shareWrap.removeClass("active");
+    }
+  });
+});
