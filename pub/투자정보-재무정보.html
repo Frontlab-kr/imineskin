@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="../inc/js/include.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="../inc/css/common.css" type="text/css" />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/@studio-freight/lenis@1.0.42/dist/lenis.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js"></script>
+
+    <script src="../inc/js/common.js"></script>
+  </head>
+  <body>
+    <div class="imine">
+      <!-- header -->
+      <div
+        include-html="../inc/layout/header.html"
+        style="position: relative; z-index: 100"
+        class="include-header"
+      ></div>
+      <!-- //header -->
+
+      <main id="content" data-menu="5">
+        <div class="imine-head">
+          <div class="imine-inner">
+            <img src="../inc/images/head/img05.png" alt="" />
+          </div>
+        </div>
+        <div class="imine-body">
+          <div class="imine-snb">
+            <ul>
+              <li class="active">
+                <a href="">재무정보</a>
+              </li>
+              <li><a href="">IR 자료실</a></li>
+              <li><a href="">공고자료</a></li>
+            </ul>
+          </div>
+          <div class="imine-contents">
+            <section id="section01">
+              <h2>재무정보</h2>
+              <h4>
+                <strong>
+                  iM1NE의 재무상태표 및 재무성과를<br />
+                  확인하실 수 있습니다.
+                </strong>
+              </h4>
+              <div class="imine-box"></div>
+            </section>
+          </div>
+        </div>
+      </main>
+
+      <!-- footer -->
+      <div include-html="../inc/layout/footer.html"></div>
+      <!-- //footer -->
+    </div>
+  </body>
+</html>

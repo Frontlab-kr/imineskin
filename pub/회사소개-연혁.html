@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="../inc/js/include.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="../inc/css/common.css" type="text/css" />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/@studio-freight/lenis@1.0.42/dist/lenis.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js"></script>
+
+    <script src="../inc/js/common.js"></script>
+  </head>
+  <body>
+    <div class="imine">
+      <!-- header -->
+      <div
+        include-html="../inc/layout/header.html"
+        style="position: relative; z-index: 100"
+        class="include-header"
+      ></div>
+      <!-- //header -->
+
+      <main id="content">
+        <div class="imine-head">
+          <div class="imine-inner">
+            <img src="../inc/images/head/img01.png" alt="" />
+          </div>
+        </div>
+        <div class="imine-body">
+          <div class="imine-snb">
+            <ul>
+              <li>
+                <a href="">Overview</a>
+                <ul>
+                  <li><a href="#section01">회사개요</a></li>
+                  <li><a href="#section02">조직도</a></li>
+                  <li><a href="#section03">CI/BI</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="">CEO 메시지</a>
+                <ul>
+                  <li><a href="#section01">CEO 인사말</a></li>
+                  <li><a href="#section02">비전/ 철학</a></li>
+                </ul>
+              </li>
+              <li class="active"><a href="">연혁</a></li>
+              <li><a href="">사업장 안내</a></li>
+            </ul>
+          </div>
+          <div class="imine-contents">
+            <section id="section01">
+              <h2>연혁</h2>
+              <h3>
+                <strong>
+                  이미인은 부지런히<br />
+                  변화하며 <strong>변하지 않는 본질</strong>에 집중해왔습니다.
+                </strong>
+              </h3>
+              <div class="imine-history"></div>
+            </section>
+          </div>
+        </div>
+      </main>
+
+      <!-- footer -->
+      <div include-html="../inc/layout/footer.html"></div>
+      <!-- //footer -->
+    </div>
+  </body>
+</html>

@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="../inc/js/include.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="../inc/css/common.css" type="text/css" />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/@studio-freight/lenis@1.0.42/dist/lenis.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js"></script>
+
+    <script src="../inc/js/common.js"></script>
+  </head>
+  <body>
+    <div class="imine">
+      <!-- header -->
+      <div
+        include-html="../inc/layout/header.html"
+        style="position: relative; z-index: 100"
+        class="include-header"
+      ></div>
+      <!-- //header -->
+
+      <main id="content" data-menu="6">
+        <div class="imine-head">
+          <div class="imine-inner">
+            <img src="../inc/images/head/img06.png" alt="" />
+          </div>
+        </div>
+        <div class="imine-body">
+          <div class="imine-snb">
+            <ul>
+              <li>
+                <a href="">보도자료</a>
+              </li>
+              <li><a href="">뷰티 인사이트</a></li>
+              <li class="active"><a href="">뉴스레터</a></li>
+            </ul>
+          </div>
+          <div class="imine-contents">
+            <section id="section01">
+              <h2>뉴스레터</h2>
+              <h4>
+                <strong>
+                  iM1NE의 최신 소식과 뷰티 트렌드를<br />
+                  뉴스레터로 받아보세요.
+                </strong>
+              </h4>
+              <div class="imine-newsletter">
+                <div class="imine-newsletter-head">
+                  <div class="imine-newsletter-head__text">
+                    <strong>뉴스레터 구독 신청</strong>
+                    <p>
+                      매 월 iM1NE의 새로운 소식과 뷰티 인사이트를 이메일로
+                      전달드립니다.
+                    </p>
+                  </div>
+                  <div class="imine-newsletter-head__button">
+                    <button
+                      type="button"
+                      class="imine-btn imine-btn-sm imine-btn-outline"
+                    >
+                      <i class="ico-24-newsletter"></i> 뉴스레터 예시 보기
+                    </button>
+                  </div>
+                </div>
+                <div class="imine-newsletter-body">
+                  <div class="imine-form">
+                    <div class="imine-form-row">
+                      <div class="imine-form-col imine-form-col--error">
+                        <label for=""> 이름 <span>*</span> </label>
+                        <div class="imine-form-contents">
+                          <input
+                            type="text"
+                            class="imine-input"
+                            placeholder="이름을 입력해주세요"
+                          />
+                        </div>
+                        <div class="imine-form-error">
+                          이름이 입력되지 않았습니다.
+                        </div>
+                      </div>
+                      <div class="imine-form-col imine-form-col--error">
+                        <label for=""> 이메일 <span>*</span> </label>
+                        <div class="imine-form-contents">
+                          <input
+                            type="email"
+                            class="imine-input"
+                            placeholder="example@email.com"
+                          />
+                        </div>
+                        <div class="imine-form-error">
+                          이메일이 입력되지 않았습니다.
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="imine-checkbox">
+                    <input type="checkbox" id="agree" />
+                    <label for="agree">
+                      <strong>개인정보 수집에 대한 이용 약관 동의(필수)</strong>
+                      <p>
+                        뉴스레터 발송 외 다른 목적으로 활용되지 않으며, 동의하지
+                        않을 경우 뉴스레터 구독 신청이 되지 않습니다.
+                      </p>
+                    </label>
+                  </div>
+                  <div class="imine-form-error">동의란을 선택해주세요</div>
+                </div>
+                <div class="imine-newsletter-button">
+                  <button
+                    type="button"
+                    class="imine-btn imine-btn-lg imine-btn-round imine-btn-primary"
+                  >
+                    구독 신청하기
+                  </button>
+                </div>
+              </div>
+              <div class="imine-board-list">
+                <div class="imine-board-list-head">
+                  <h5>전체 <span>24</span></h5>
+                  <div class="imine-board-search">
+                    <input type="text" placeholder="검색어를 입력해주세요." />
+                    <button>검색</button>
+                  </div>
+                </div>
+                <div class="imine-board-list-body imine-board-list-body--list">
+                  <a href="" class="imine-board-list-body-item">
+                    <div class="imine-board-list-body-item__thumb">
+                      <img src="./../inc/images/temp/img11.png" alt="" />
+                    </div>
+                    <div class="imine-board-list-body-item__badge">
+                      <span
+                        class="imine-badge"
+                        style="background: #f2f1fe; color: #533cff"
+                      >
+                        인벤토리
+                      </span>
+                    </div>
+                    <div class="imine-board-list-body-item__title">
+                      화장품 OEM ODM 뉴 히어로 탄생 - 이미인' 마스크팩 1위 제닉
+                      제치고 우뚝 화장품 OEM ODM 뉴 히어로 탄생 - 이미인'
+                      마스크팩 1위 제닉 제치고 우뚝
+                    </div>
+                    <div class="imine-board-list-body-item__date">
+                      2025.08.12 - 2025.08.15
+                    </div>
+                  </a>
+                  <a href="" class="imine-board-list-body-item">
+                    <div class="imine-board-list-body-item__thumb">
+                      <img src="./../inc/images/temp/img12.png" alt="" />
+                    </div>
+                    <div class="imine-board-list-body-item__badge">
+                      <span
+                        class="imine-badge"
+                        style="background: #f2f1fe; color: #533cff"
+                      >
+                        인벤토리
+                      </span>
+                    </div>
+                    <div class="imine-board-list-body-item__title">
+                      화장품 OEM ODM 뉴 히어로 탄생 - 이미인' 마스크팩 1위 제닉
+                      제치고 우뚝
+                    </div>
+                    <div class="imine-board-list-body-item__date">
+                      2025.08.12 - 2025.08.15
+                    </div>
+                  </a>
+                  <a href="" class="imine-board-list-body-item">
+                    <div class="imine-board-list-body-item__thumb">
+                      <img src="./../inc/images/temp/img13.png" alt="" />
+                    </div>
+                    <div class="imine-board-list-body-item__badge">
+                      <span
+                        class="imine-badge"
+                        style="background: #fdf2f7; color: #cf035b"
+                      >
+                        NEW
+                      </span>
+                      <span
+                        class="imine-badge"
+                        style="background: #e9eefe; color: #1f5af2"
+                      >
+                        트렌드
+                      </span>
+                    </div>
+                    <div class="imine-board-list-body-item__title">
+                      화장품 OEM ODM 뉴 히어로 탄생 - 이미인' 마스크팩 1위 제닉
+                      제치고 우뚝
+                    </div>
+                    <div class="imine-board-list-body-item__date">
+                      2025.08.12 - 2025.08.15
+                    </div>
+                  </a>
+                  <a href="" class="imine-board-list-body-item">
+                    <div class="imine-board-list-body-item__thumb">
+                      <img src="./../inc/images/temp/img14.png" alt="" />
+                    </div>
+                    <div class="imine-board-list-body-item__badge">
+                      <span
+                        class="imine-badge"
+                        style="background: #e9eefe; color: #1f5af2"
+                      >
+                        트렌드
+                      </span>
+                    </div>
+                    <div class="imine-board-list-body-item__title">
+                      화장품 OEM ODM 뉴 히어로 탄생 - 이미인' 마스크팩 1위 제닉
+                      제치고 우뚝
+                    </div>
+                    <div class="imine-board-list-body-item__date">
+                      2025.08.12 - 2025.08.15
+                    </div>
+                  </a>
+                  <a href="" class="imine-board-list-body-item">
+                    <div class="imine-board-list-body-item__thumb">
+                      <img src="./../inc/images/temp/img15.png" alt="" />
+                    </div>
+                    <div class="imine-board-list-body-item__badge">
+                      <span
+                        class="imine-badge"
+                        style="background: #e9eefe; color: #1f5af2"
+                      >
+                        트렌드
+                      </span>
+                    </div>
+                    <div class="imine-board-list-body-item__title">
+                      화장품 OEM ODM 뉴 히어로 탄생 - 이미인' 마스크팩 1위 제닉
+                      제치고 우뚝
+                    </div>
+                    <div class="imine-board-list-body-item__date">
+                      2025.08.12 - 2025.08.15
+                    </div>
+                  </a>
+                  <a href="" class="imine-board-list-body-item">
+                    <div class="imine-board-list-body-item__thumb">
+                      <img src="./../inc/images/temp/img16.png" alt="" />
+                    </div>
+                    <div class="imine-board-list-body-item__badge">
+                      <span
+                        class="imine-badge"
+                        style="background: #e9eefe; color: #1f5af2"
+                      >
+                        트렌드
+                      </span>
+                    </div>
+                    <div class="imine-board-list-body-item__title">
+                      화장품 OEM ODM 뉴 히어로 탄생 - 이미인' 마스크팩 1위 제닉
+                      제치고 우뚝
+                    </div>
+                    <div class="imine-board-list-body-item__date">
+                      2025.08.12 - 2025.08.15
+                    </div>
+                  </a>
+                  <a href="" class="imine-board-list-body-item">
+                    <div class="imine-board-list-body-item__thumb">
+                      <img src="./../inc/images/temp/img17.png" alt="" />
+                    </div>
+                    <div class="imine-board-list-body-item__badge">
+                      <span
+                        class="imine-badge"
+                        style="background: #e9eefe; color: #1f5af2"
+                      >
+                        트렌드
+                      </span>
+                    </div>
+                    <div class="imine-board-list-body-item__title">
+                      화장품 OEM ODM 뉴 히어로 탄생 - 이미인' 마스크팩 1위 제닉
+                      제치고 우뚝
+                    </div>
+                    <div class="imine-board-list-body-item__date">
+                      2025.08.12 - 2025.08.15
+                    </div>
+                  </a>
+                  <a href="" class="imine-board-list-body-item">
+                    <div class="imine-board-list-body-item__thumb">
+                      <img src="./../inc/images/temp/img18.png" alt="" />
+                    </div>
+                    <div class="imine-board-list-body-item__badge">
+                      <span
+                        class="imine-badge"
+                        style="background: #f2f1fe; color: #533cff"
+                      >
+                        인벤토리
+                      </span>
+                    </div>
+                    <div class="imine-board-list-body-item__title">
+                      화장품 OEM ODM 뉴 히어로 탄생 - 이미인' 마스크팩 1위 제닉
+                      제치고 우뚝
+                    </div>
+                    <div class="imine-board-list-body-item__date">
+                      2025.08.12 - 2025.08.15
+                    </div>
+                  </a>
+                  <a href="" class="imine-board-list-body-item">
+                    <div class="imine-board-list-body-item__thumb">
+                      <img src="./../inc/images/temp/img19.png" alt="" />
+                    </div>
+                    <div class="imine-board-list-body-item__badge">
+                      <span
+                        class="imine-badge"
+                        style="background: #f2f1fe; color: #533cff"
+                      >
+                        인벤토리
+                      </span>
+                    </div>
+                    <div class="imine-board-list-body-item__title">
+                      화장품 OEM ODM 뉴 히어로 탄생 - 이미인' 마스크팩 1위 제닉
+                      제치고 우뚝
+                    </div>
+                    <div class="imine-board-list-body-item__date">
+                      2025.08.12 - 2025.08.15
+                    </div>
+                  </a>
+                </div>
+                <div class="imine-board-list-foot">
+                  <div class="imine-pagination">
+                    <a href="" class="imine-pagination__prev">이전</a>
+                    <a href="" class="active">1</a>
+                    <a href="">2</a>
+                    <a href="">3</a>
+                    <a href="">4</a>
+                    <a href="">5</a>
+                    <a href="" class="imine-pagination__next">다음</a>
+                  </div>
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+      </main>
+
+      <!-- footer -->
+      <div include-html="../inc/layout/footer.html"></div>
+      <!-- //footer -->
+    </div>
+  </body>
+</html>

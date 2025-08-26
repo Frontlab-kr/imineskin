@@ -1,3 +1,6 @@
+$bp-tablet: 1440px;
+$bp-mobile: 800px;
+
 .ico-20-flag-kr {
   display: inline-flex;
   min-width: 20px;
@@ -16,15 +19,96 @@
   height: 15px;
   background: url(../images/icon/20/flag-jp.svg);
 }
-.ico-24-ChatTeardropDots {
+.ico-20-back {
   display: inline-flex;
   min-width: 20px;
   height: 20px;
+  background: url(../images/icon/20/back.svg);
+}
+.ico-20-share {
+  display: inline-flex;
+  min-width: 20px;
+  height: 20px;
+  background: url(../images/icon/20/share.svg);
+}
+.ico-20-print {
+  display: inline-flex;
+  min-width: 20px;
+  height: 20px;
+  background: url(../images/icon/20/print.svg);
+}
+
+.ico-24-ChatTeardropDots {
+  display: inline-flex;
+  min-width: 24px;
+  height: 24px;
   background: url(../images/icon/24/ChatTeardropDots.svg);
 }
 .ico-24-CloudArrowDown {
   display: inline-flex;
-  min-width: 20px;
-  height: 20px;
+  min-width: 24px;
+  height: 24px;
   background: url(../images/icon/24/CloudArrowDown.svg);
+}
+.ico-24-folder {
+  display: inline-flex;
+  min-width: 24px;
+  height: 24px;
+  background: url(../images/icon/24/folder.svg);
+}
+.ico-24-download {
+  display: inline-flex;
+  min-width: 24px;
+  height: 24px;
+  background: url(../images/icon/24/download.svg);
+  background-size: cover;
+  @media screen and (max-width: $bp-tablet) {
+    min-width: 24px;
+    height: 24px;
+  }
+  @media screen and (max-width: $bp-tablet) {
+    min-width: 20px;
+    height: 20px;
+  }
+}
+.ico-24-upload {
+  display: inline-flex;
+  min-width: 24px;
+  height: 24px;
+  background: url(../images/icon/24/upload.svg);
+  background-size: cover;
+}
+.ico-24-delete {
+  display: inline-flex;
+  min-width: 24px;
+  height: 24px;
+  background: url(../images/icon/24/delete.svg);
+  background-size: cover;
+}
+.ico-24-newsletter {
+  display: inline-flex;
+  min-width: 24px;
+  height: 24px;
+  background: url(../images/icon/24/newsletter.svg);
+  background-size: cover;
+  @media screen and (max-width: $bp-tablet) {
+    min-width: 20px;
+    height: 20px;
+  }
+  @media screen and (max-width: $bp-mobile) {
+    min-width: 16px;
+    height: 16px;
+  }
+}
+.ico-40-kakao {
+  display: inline-flex;
+  min-width: 40px;
+  height: 40px;
+  background: url(../images/icon/40/kakao.svg);
+}
+.ico-40-share {
+  display: inline-flex;
+  min-width: 40px;
+  height: 40px;
+  background: url(../images/icon/40/share.svg);
 }

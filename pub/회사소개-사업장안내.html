@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="../inc/js/include.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="../inc/css/common.css" type="text/css" />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/@studio-freight/lenis@1.0.42/dist/lenis.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js"></script>
+
+    <script src="../inc/js/common.js"></script>
+  </head>
+  <body>
+    <div class="imine">
+      <!-- header -->
+      <div
+        include-html="../inc/layout/header.html"
+        style="position: relative; z-index: 100"
+        class="include-header"
+      ></div>
+      <!-- //header -->
+
+      <main id="content">
+        <div class="imine-head">
+          <img src="../inc/images/head/img01.png" alt="" />
+        </div>
+        <div class="imine-body">
+          <div class="imine-snb">
+            <ul>
+              <li>
+                <a href="">Overview</a>
+                <ul>
+                  <li><a href="">회사개요</a></li>
+                  <li><a href="">조직도</a></li>
+                  <li><a href="">CI/BI</a></li>
+                </ul>
+              </li>
+              <li>
+                <a href="">CEO 메시지</a>
+                <ul>
+                  <li><a href="">CEO 인사말</a></li>
+                  <li><a href="">비전/ 철학</a></li>
+                </ul>
+              </li>
+              <li><a href="">연혁</a></li>
+              <li class="active"><a href="">사업장 안내</a></li>
+            </ul>
+          </div>
+          <div class="imine-contents">
+            <section>
+              <h2>사업장 안내</h2>
+              <h3>
+                Where We Create Trustworthy Beauty<br />
+                <strong>
+                  깨끗하고 안전한 공간에서 이로운 아름다움을<br />
+                  연구하고 완성합니다.
+                </strong>
+              </h3>
+              <p>
+                변함없는 신뢰로, 멈추지 않는 혁신으로,<br />
+                <strong>미래를 향해 나아갑니다</strong>
+              </p>
+              <div class="imine-sites">
+                <div class="imine-sites-item">
+                  <h4>이미인 본사</h4>
+                </div>
+                <div class="imine-sites-item">
+                  <h4>오산 사업장</h4>
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+      </main>
+
+      <!-- footer -->
+      <div include-html="../inc/layout/footer.html"></div>
+      <!-- //footer -->
+    </div>
+  </body>
+</html>

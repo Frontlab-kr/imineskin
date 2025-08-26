@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="../inc/js/include.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="../inc/css/common.css" type="text/css" />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/@studio-freight/lenis@1.0.42/dist/lenis.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js"></script>
+
+    <script src="../inc/js/common.js"></script>
+  </head>
+  <body>
+    <div class="imine">
+      <!-- header -->
+      <div
+        include-html="../inc/layout/header.html"
+        style="position: relative; z-index: 100"
+        class="include-header"
+      ></div>
+      <!-- //header -->
+
+      <main id="content" data-menu="6">
+        <div class="imine-inner">
+          <div
+            class="d-flex justify-content-center gap-3 flex-column p-5"
+            style="min-height: 400px"
+          >
+            <button
+              type="button"
+              class="imine-btn imine-btn-primary"
+              data-bs-toggle="modal"
+              data-bs-target="#alert01"
+            >
+              alert01
+            </button>
+            <button
+              type="button"
+              class="imine-btn imine-btn-primary"
+              data-bs-toggle="modal"
+              data-bs-target="#alert02"
+            >
+              alert02
+            </button>
+          </div>
+        </div>
+      </main>
+
+      <div class="imine-modal fade" id="alert01" tabindex="-1">
+        <div class="imine-modal-dialog imine-modal-alert">
+          <div class="imine-modal-content">
+            <div class="imine-modal-body">
+              <div class="imine-modal-alert-text">
+                <strong>이미 구독중입니다.</strong>
+                <p>앞으로도 유용한 소식으로 찾아뵐게요.</p>
+              </div>
+            </div>
+            <div class="imine-modal-footer">
+              <button
+                type="button"
+                class="imine-btn imine-btn-outline w-100"
+                data-bs-dismiss="modal"
+              >
+                취소
+              </button>
+              <button
+                type="button"
+                class="imine-btn imine-btn-primary w-100"
+                data-bs-dismiss="modal"
+              >
+                확인
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="imine-modal fade" id="alert02" tabindex="-1">
+        <div class="imine-modal-dialog imine-modal-alert">
+          <div class="imine-modal-content">
+            <div class="imine-modal-body">
+              <div class="imine-modal-alert-text">
+                <strong>구독 신청이 완료되었습니다.</strong>
+                <p>다음 뉴스레터부터 자동으로 발송될 예정입니다.</p>
+              </div>
+            </div>
+            <div class="imine-modal-footer">
+              <button
+                type="button"
+                class="imine-btn imine-btn-outline w-100"
+                data-bs-dismiss="modal"
+              >
+                취소
+              </button>
+              <button
+                type="button"
+                class="imine-btn imine-btn-primary w-100"
+                data-bs-dismiss="modal"
+              >
+                확인
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- footer -->
+      <div include-html="../inc/layout/footer.html"></div>
+      <!-- //footer -->
+    </div>
+  </body>
+</html>

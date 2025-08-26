@@ -61,6 +61,25 @@
           disableOnInteraction: false,
         },
       });
+
+      $(function () {
+        //header
+        var menuIndex = $('#content').data('menu');
+
+        $('.imine-header-gnb-item')
+          .eq(menuIndex - 1)
+          .addClass('active');
+      });
+
+      $(
+        '.imine-header-menu__toggle, .imine-header-gnb-head, .imine-header-menu__dim'
+      ).on('click', function () {
+        $('.imine').toggleClass('is-menu');
+      });
+      $('.imine-header-gnb-item > a').on('click', function () {
+        $('.imine-header-gnb-item').removeClass('active');
+        $(this).parent('.imine-header-gnb-item').addClass('active');
+      });
     });
   });
 })();

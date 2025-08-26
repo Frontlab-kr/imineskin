@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="../inc/js/include.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="../inc/css/common.css" type="text/css" />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/@studio-freight/lenis@1.0.42/dist/lenis.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js"></script>
+
+    <script src="../inc/js/common.js"></script>
+  </head>
+  <body>
+    <div class="imine">
+      <!-- header -->
+      <div
+        include-html="../inc/layout/header.html"
+        style="position: relative; z-index: 100"
+        class="include-header"
+      ></div>
+      <!-- //header -->
+
+      <main id="content" data-menu="8">
+        <div class="imine-head">
+          <div class="imine-inner">
+            <img src="../inc/images/head/img08.png" alt="" />
+          </div>
+        </div>
+        <div class="imine-body">
+          <div class="imine-snb">
+            <ul>
+              <li>
+                <a href="">공지사항</a>
+              </li>
+              <li><a href="">자주 묻는 질문</a></li>
+              <li class="active"><a href="">문의하기</a></li>
+            </ul>
+          </div>
+          <div class="imine-contents">
+            <section id="section01">
+              <h2>문의하기</h2>
+              <h4>
+                <strong>
+                  궁금한 사항이나 제안사항을 <br />
+                  남겨주시면 빠른 시일내에 답변드리겠습니다.
+                </strong>
+              </h4>
+              <div class="imine-qna">
+                <div class="imine-qna-head">
+                  <h5>문의정보</h5>
+                  <p>
+                    <span>*</span>
+                    필수 입력항목
+                  </p>
+                </div>
+                <div class="imine-form">
+                  <div class="imine-form-row imine-form-row--head">
+                    <div class="imine-form-col">
+                      <label for=""> 문의유형 <span>*</span> </label>
+                      <div class="imine-form-contents">
+                        <div class="imine-choice">
+                          <div class="imine-choice-item">
+                            <input
+                              type="radio"
+                              name="radio1"
+                              id="radio1-1"
+                              checked
+                            />
+                            <label for="radio1-1">제품문의</label>
+                          </div>
+                          <div class="imine-choice-item">
+                            <input type="radio" name="radio1" id="radio1-2" />
+                            <label for="radio1-2">기술지원</label>
+                          </div>
+                          <div class="imine-choice-item">
+                            <input type="radio" name="radio1" id="radio1-3" />
+                            <label for="radio1-3">파트너십</label>
+                          </div>
+                          <div class="imine-choice-item">
+                            <input type="radio" name="radio1" id="radio1-4" />
+                            <label for="radio1-4">기타문의</label>
+                          </div>
+                          <div class="imine-choice-item">
+                            <input type="radio" name="radio1" id="radio1-5" />
+                            <label for="radio1-5">채용문의</label>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="imine-form-row">
+                    <div class="imine-form-col">
+                      <label for=""> 이름 <span>*</span> </label>
+                      <div class="imine-form-contents">
+                        <input
+                          type="text"
+                          class="imine-input"
+                          placeholder="이름을 입력해주세요"
+                        />
+                      </div>
+                    </div>
+                    <div class="imine-form-col">
+                      <label for=""> 회사명</label>
+                      <div class="imine-form-contents">
+                        <input
+                          type="text"
+                          class="imine-input"
+                          placeholder="회사명을 입력해주세요 (선택)"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="imine-form-row">
+                    <div class="imine-form-col">
+                      <label for=""> 연락처 <span>*</span> </label>
+                      <div class="imine-form-contents">
+                        <input
+                          type="text"
+                          class="imine-input"
+                          placeholder="010-0000-0000"
+                        />
+                      </div>
+                    </div>
+                    <div class="imine-form-col">
+                      <label for=""> 이메일 <span>*</span> </label>
+                      <div class="imine-form-contents">
+                        <input
+                          type="email"
+                          class="imine-input"
+                          placeholder="example@email.com"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="imine-form-row">
+                    <div class="imine-form-col">
+                      <label for=""> 제목 <span>*</span> </label>
+                      <div class="imine-form-contents">
+                        <input
+                          type="text"
+                          class="imine-input"
+                          placeholder="제목을 입력해주세요"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                  <div class="imine-form-row">
+                    <div class="imine-form-col">
+                      <label for=""> 문의 내용 <span>*</span> </label>
+                      <div class="imine-form-contents">
+                        <textarea
+                          class="imine-textarea"
+                          placeholder="문의하실 내용을 자세히 입력해주세요 "
+                        ></textarea>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="imine-form-row">
+                    <div class="imine-form-col">
+                      <label for=""> 파일 업로드 </label>
+                      <div class="imine-form-contents">
+                        <div class="imine-upload" id="uploadBox">
+                          <p>
+                            <strong
+                              >첨부할 파일을 여기에 끌어다 놓거나, 파일 선택
+                              버튼을 직접 선택해주세요.</strong
+                            >
+                            <span
+                              >최대 10MB 이하 / JPG, PNG, PDF, DOC, XLS 파일만
+                              가능</span
+                            >
+                          </p>
+                          <button
+                            type="button"
+                            class="imine-btn imine-btn-white"
+                            id="uploadBtn"
+                          >
+                            <i class="ico-24-upload"></i>
+                            파일 업로드
+                          </button>
+                          <!-- 숨김 input -->
+                          <input type="file" id="uploadInput" hidden multiple />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="imine-form-row">
+                    <div class="imine-form-col">
+                      <label for=""
+                        >첨부파일
+                        <span class="text-point" id="fileCount">1</span></label
+                      >
+                      <div class="imine-form-contents">
+                        <div class="imine-form-file">
+                          <ul id="uploadList"></ul>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="imine-qna-agree">
+                  <div class="imine-qna-agree__title">
+                    개인정보 수집에 대한 이용 및 동의
+                  </div>
+                  <div class="imine-qna-agree__contents">
+                    <table>
+                      <tbody>
+                        <tr>
+                          <th>수집항목</th>
+                          <td>이름(회사명) I 연락처 I 이메일</td>
+                        </tr>
+                        <tr>
+                          <th>수집목적</th>
+                          <td>문의 답변 및 안내</td>
+                        </tr>
+                        <tr>
+                          <th>보유기간</th>
+                          <td>문의 처리 후 1년</td>
+                        </tr>
+                      </tbody>
+                    </table>
+                  </div>
+                  <div class="imine-qna-agree__check">
+                    <div class="imine-checkbox">
+                      <input type="checkbox" id="agree" />
+                      <label for="agree"> <strong>동의합니다</strong> </label>
+                    </div>
+                  </div>
+                </div>
+                <div class="imine-qna-button">
+                  <button
+                    type="button"
+                    class="imine-btn imine-btn-lg imine-btn-outline"
+                  >
+                    취소
+                  </button>
+                  <button
+                    type="button"
+                    class="imine-btn imine-btn-lg imine-btn-primary"
+                  >
+                    등록
+                  </button>
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+      </main>
+
+      <!-- footer -->
+      <div include-html="../inc/layout/footer.html"></div>
+      <!-- //footer -->
+    </div>
+  </body>
+</html>
