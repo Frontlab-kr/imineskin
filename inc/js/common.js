@@ -405,9 +405,11 @@ $(document).ready(function () {
     }
   });
 
-  AOS.init({
-    duration: 1000, // 기본 애니메이션 속도 (1초)
-  });
+  setTimeout(() => {
+    AOS.init({
+      duration: 1000, // 기본 애니메이션 속도 (1초)
+    });
+  }, 500);
 });
 
 //

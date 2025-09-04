@@ -8,12 +8,16 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.css"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+    />
     <link rel="stylesheet" href="../inc/css/common.css" type="text/css" />
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="https://unpkg.com/@studio-freight/lenis@1.0.42/dist/lenis.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js"></script>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
     <script src="../inc/js/common.js"></script>
   </head>
   <body>
@@ -28,13 +32,17 @@
 
       <main id="content">
         <div class="imine-main">
+          <div class="imine-main-keyvisual">
+            <video autoplay loop muted playsinline>
+              <source src="../inc/video/main.mp4" type="video/mp4" />
+            </video>
+          </div>
           <div class="imine-inner">
-            <div class="imine-main-keyvisual">
-              <video autoplay loop muted playsinline>
-                <source src="../inc/video/main.mp4" type="video/mp4" />
-              </video>
-            </div>
-            <div class="imine-main-introduce">
+            <div
+              class="imine-main-introduce"
+              data-aos="fade-up"
+              data-aos-delay="600"
+            >
               <div class="imine-main-introduce__video">
                 <video autoplay loop muted playsinline>
                   <source src="../inc/video/introduce.mp4" type="video/mp4" />
@@ -53,7 +61,11 @@
               </div>
             </div>
             <div class="imine-main-rnd">
-              <div class="imine-main-rnd-title">
+              <div
+                class="imine-main-rnd-title"
+                data-aos="fade-up"
+                data-aos-delay="200"
+              >
                 <div class="imine-main-rnd-title__thumb">
                   <video autoplay loop muted playsinline>
                     <source src="../inc/video/rnd.mp4" type="video/mp4" />
@@ -62,14 +74,18 @@
                 <strong>R&D</strong>
                 <p>
                   이미인은 차별화된 R&D 역량과 축적된 기술 노하우를 바탕으로
-                  고객 맞춤형 연구개발과<br />
+                  고객 맞춤형 연구개발과<br class="pc" />
                   끊임없는 기술 혁신을 통해 더 건강하고 아름다운 피부 가치를
                   실현해 나가겠습니다.
                 </p>
                 <a href=""> 더보기 </a>
               </div>
               <div class="imine-main-rnd-text">
-                <div class="imine-main-rnd-text-item">
+                <div
+                  class="imine-main-rnd-text-item"
+                  data-aos="fade-up"
+                  data-aos-delay="600"
+                >
                   <div class="imine-main-rnd-text-item__thumb">
                     <img src="../inc/images/main/rnd-thumb01.png" alt="" />
                   </div>
@@ -80,7 +96,11 @@
                     아름다운 피부 가치를 실현해 나갑니다.
                   </p>
                 </div>
-                <div class="imine-main-rnd-text-item">
+                <div
+                  class="imine-main-rnd-text-item"
+                  data-aos="fade-up"
+                  data-aos-delay="700"
+                >
                   <div class="imine-main-rnd-text-item__thumb">
                     <img src="../inc/images/main/rnd-thumb02.png" alt="" />
                   </div>
@@ -90,7 +110,11 @@
                     상용화하고 있습니다.
                   </p>
                 </div>
-                <div class="imine-main-rnd-text-item">
+                <div
+                  class="imine-main-rnd-text-item"
+                  data-aos="fade-up"
+                  data-aos-delay="800"
+                >
                   <div class="imine-main-rnd-text-item__thumb">
                     <img src="../inc/images/main/rnd-thumb03.png" alt="" />
                   </div>
@@ -103,7 +127,11 @@
               </div>
             </div>
             <div class="imine-main-manufacturing">
-              <div class="imine-main-manufacturing-head">
+              <div
+                class="imine-main-manufacturing-head"
+                data-aos="fade-up"
+                data-aos-delay="400"
+              >
                 <h4>Manufacturing</h4>
                 <div class="imine-main-manufacturing-head__text">
                   <p>
@@ -115,7 +143,11 @@
                 </div>
               </div>
               <div class="imine-main-manufacturing-list">
-                <div class="imine-main-manufacturing-list-item">
+                <div
+                  class="imine-main-manufacturing-list-item"
+                  data-aos="fade-up"
+                  data-aos-delay="600"
+                >
                   <div class="imine-main-manufacturing-list-item__thumb">
                     <img
                       src="../inc/images/main/manufacturing-thumb01.png"
@@ -128,7 +160,11 @@
                     생산하며, 납기일을 안정적으로 준수합니다.
                   </p>
                 </div>
-                <div class="imine-main-manufacturing-list-item">
+                <div
+                  class="imine-main-manufacturing-list-item"
+                  data-aos="fade-up"
+                  data-aos-delay="800"
+                >
                   <div class="imine-main-manufacturing-list-item__thumb">
                     <img
                       src="../inc/images/main/manufacturing-thumb02.png"
@@ -144,7 +180,11 @@
               </div>
             </div>
             <div class="imine-main-marketingsupport">
-              <div class="imine-main-marketingsupport-head">
+              <div
+                class="imine-main-marketingsupport-head"
+                data-aos="fade-up"
+                data-aos-delay="400"
+              >
                 <h4>Marketing Support</h4>
                 <div class="imine-main-marketingsupport-head__text">
                   <p>
@@ -156,35 +196,50 @@
                 </div>
               </div>
               <div class="imine-main-marketingsupport-list">
-                <div class="imine-main-marketingsupport-list-item">
+                <div
+                  class="imine-main-marketingsupport-list-item"
+                  data-aos="fade-up"
+                  data-aos-delay="500"
+                >
                   <div class="imine-main-marketingsupport-list-item__thumb">
                     <img
                       src="../inc/images/main/marketingsupport-thumb01.png"
                       alt=""
                     />
+                    <p>MARKETING CENTER</p>
                   </div>
                   <p>
                     성공적인 제품 개발을 위한 고객 맞춤형 인사이트를 제공합니다.
                   </p>
                 </div>
-                <div class="imine-main-marketingsupport-list-item">
+                <div
+                  class="imine-main-marketingsupport-list-item"
+                  data-aos="fade-up"
+                  data-aos-delay="600"
+                >
                   <div class="imine-main-marketingsupport-list-item__thumb">
                     <img
                       src="../inc/images/main/marketingsupport-thumb02.png"
                       alt=""
                     />
+                    <p>TREND ANALYTICS</p>
                   </div>
                   <p>
                     독자적 빅데이터 분석 모델로 핵심 트렌드와 기능을 선제적으로
                     예측해 시장 변화에 빠르게 대응합니다.
                   </p>
                 </div>
-                <div class="imine-main-marketingsupport-list-item">
+                <div
+                  class="imine-main-marketingsupport-list-item"
+                  data-aos="fade-up"
+                  data-aos-delay="800"
+                >
                   <div class="imine-main-marketingsupport-list-item__thumb">
                     <img
                       src="../inc/images/main/marketingsupport-thumb03.png"
                       alt=""
                     />
+                    <p>PLANNING & DEVELOPMENT</p>
                   </div>
                   <p>
                     빅데이터와 FGD를 기반으로 소비자들이 가장 필요로 하는 제품을
@@ -193,13 +248,18 @@
                 </div>
               </div>
             </div>
-            <!-- 기존 마크업 그대로 사용 -->
+          </div>
+          <div
+            class="imine-main-partner"
+            data-aos="fade-up"
+            data-aos-delay="400"
+          >
             <div
-              class="imine-main-partner"
-              data-speed="0.06"
+              class="imine-inner"
+              data-speed="0.2"
               style="background-image: url(../inc/images/main/partner.png)"
             >
-              <div class="imine-main-partner__inner">
+              <div>
                 <p>
                   이미인은 전 세계 40여 개국, 100여 개<br />
                   브랜드 파트너와 함께합니다.
@@ -207,10 +267,13 @@
                 <a href=""> 글로벌 브랜드 확인하기 </a>
               </div>
             </div>
-
+          </div>
+          <div class="imine-inner">
             <script>
               (function () {
-                const section = document.querySelector('.imine-main-partner');
+                const section = document.querySelector(
+                  '.imine-main-partner .imine-inner'
+                );
                 const speed = parseFloat(section.dataset.speed || 0.6);
                 let ticking = false;
 
@@ -265,7 +328,11 @@
               })();
             </script>
             <div class="imine-main-news">
-              <div class="imine-main-news__contents">
+              <div
+                class="imine-main-news__contents"
+                data-aos="fade-up"
+                data-aos-delay="200"
+              >
                 <h4>Latest News</h4>
                 <div class="imine-main-news__tab">
                   <a href="" class="active">보도자료</a>
@@ -302,9 +369,61 @@
                   </a>
                 </div>
               </div>
-              <div class="imine-main-news-swiper">
+              <div
+                class="imine-main-news-swiper"
+                data-aos="fade-up"
+                data-aos-delay="400"
+              >
                 <div class="swiper">
                   <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                      <div class="imine-main-news-swiper__thumb">
+                        <video loop muted>
+                          <source
+                            src="../inc/video/news01.mp4"
+                            type="video/mp4"
+                          />
+                        </video>
+                      </div>
+                      <p>탄탄하게 감싸 올리는, UP쎄라 텐션 마스크</p>
+                      <span>1일 전</span>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="imine-main-news-swiper__thumb">
+                        <video loop muted playsinline>
+                          <source
+                            src="../inc/video/news02.mp4"
+                            type="video/mp4"
+                          />
+                        </video>
+                      </div>
+                      <p>쌀 발효 추출물로 더 촉촉한, 크림 보습 마스크</p>
+                      <span>2주 전</span>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="imine-main-news-swiper__thumb">
+                        <video loop muted playsinline>
+                          <source
+                            src="../inc/video/news03.mp4"
+                            type="video/mp4"
+                          />
+                        </video>
+                      </div>
+                      <p>데일리 마사지 크림, 매트릭스 탄력 밤</p>
+                      <span>1개월 전</span>
+                    </div>
+                    <div class="swiper-slide">
+                      <div class="imine-main-news-swiper__thumb">
+                        <video loop muted playsinline>
+                          <source
+                            src="../inc/video/news04.mp4"
+                            type="video/mp4"
+                          />
+                        </video>
+                      </div>
+                      <p>거친 각질 숨죽이는 쫀쫀한 젤라임 팩</p>
+                      <span>1개월 전</span>
+                    </div>
                     <div class="swiper-slide">
                       <div class="imine-main-news-swiper__thumb">
                         <video loop muted>
@@ -440,6 +559,59 @@
                       // if (isActive) { video.pause(); video.currentTime = 0; }
                     });
                   });
+
+                  // --- 기존 코드 유지 ---
+                  // pauseAllVideos(), playActiveSlideVideo(), swiperNews, container, videos 등은 그대로 사용
+
+                  let hoveredVideo = null;
+
+                  // 슬라이드 안의 비디오에 마우스 오버 시: 모든 비디오 정지 → 해당 비디오만 재생
+                  videos.forEach((video) => {
+                    video.addEventListener('mouseenter', () => {
+                      hoveredVideo = video;
+
+                      // 오토플레이 정지
+                      if (swiperNews.autoplay && swiperNews.autoplay.running) {
+                        swiperNews.autoplay.stop();
+                      }
+
+                      // 다른 모든 비디오 정지/리셋 후 이 비디오만 재생
+                      pauseAllVideos();
+                      video.play().catch(() => {});
+                    });
+
+                    video.addEventListener('mouseleave', () => {
+                      // 현재 슬라이드가 활성 슬라이드가 아니라면 마우스가 떠날 때 정지/리셋
+                      const isActive = video
+                        .closest('.swiper-slide')
+                        ?.classList.contains('swiper-slide-active');
+
+                      if (!isActive) {
+                        video.pause();
+                        video.currentTime = 0;
+                      }
+
+                      // 이 영상에 대한 hover 종료
+                      if (hoveredVideo === video) hoveredVideo = null;
+
+                      // 다른 영상 위로 곧바로 hover가 가지 않았다면, 활성 슬라이드 영상만 재생 상태로 복원
+                      // (조금 뒤에 다른 hover가 들어오면 그쪽 mouseenter가 다시 처리)
+                      setTimeout(() => {
+                        if (!hoveredVideo) {
+                          playActiveSlideVideo();
+                        }
+                      }, 0);
+                    });
+                  });
+
+                  // 컨테이너에서 마우스가 완전히 벗어나면: 오토플레이 재개 + 활성 슬라이드 영상만 재생
+                  container.addEventListener('mouseleave', () => {
+                    if (swiperNews.autoplay && !swiperNews.autoplay.running) {
+                      swiperNews.autoplay.start();
+                    }
+                    hoveredVideo = null;
+                    playActiveSlideVideo();
+                  });
                 </script>
               </div>
             </div>
@@ -447,7 +619,7 @@
         </div>
       </main>
 
-      <div class="imine-footer-brand">
+      <div class="imine-footer-brand" data-aos="fade-up" data-aos-delay="200">
         <div class="swiper">
           <div class="swiper-wrapper">
             <div class="swiper-slide">

@@ -932,7 +932,7 @@ img {
     padding: 40px 24px 24px;
   }
   .imine-footer-brand {
-    padding: 56px 0;
+    padding: 38px 0;
     overflow: hidden;
   }
   .imine-footer-brand .swiper-slide {
@@ -1038,6 +1038,9 @@ img {
 .imine-main-keyvisual {
   display: flex;
 }
+.imine-main-keyvisual video {
+  width: 100%;
+}
 .imine-main-introduce {
   position: relative;
   display: flex;
@@ -1135,6 +1138,7 @@ img {
   font-style: normal;
   font-weight: 400;
   line-height: 150%; /* 24px */
+  word-break: keep-all;
 }
 .imine-main-rnd-title a {
   color: var(--Black, #000);
@@ -1221,13 +1225,37 @@ img {
   display: flex;
   gap: 24px;
 }
+.imine-main-manufacturing-list-item, .imine-main-marketingsupport-list-item {
+  width: 100%;
+}
 .imine-main-manufacturing-list-item__thumb, .imine-main-marketingsupport-list-item__thumb {
+  position: relative;
   display: flex;
   margin-bottom: 24px;
 }
 .imine-main-manufacturing-list-item__thumb img, .imine-main-marketingsupport-list-item__thumb img {
+  position: relative;
+  z-index: 10;
   width: 100%;
   border-radius: 4px;
+}
+.imine-main-manufacturing-list-item__thumb p, .imine-main-marketingsupport-list-item__thumb p {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 20;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--White, #fff);
+  text-align: center;
+  font-family: Pretendard;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 30px */
 }
 .imine-main-manufacturing-list-item strong, .imine-main-marketingsupport-list-item strong {
   display: block;
@@ -1239,7 +1267,7 @@ img {
   font-weight: 400;
   line-height: 120%; /* 24px */
 }
-.imine-main-manufacturing-list-item p, .imine-main-marketingsupport-list-item p {
+.imine-main-manufacturing-list-item > p, .imine-main-marketingsupport-list-item > p {
   color: var(--000000, #000);
   font-family: Pretendard;
   font-size: 16px;
@@ -1248,12 +1276,14 @@ img {
   line-height: 150%; /* 24px */
 }
 .imine-main-partner {
+  background-color: #000;
+}
+.imine-main-partner .imine-inner {
   display: flex;
   align-items: center;
   justify-content: flex-end;
   height: 640px;
   padding: 80px;
-  background-color: #000;
   background-size: 100% auto;
   place-items: center;
   background-size: cover;
@@ -1398,6 +1428,795 @@ img {
   font-style: normal;
   font-weight: 400;
   line-height: 150%; /* 21px */
+}
+@media screen and (max-width: 1440px) {
+  .imine-main-introduce {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 360px;
+    padding: 0 80px 0 80px;
+    background: linear-gradient(243deg, #fafcfe 33.67%, #f5f6fe 77.98%, #fff 82.41%);
+    overflow: hidden;
+  }
+  .imine-main-introduce__video {
+    position: absolute;
+    top: 30px;
+    right: auto;
+    left: 50%;
+    z-index: 10;
+    width: 520px;
+    margin-left: -100px;
+  }
+  .imine-main-introduce__video video {
+    width: 100%;
+  }
+  .imine-main-introduce__contents {
+    position: relative;
+    z-index: 20;
+    padding: 28px 0 0 0;
+  }
+  .imine-main-introduce__title {
+    color: var(--Black, #000);
+    font-family: "neulis-sans";
+    width: 640px;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 57.6px */
+  }
+  .imine-main-introduce__title strong {
+    background: linear-gradient(95deg, #cf035b 15.81%, #eeb7ca 47.03%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "neulis-sans";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+  }
+  .imine-main-introduce__text {
+    margin-top: 40px;
+    color: var(--000000, #000);
+    font-family: Pretendard;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+  }
+  .imine-main-rnd {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+    padding: 0 40px 80px;
+  }
+  .imine-main-rnd-title {
+    position: sticky;
+    top: 72px;
+    width: 100%;
+    height: 100%;
+  }
+  .imine-main-rnd-title__thumb {
+    position: relative;
+    width: 100%;
+    height: 326px;
+    margin-bottom: 40px;
+    overflow: hidden;
+    border-radius: 4px;
+  }
+  .imine-main-rnd-title__thumb video {
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+  }
+  .imine-main-rnd-title strong {
+    color: var(--Black, #000);
+    /* 메인/Title */
+    font-family: "Neulis Sans";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 48px */
+  }
+  .imine-main-rnd-title p {
+    margin: 24px 0;
+    color: var(--Black, #000);
+    /* 본문/본문 16 */
+    font-family: Pretendard;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 22.5px */
+  }
+  .imine-main-rnd-title a {
+    color: var(--Black, #000);
+    /* 본문/본문 16 */
+    font-family: Pretendard;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 22.5px */
+  }
+  .imine-main-rnd-text {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    width: 224px;
+    min-width: 224px;
+  }
+  .imine-main-rnd-text-item__thumb {
+    display: flex;
+    margin-bottom: 24px;
+  }
+  .imine-main-rnd-text-item__thumb img {
+    width: 224px;
+    height: 224px;
+    border-radius: 4px;
+  }
+  .imine-main-rnd-text-item strong {
+    color: var(--Black, #000);
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 21.6px */
+  }
+  .imine-main-rnd-text-item p {
+    color: var(--Black, #000);
+    /* 본문/본문 16 */
+    font-family: Pretendard;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 22.5px */
+  }
+  .imine-main-manufacturing, .imine-main-marketingsupport {
+    padding: 0 40px 80px;
+  }
+  .imine-main-manufacturing-head, .imine-main-marketingsupport-head {
+    margin-bottom: 48px;
+  }
+  .imine-main-manufacturing-head h4, .imine-main-marketingsupport-head h4 {
+    margin-bottom: 24px;
+    color: var(--000000, #000);
+    /* 메인/Title */
+    font-family: "neulis-sans";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 57.6px */
+  }
+  .imine-main-manufacturing-head__text, .imine-main-marketingsupport-head__text {
+    display: flex;
+    justify-content: space-between;
+    gap: 24px;
+  }
+  .imine-main-manufacturing-head__text p, .imine-main-marketingsupport-head__text p {
+    color: var(--Black, #000);
+    /* 본문/본문 16 */
+    font-family: Pretendard;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 22.5px */
+  }
+  .imine-main-manufacturing-head__text a, .imine-main-marketingsupport-head__text a {
+    color: var(--Black, #000);
+    /* 본문/본문 16 */
+    font-family: Pretendard;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 22.5px */
+  }
+  .imine-main-manufacturing-list, .imine-main-marketingsupport-list {
+    display: flex;
+    gap: 24px;
+  }
+  .imine-main-manufacturing-list-item__thumb, .imine-main-marketingsupport-list-item__thumb {
+    display: flex;
+    margin-bottom: 16px;
+  }
+  .imine-main-manufacturing-list-item__thumb img, .imine-main-marketingsupport-list-item__thumb img {
+    position: relative;
+    z-index: 10;
+    width: 100%;
+    border-radius: 4px;
+  }
+  .imine-main-manufacturing-list-item__thumb p, .imine-main-marketingsupport-list-item__thumb p {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 20;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--White, #fff);
+    text-align: center;
+    font-family: Pretendard;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 30px */
+  }
+  .imine-main-manufacturing-list-item strong, .imine-main-marketingsupport-list-item strong {
+    display: block;
+    margin-bottom: 8px;
+    color: var(--000000, #000);
+    font-family: "neulis-sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 24px */
+  }
+  .imine-main-manufacturing-list-item > p, .imine-main-marketingsupport-list-item > p {
+    color: var(--000000, #000);
+    font-family: Pretendard;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+  }
+  .imine-main-partner {
+    background-color: #000;
+  }
+  .imine-main-partner .imine-inner {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 356px;
+    padding: 40px;
+    background-size: 100% auto;
+    place-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center 0px; /* JS가 Y값을 갱신 */
+    overflow: hidden;
+    transition: all 1s ease;
+  }
+  .imine-main-partner p {
+    min-width: 376px;
+    margin-bottom: 16px;
+    color: var(--FFFFFF, #fff);
+    /* 메인/Banner Title */
+    font-family: Pretendard;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%; /* 48px */
+  }
+  .imine-main-partner a {
+    color: var(--CI, #cf035b);
+    /* 메인/Banner description */
+    font-family: Pretendard;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 22.4px */
+  }
+  .imine-main-news {
+    padding: 80px 40px 0;
+  }
+  .imine-main-news__contents {
+    padding-left: 0;
+  }
+  .imine-main-news h4 {
+    margin-bottom: 24px;
+    color: var(--000000, #000);
+    /* 메인/Title */
+    font-family: "neulis-sans";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 57.6px */
+  }
+  .imine-main-news__tab {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 24px;
+  }
+  .imine-main-news__tab a {
+    color: var(--9A9AAF, #9a9aaf);
+    font-family: Pretendard;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%; /* 30px */
+  }
+  .imine-main-news__tab a.active {
+    color: var(--000000, #000);
+    font-family: Pretendard;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%; /* 30px */
+  }
+  .imine-main-news-list-item {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 24px 0;
+    border-top: 1px solid var(--EBEBEB, #ebebeb);
+  }
+  .imine-main-news-list-item strong {
+    color: var(--000000, #000);
+    /* 메인/Sub Title */
+    font-family: "neulis-sans";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 24px */
+  }
+  .imine-main-news-list-item p {
+    color: var(--000000, #000);
+    /* 상세/본문 */
+    font-family: Pretendard;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+    display: -webkit-box;
+    overflow: hidden;
+    /* autoprefixer: ignore next */
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    word-break: break-all;
+  }
+  .imine-main-news-list-item span {
+    color: var(--9A9AAF, #9a9aaf);
+    /* 상세/description title */
+    font-family: Pretendard;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%; /* 24px */
+  }
+  .imine-main-news-swiper {
+    margin-left: 0;
+    margin-right: -40px;
+    padding: 80px 0;
+    overflow: hidden;
+  }
+  .imine-main-news-swiper__thumb {
+    display: flex;
+    width: 226px;
+    height: 393px;
+    margin-bottom: 24px;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  .imine-main-news-swiper__thumb video {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .imine-main-news-swiper .swiper-slide {
+    width: 226px;
+  }
+  .imine-main-news-swiper .swiper-slide p {
+    margin: 0 0 8px 0;
+    color: var(--000000, #000);
+    font-family: Pretendard;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+  }
+  .imine-main-news-swiper .swiper-slide span {
+    color: #a2a2a2;
+    font-family: Pretendard;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 21px */
+  }
+}
+@media screen and (max-width: 800px) {
+  .imine-main-introduce {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 360px;
+    padding: 0 24px 40px;
+    background: linear-gradient(243deg, #fafcfe 33.67%, #f5f6fe 77.98%, #fff 82.41%);
+    overflow: hidden;
+  }
+  .imine-main-introduce__video {
+    position: relative;
+    top: auto;
+    right: auto;
+    left: auto;
+    z-index: 10;
+    width: 100%;
+    margin-left: 0;
+  }
+  .imine-main-introduce__video video {
+    width: 100%;
+  }
+  .imine-main-introduce__contents {
+    position: relative;
+    z-index: 20;
+    padding: 0 0 0 0;
+  }
+  .imine-main-introduce__title {
+    color: var(--Black, #000);
+    font-family: "neulis-sans";
+    width: 100%;
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 57.6px */
+  }
+  .imine-main-introduce__title strong {
+    background: linear-gradient(95deg, #cf035b 15.81%, #eeb7ca 47.03%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "neulis-sans";
+    font-size: 26px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%;
+  }
+  .imine-main-introduce__text {
+    margin-top: 16px;
+    color: var(--000000, #000);
+    font-family: Pretendard;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 18px */
+  }
+  .imine-main-rnd {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 16px;
+    padding: 24px 24px 0;
+  }
+  .imine-main-rnd-title {
+    position: relative;
+    top: auto;
+    width: 100%;
+    height: 100%;
+  }
+  .imine-main-rnd-title__thumb {
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin-bottom: 24px;
+    overflow: hidden;
+    border-radius: 4px;
+    aspect-ratio: 327/226;
+  }
+  .imine-main-rnd-title__thumb video {
+    position: absolute;
+    right: 0;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+  }
+  .imine-main-rnd-title strong {
+    color: var(--Black, #000);
+    /* 메인/Title */
+    font-family: "Neulis Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 48px */
+  }
+  .imine-main-rnd-title p {
+    margin: 8px 0 16px;
+    color: var(--Black, #000);
+    /* 본문/본문 16 */
+    font-family: Pretendard;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 22.5px */
+  }
+  .imine-main-rnd-title a {
+    color: var(--Black, #000);
+    /* 본문/본문 16 */
+    font-family: Pretendard;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 22.5px */
+  }
+  .imine-main-rnd-text {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    width: 100%;
+    min-width: 100%;
+  }
+  .imine-main-rnd-text-item__thumb {
+    display: flex;
+    margin-bottom: 24px;
+  }
+  .imine-main-rnd-text-item__thumb img {
+    width: 100%;
+    height: 100%;
+    border-radius: 4px;
+    aspect-ratio: 1/1;
+  }
+  .imine-main-rnd-text-item strong {
+    color: var(--Black, #000);
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 21.6px */
+  }
+  .imine-main-rnd-text-item p {
+    margin-top: 8px;
+    color: var(--Black, #000);
+    /* 본문/본문 16 */
+    font-family: Pretendard;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 22.5px */
+  }
+  .imine-main-manufacturing, .imine-main-marketingsupport {
+    padding: 64px 24px 36px;
+  }
+  .imine-main-manufacturing-head, .imine-main-marketingsupport-head {
+    margin-bottom: 36px;
+  }
+  .imine-main-manufacturing-head h4, .imine-main-marketingsupport-head h4 {
+    margin-bottom: 16px;
+    color: var(--000000, #000);
+    /* 메인/Title */
+    font-family: "neulis-sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 57.6px */
+  }
+  .imine-main-manufacturing-head__text, .imine-main-marketingsupport-head__text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 16px;
+  }
+  .imine-main-manufacturing-head__text p, .imine-main-marketingsupport-head__text p {
+    color: var(--Black, #000);
+    /* 본문/본문 16 */
+    font-family: Pretendard;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 22.5px */
+  }
+  .imine-main-manufacturing-head__text a, .imine-main-marketingsupport-head__text a {
+    color: var(--Black, #000);
+    /* 본문/본문 16 */
+    font-family: Pretendard;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 22.5px */
+  }
+  .imine-main-manufacturing-list, .imine-main-marketingsupport-list {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+  }
+  .imine-main-manufacturing-list-item__thumb, .imine-main-marketingsupport-list-item__thumb {
+    display: flex;
+    margin-bottom: 16px;
+  }
+  .imine-main-manufacturing-list-item__thumb img, .imine-main-marketingsupport-list-item__thumb img {
+    position: relative;
+    z-index: 10;
+    width: 100%;
+    border-radius: 4px;
+  }
+  .imine-main-manufacturing-list-item__thumb p, .imine-main-marketingsupport-list-item__thumb p {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 20;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--White, #fff);
+    text-align: center;
+    font-family: Pretendard;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 30px */
+  }
+  .imine-main-manufacturing-list-item strong, .imine-main-marketingsupport-list-item strong {
+    display: block;
+    margin-bottom: 8px;
+    color: var(--000000, #000);
+    font-family: "neulis-sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 24px */
+  }
+  .imine-main-manufacturing-list-item > p, .imine-main-marketingsupport-list-item > p {
+    color: var(--000000, #000);
+    font-family: Pretendard;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+  }
+  .imine-main-partner {
+    background-color: #000;
+  }
+  .imine-main-partner .imine-inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 162px;
+    padding: 40px 24px;
+    background-size: 100% auto;
+    place-items: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 100% 0px; /* JS가 Y값을 갱신 */
+    overflow: hidden;
+    transition: all 1s ease;
+    text-align: center;
+  }
+  .imine-main-partner p {
+    min-width: 100%;
+    margin-bottom: 16px;
+    color: var(--FFFFFF, #fff);
+    text-align: center;
+    /* 메인/Banner Title */
+    font-family: Pretendard;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%; /* 48px */
+  }
+  .imine-main-partner a {
+    color: var(--CI, #cf035b);
+    text-align: center;
+    /* 메인/Banner description */
+    font-family: Pretendard;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 22.4px */
+  }
+  .imine-main-news {
+    padding: 64px 24px 0;
+  }
+  .imine-main-news__contents {
+    padding-left: 0;
+  }
+  .imine-main-news h4 {
+    margin-bottom: 24px;
+    color: var(--000000, #000);
+    /* 메인/Title */
+    font-family: "neulis-sans";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 57.6px */
+  }
+  .imine-main-news__tab {
+    display: flex;
+    gap: 16px;
+    margin-bottom: 24px;
+  }
+  .imine-main-news__tab a {
+    color: var(--9A9AAF, #9a9aaf);
+    font-family: Pretendard;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%; /* 30px */
+  }
+  .imine-main-news__tab a.active {
+    color: var(--000000, #000);
+    font-family: Pretendard;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%; /* 30px */
+  }
+  .imine-main-news-list-item {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 24px 0;
+    border-top: 1px solid var(--EBEBEB, #ebebeb);
+  }
+  .imine-main-news-list-item strong {
+    color: var(--000000, #000);
+    /* 메인/Sub Title */
+    font-family: "neulis-sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 24px */
+  }
+  .imine-main-news-list-item p {
+    color: var(--000000, #000);
+    /* 상세/본문 */
+    font-family: Pretendard;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+    display: -webkit-box;
+    overflow: hidden;
+    /* autoprefixer: ignore next */
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    word-break: break-all;
+    max-height: 72px;
+  }
+  .imine-main-news-list-item span {
+    color: var(--9A9AAF, #9a9aaf);
+    /* 상세/description title */
+    font-family: Pretendard;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%; /* 24px */
+  }
+  .imine-main-news-swiper {
+    margin-left: 0;
+    margin-right: -24px;
+    padding: 40px 0;
+    overflow: hidden;
+  }
+  .imine-main-news-swiper__thumb {
+    display: flex;
+    width: 226px;
+    height: 393px;
+    margin-bottom: 16px;
+    border-radius: 4px;
+    overflow: hidden;
+  }
+  .imine-main-news-swiper__thumb video {
+    width: 100%;
+    height: 100%;
+    -o-object-fit: cover;
+       object-fit: cover;
+  }
+  .imine-main-news-swiper .swiper-slide {
+    width: 226px;
+  }
+  .imine-main-news-swiper .swiper-slide p {
+    margin: 0 0 8px 0;
+    color: var(--000000, #000);
+    font-family: Pretendard;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+  }
+  .imine-main-news-swiper .swiper-slide span {
+    color: #a2a2a2;
+    font-family: Pretendard;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 21px */
+  }
 }
 .imine-head {
   text-align: center;
@@ -4223,6 +5042,621 @@ img {
 }
 .imine-modal-alert .imine-modal-footer .ne-btn {
   max-width: 134px;
+}
+.imine-talent {
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  margin: 120px 0 0 0;
+}
+.imine-talent-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.imine-talent-item:nth-child(2n) {
+  flex-direction: row-reverse;
+}
+.imine-talent-item dl {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  min-width: 440px;
+  width: 440px;
+  margin: 0;
+  padding: 0;
+}
+.imine-talent-item dl dt {
+  display: flex;
+  justify-content: center;
+  gap: 4px;
+  margin: 0;
+  padding: 0;
+  color: var(--Black, #000);
+  text-align: center;
+  /* 메인/Heading Text */
+  font-family: "neulis-sans";
+  font-size: 50px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; /* 60px */
+}
+.imine-talent-item dl dt::after {
+  content: "";
+  display: block;
+  width: 8px;
+  height: 8px;
+  border-radius: 8px;
+  background: #cf035b;
+  margin-top: 3px;
+}
+.imine-talent-item dl dd {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.imine-talent-item dl dd strong {
+  color: var(--Line, #ebebeb);
+  text-align: center;
+  /* 본문/본문 타이틀 */
+  font-family: Pretendard;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 72px */
+}
+.imine-talent-item dl dd p {
+  margin: 8px 0 0 0;
+  color: var(--gray, #8c8c8c);
+  text-align: center;
+  /* 본문/본문 16 */
+  font-family: Pretendard;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 24px */
+}
+.imine-talent-item__img {
+  display: flex;
+  width: 500px;
+}
+.imine-talent-item__img img {
+  width: 100%;
+}
+@media screen and (max-width: 1440px) {
+  .imine-talent {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    margin: 64px 0 0 0;
+  }
+  .imine-talent-item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+  }
+  .imine-talent-item:nth-child(2n) {
+    flex-direction: row-reverse;
+  }
+  .imine-talent-item dl {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    min-width: 340px;
+    width: 340px;
+    margin: 0;
+    padding: 0;
+  }
+  .imine-talent-item dl dt {
+    display: flex;
+    justify-content: center;
+    gap: 16px;
+    margin: 0;
+    padding: 0;
+    color: var(--Black, #000);
+    text-align: center;
+    /* 메인/Heading Text */
+    font-family: "neulis-sans";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 60px */
+  }
+  .imine-talent-item dl dt::after {
+    content: "";
+    display: block;
+    width: 8px;
+    height: 8px;
+    border-radius: 8px;
+    background: #cf035b;
+    margin-top: 3px;
+  }
+  .imine-talent-item dl dd {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  .imine-talent-item dl dd strong {
+    color: var(--Line, #ebebeb);
+    text-align: center;
+    /* 본문/본문 타이틀 */
+    font-family: Pretendard;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%; /* 72px */
+  }
+  .imine-talent-item dl dd p {
+    margin: 8px 0 0 0;
+    color: var(--gray, #8c8c8c);
+    text-align: center;
+    /* 본문/본문 16 */
+    font-family: Pretendard;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 24px */
+  }
+  .imine-talent-item__img {
+    display: flex;
+    width: 340px;
+  }
+  .imine-talent-item__img img {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 800px) {
+  .imine-talent {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+    margin: 40px 0 0 0;
+  }
+  .imine-talent-item {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+  }
+  .imine-talent-item:nth-child(2n) {
+    flex-direction: column-reverse;
+  }
+  .imine-talent-item dl {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    min-width: 327px;
+    width: 327px;
+    margin: 0;
+    padding: 0;
+  }
+  .imine-talent-item dl dt {
+    display: flex;
+    justify-content: center;
+    gap: 4px;
+    margin: 0;
+    padding: 0;
+    color: var(--Black, #000);
+    text-align: center;
+    /* 메인/Heading Text */
+    font-family: "neulis-sans";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 120%; /* 60px */
+  }
+  .imine-talent-item dl dt::after {
+    content: "";
+    display: block;
+    width: 8px;
+    height: 8px;
+    border-radius: 8px;
+    background: #cf035b;
+    margin-top: 3px;
+  }
+  .imine-talent-item dl dd {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  .imine-talent-item dl dd strong {
+    color: var(--Line, #ebebeb);
+    text-align: center;
+    /* 본문/본문 타이틀 */
+    font-family: Pretendard;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%; /* 72px */
+  }
+  .imine-talent-item dl dd p {
+    margin: 8px 0 0 0;
+    color: var(--gray, #8c8c8c);
+    text-align: center;
+    /* 본문/본문 20 B */
+    font-family: Pretendard;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%; /* 24px */
+    letter-spacing: -0.16px;
+  }
+  .imine-talent-item__img {
+    display: flex;
+    width: 327px;
+  }
+  .imine-talent-item__img img {
+    width: 100%;
+  }
+}
+.imine-benefits {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  margin: 80px 0 0 0;
+}
+.imine-benefits-item {
+  min-height: 212px;
+  padding: 32px;
+  border-radius: 16px;
+  background: var(--Background, #f6f7fb);
+}
+.imine-benefits-item__ico {
+  display: flex;
+}
+.imine-benefits-item__text {
+  margin-top: 16px;
+  color: var(--Black, #000);
+  /* 본문/세부타이틀 */
+  font-family: Pretendard;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 42px */
+}
+@media screen and (max-width: 1440px) {
+  .imine-benefits {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    margin: 64px 0 0 0;
+  }
+  .imine-benefits-item {
+    min-height: 184px;
+    padding: 24px;
+    border-radius: 16px;
+    background: var(--Background, #f6f7fb);
+  }
+  .imine-benefits-item__ico {
+    display: flex;
+  }
+  .imine-benefits-item__text {
+    margin-top: 16px;
+    color: var(--Black, #000);
+    /* 본문/세부타이틀 */
+    font-family: Pretendard;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 36px */
+  }
+}
+@media screen and (max-width: 800px) {
+  .imine-benefits {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 16px;
+    margin: 40px 0 0 0;
+  }
+  .imine-benefits-item {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    min-height: 106px;
+    padding: 20px 20px;
+    border-radius: 12px;
+    background: var(--Background, #f6f7fb);
+  }
+  .imine-benefits-item__ico {
+    display: flex;
+  }
+  .imine-benefits-item__text {
+    margin-top: 0;
+    color: var(--Black, #000);
+    /* 본문/세부타이틀 */
+    font-family: Pretendard;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 150%; /* 33px */
+  }
+}
+.imine-recruitment {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  margin: 80px 0 0 0;
+}
+.imine-recruitment-item__ico {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 178px;
+  height: 178px;
+  margin: 0 0 24px 0;
+  border-radius: 400px;
+  background: #f5f5f5;
+}
+.imine-recruitment-item__text dl {
+  margin: 0;
+  padding: 0;
+}
+.imine-recruitment-item__text dl dt {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px;
+  margin: 0 0 8px 0;
+  padding: 0;
+  color: var(--Sub, #9a9aaf);
+  text-align: center;
+  /* 본문/본문 16 */
+  font-family: Pretendard;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 24px */
+}
+.imine-recruitment-item__text dl dt strong {
+  color: var(--MainText, #5d013b);
+  text-align: center;
+  /* 본문/description title */
+  font-family: Pretendard;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 24px */
+}
+.imine-recruitment-item__text dl dd {
+  margin: 0;
+  padding: 0;
+  color: var(--Black, #000);
+  text-align: center;
+  /* 본문/상세 타이틀 1-국문 */
+  font-family: Pretendard;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 120%; /* 28.8px */
+}
+.imine-recruitment-item:last-child .imine-recruitment-item__ico {
+  background: var(--CI, #cf035b);
+}
+.imine-recruitment-button {
+  display: flex;
+  justify-content: center;
+  margin-top: 80px;
+}
+.imine-recruitment-button button {
+  display: inline-flex;
+  align-items: center;
+  gap: 16px;
+  height: 60px;
+  padding: 0 24px;
+  background: #fff;
+  border-radius: 60px;
+  border: 1.5px solid var(--Black, #000);
+  background: var(--White, #fff);
+  color: var(--Black, #000);
+  /* 본문/상세 타이틀 2 */
+  font-family: Pretendard;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 150%; /* 30px */
+}
+.imine-recruitment-button button:after {
+  content: "";
+  display: block;
+  width: 24px;
+  height: 24px;
+  background: url(../images/recruit/ico-arrow.svg) no-repeat 50% 50%;
+  background-size: cover;
+}
+@media screen and (max-width: 1440px) {
+  .imine-recruitment {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    -moz-column-gap: 104px;
+         column-gap: 104px;
+    row-gap: 24px;
+    width: 640px;
+    margin: 64px auto 0;
+  }
+  .imine-recruitment-item__ico {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 140px;
+    height: 140px;
+    margin: 0 0 24px 0;
+    border-radius: 400px;
+    background: #f5f5f5;
+  }
+  .imine-recruitment-item__text dl {
+    margin: 0;
+    padding: 0;
+  }
+  .imine-recruitment-item__text dl dt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin: 0 0 8px 0;
+    color: var(--Sub, #9a9aaf);
+    text-align: center;
+    /* 본문/본문 16 */
+    font-family: Pretendard;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 22.5px */
+  }
+  .imine-recruitment-item__text dl dt strong {
+    color: var(--MainText, #5d013b);
+    text-align: center;
+    /* 본문/description title */
+    font-family: Pretendard;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%; /* 24px */
+  }
+  .imine-recruitment-item__text dl dd {
+    color: var(--Black, #000);
+    text-align: center;
+    /* 본문/상세 타이틀 1-국문 */
+    font-family: Pretendard;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 120%; /* 24px */
+  }
+  .imine-recruitment-item:last-child .imine-recruitment-item__ico {
+    background: var(--CI, #cf035b);
+  }
+  .imine-recruitment-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 64px;
+  }
+  .imine-recruitment-button button {
+    display: inline-flex;
+    align-items: center;
+    gap: 16px;
+    height: 60px;
+    padding: 0 24px;
+    background: #fff;
+    border-radius: 60px;
+    border: 1.5px solid var(--Black, #000);
+    background: var(--White, #fff);
+    color: var(--Black, #000);
+    color: var(--Black, #000);
+    /* 본문/상세 타이틀 2 */
+    font-family: Pretendard;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%; /* 27px */
+  }
+  .imine-recruitment-button button:after {
+    content: "";
+    display: block;
+    width: 24px;
+    height: 24px;
+    background: url(../images/recruit/ico-arrow.svg) no-repeat 50% 50%;
+    background-size: cover;
+  }
+}
+@media screen and (max-width: 800px) {
+  .imine-recruitment {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    -moz-column-gap: 32px;
+         column-gap: 32px;
+    row-gap: 32px;
+    width: 100%;
+    margin: 40px auto 0;
+  }
+  .imine-recruitment-item__ico {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 140px;
+    height: 140px;
+    margin: 0 0 16px 0;
+    border-radius: 400px;
+    background: #f5f5f5;
+  }
+  .imine-recruitment-item__text dl {
+    margin: 0;
+    padding: 0;
+  }
+  .imine-recruitment-item__text dl dt {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    margin: 0 0 8px 0;
+    color: var(--Sub, #9a9aaf);
+    text-align: center;
+    /* 본문/본문 16 */
+    font-family: Pretendard;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%; /* 22.5px */
+  }
+  .imine-recruitment-item__text dl dt strong {
+    color: var(--MainText, #5d013b);
+    text-align: center;
+    /* 본문/description title */
+    font-family: Pretendard;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%; /* 21px */
+  }
+  .imine-recruitment-item__text dl dd {
+    color: var(--Black, #000);
+    text-align: center;
+    /* 본문/상세 타이틀 1-국문 */
+    font-family: Pretendard;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%; /* 27px */
+  }
+  .imine-recruitment-item:last-child .imine-recruitment-item__ico {
+    background: var(--CI, #cf035b);
+  }
+  .imine-recruitment-button {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+  }
+  .imine-recruitment-button button {
+    display: inline-flex;
+    align-items: center;
+    gap: 16px;
+    height: 60px;
+    padding: 0 24px;
+    background: #fff;
+    border-radius: 60px;
+    border: 1.5px solid var(--Black, #000);
+    background: var(--White, #fff);
+    color: var(--Black, #000);
+    /* 본문/상세 타이틀 2 */
+    font-family: Pretendard;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 150%; /* 24px */
+  }
+  .imine-recruitment-button button:after {
+    content: "";
+    display: block;
+    width: 24px;
+    height: 24px;
+    background: url(../images/recruit/ico-arrow.svg) no-repeat 50% 50%;
+    background-size: cover;
+  }
 }
 .imine-skincare {
   overflow: hidden;
