@@ -8,12 +8,16 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.css"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+    />
     <link rel="stylesheet" href="../inc/css/common.css" type="text/css" />
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="https://unpkg.com/@studio-freight/lenis@1.0.42/dist/lenis.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js"></script>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
     <script src="../inc/js/common.js"></script>
   </head>
   <body>
@@ -26,44 +30,455 @@
       ></div>
       <!-- //header -->
 
-      <main id="content">
+      <main id="content" data-menu="1">
         <div class="imine-head">
           <div class="imine-inner">
             <img src="../inc/images/head/img01.png" alt="" />
           </div>
         </div>
         <div class="imine-body">
-          <div class="imine-snb">
+          <div class="imine-snb" data-aos="fade-up" data-aos-delay="200">
             <ul>
               <li>
                 <a href="">Overview</a>
                 <ul>
                   <li><a href="#section01">회사개요</a></li>
-                  <li><a href="#section02">조직도</a></li>
-                  <li><a href="#section03">CI/BI</a></li>
+                  <li><a href="#section02">CI/BI</a></li>
                 </ul>
               </li>
               <li>
-                <a href="">CEO 메시지</a>
+                <a href="">철학</a>
                 <ul>
-                  <li><a href="#section01">CEO 인사말</a></li>
-                  <li><a href="#section02">비전/ 철학</a></li>
+                  <li><a href="#section01">경영이념</a></li>
+                  <li><a href="#section02">핵심가치</a></li>
                 </ul>
               </li>
               <li class="active"><a href="">연혁</a></li>
-              <li><a href="">사업장 안내</a></li>
+              <li><a href="">회사 위치</a></li>
             </ul>
           </div>
           <div class="imine-contents">
             <section id="section01">
-              <h2>연혁</h2>
-              <h3>
-                <strong>
-                  이미인은 부지런히<br />
-                  변화하며 <strong>변하지 않는 본질</strong>에 집중해왔습니다.
-                </strong>
-              </h3>
-              <div class="imine-history"></div>
+              <div class="imine-history">
+                <h2 data-aos="fade-up" data-aos-delay="200">연혁</h2>
+                <h3 data-aos="fade-up" data-aos-delay="400">
+                  이미인은 <strong>끊임없이 혁신</strong>하며<br />
+                  변하지 않는 본질에 집중해왔습니다.
+                </h3>
+                <div
+                  class="imine-history-tab"
+                  data-aos="fade-up"
+                  data-aos-delay="600"
+                >
+                  <a href="#history01" class="imine-history-tab__item active"
+                    >현재 - 2019</a
+                  >
+                  <a href="#history02" class="imine-history-tab__item"
+                    >2018 - 2015</a
+                  >
+                  <a href="#history03" class="imine-history-tab__item"
+                    >2014 - 2011</a
+                  >
+                  <a href="#history04" class="imine-history-tab__item"
+                    >2010 - 2006</a
+                  >
+                </div>
+                <div class="imine-history-section" id="history01">
+                  <div
+                    class="imine-history-section-head"
+                    data-aos="fade-up"
+                    data-aos-delay="800"
+                  >
+                    <img
+                      src="./../inc/images/company/history-head01.png"
+                      alt=""
+                    />
+                  </div>
+                  <div class="imine-history-section-item">
+                    <div data-aos="fade-up" data-aos-delay="400">
+                      <div class="imine-history-section__title">
+                        <h3>
+                          <strong>
+                            뷰티 혁신을<br />
+                            향한 여정
+                          </strong>
+                        </h3>
+                        <h5>현재 - 2019</h5>
+                        <div class="imine-history-section__img">
+                          <img
+                            src="./../inc/images/company/history-img01.png"
+                            alt=""
+                          />
+                          <p>이미인의 첫 산학 장학생 선발</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="imine-history-section__list"
+                      data-aos="fade-up"
+                      data-aos-delay="600"
+                    >
+                      <dl>
+                        <dt>2024</dt>
+                        <dd>
+                          <ul>
+                            <li>마이크로니들 MOU 체결</li>
+                            <li>‘Make up In LA’ 참가</li>
+                            <li>‘COSME Week (TOKYO) 2025’ 참가예정</li>
+                            <li>마이크로니들 MOU 체결</li>
+                          </ul>
+                        </dd>
+                      </dl>
+                      <dl>
+                        <dt>2023</dt>
+                        <dd>
+                          <ul>
+                            <li>하이드로콜로이드 MOU 체결</li>
+                            <li>‘Make up In NY’ 참가</li>
+                          </ul>
+                        </dd>
+                      </dl>
+                      <dl>
+                        <dt>2021</dt>
+                        <dd>
+                          <ul>
+                            <li>제 48회 상공의 날-대통령표창 (김주원 대표)</li>
+                            <li>
+                              2021년 마케팅 트렌트(ACT21) ‘스킨스크래치' 발표
+                            </li>
+                          </ul>
+                        </dd>
+                      </dl>
+                      <dl>
+                        <dt>2020</dt>
+                        <dd>
+                          <ul>
+                            <li>
+                              2020년 마케팅트렌드(ACT20) ‘스킨 데미지’ 발표
+                            </li>
+                            <li>
+                              2020.05월 EVE VEGAN 인증 완료 및 EVE VEGAN
+                              제품생산 출시 (제품명 : LALARECIPE glow face
+                              moisture mask)
+                            </li>
+                            <li>의약외품 제조업 식약처 허가획득</li>
+                            <li>
+                              의약외품 브랜드 세니덤(SENIDERM) 출시 및 한국
+                              의약외품/US OTC/EU CPNP 허가완료
+                            </li>
+                            <li>한-인도 FTA 품목별 인증 完 (시트/겔/기초)</li>
+                            <li>덕용 하이드로겔 아이패치 라인 구축</li>
+                          </ul>
+                        </dd>
+                      </dl>
+                      <dl>
+                        <dt>2019</dt>
+                        <dd>
+                          <ul>
+                            <li>㈜코디와 MOU 체결</li>
+                            <li>2019 홍콩 코스모프로프</li>
+                            <li>아시아 전시회 7년 연속 참가</li>
+                            <li>2019 볼로냐 코스모프로프 </li>
+                            <li>유럽 전시회 4년 연속 참가</li>
+                            <li>2019 차이나 뷰티 엑스포 참가(7년 연속)</li>
+                          </ul>
+                        </dd>
+                      </dl>
+                    </div>
+                  </div>
+                </div>
+                <div class="imine-history-section" id="history02">
+                  <div
+                    class="imine-history-section-head"
+                    data-aos="fade-up"
+                    data-aos-delay="200"
+                  >
+                    <img
+                      src="./../inc/images/company/history-head02.png"
+                      alt=""
+                    />
+                  </div>
+                  <div class="imine-history-section-item">
+                    <div data-aos="fade-up" data-aos-delay="400">
+                      <div class="imine-history-section__title">
+                        <h3>
+                          <strong>
+                            글로벌 스킨케어<br />
+                            기업으로의 도약
+                          </strong>
+                        </h3>
+                        <h5>2018 - 2015</h5>
+                      </div>
+                    </div>
+                    <div
+                      class="imine-history-section__list"
+                      data-aos="fade-up"
+                      data-aos-delay="600"
+                    >
+                      <dl>
+                        <dt>2018</dt>
+                        <dd>
+                          <ul>
+                            <li>2018 시트마스크 자동화 기계 도입</li>
+                            <li>‘코스모프로프 볼로냐’ 참가</li>
+                            <li>‘코스모프로프 홍콩’ 참가 </li>
+                            <li>~현재까지</li>
+                          </ul>
+                        </dd>
+                      </dl>
+                      <dl>
+                        <dt>2017</dt>
+                        <dd>
+                          <ul>
+                            <li>중국 항주 미세대 합작 법인 설립</li>
+                            <li>
+                              코스모프로프 월드와이드 볼로냐 2017 뷰티박람회
+                              참가
+                            </li>
+                            <li>2017 홍콩 코스모프로프 아시아 전시회 참가</li>
+                            <li>2017 차이나 뷰티 엑스포 참가(5년 연속)</li>
+                            <li>이미인 랩스 이미인으로 합병</li>
+                          </ul>
+                        </dd>
+                      </dl>
+                      <dl>
+                        <dt>2016</dt>
+                        <dd>
+                          <ul>
+                            <li>2016 홍콩 코스모프로프 아시아 전시회 참가</li>
+                            <li>
+                              제 53회 무역의 날 5백만불수출의탑 수상업체 선정
+                            </li>
+                            <li>이미인 랩스 설립</li>
+                            <li>이미인 랩스 CGMP 인증</li>
+                            <li>한-중국 FTA 품목별 인증 完 (시트/겔/기초)</li>
+                            <li>2016 볼로냐 코스모프로프 유럽 전시회 참가</li>
+                          </ul>
+                        </dd>
+                      </dl>
+                      <dl>
+                        <dt>2015</dt>
+                        <dd>
+                          <ul>
+                            <li>2015 홍콩 코스모프로프 아시아 전시회 참가</li>
+                            <li>
+                              제 52회 무역의 날 5백만불수출의탑 수상업체 선정
+                            </li>
+                            <li>
+                              2015 아모레퍼시픽 SCM 협력사 동반성장 총회 ODM
+                              분야 최우수상 수상(4연패)
+                            </li>
+                            <li>ISO22716 인증</li>
+                            <li>
+                              한-EU & 한-아세안 FTA 품목별 인증 完
+                              (시트/겔/기초)
+                            </li>
+                          </ul>
+                        </dd>
+                      </dl>
+                    </div>
+                  </div>
+                </div>
+                <div class="imine-history-section" id="history03">
+                  <div
+                    class="imine-history-section-head"
+                    data-aos="fade-up"
+                    data-aos-delay="200"
+                  >
+                    <img
+                      src="./../inc/images/company/history-head03.png"
+                      alt=""
+                    />
+                  </div>
+                  <div class="imine-history-section-item">
+                    <div data-aos="fade-up" data-aos-delay="400">
+                      <div class="imine-history-section__title">
+                        <h3>
+                          <strong>
+                            NO.1<br />
+                            마스크 & 하이드로겔<br />
+                            기업으로 성장
+                          </strong>
+                        </h3>
+                        <h5>2014 - 2011</h5>
+                        <div class="imine-history-section__img">
+                          <img
+                            src="./../inc/images/company/history-img02.png"
+                            alt=""
+                          />
+                          <p>이미인의 첫 산학 장학생 선발</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      class="imine-history-section__list"
+                      data-aos="fade-up"
+                      data-aos-delay="600"
+                    >
+                      <dl>
+                        <dt>2014</dt>
+                        <dd>
+                          <ul>
+                            <li>
+                              미국 뉴욕 소호 한국화장품 플래그십스토어 제2차
+                              개관 홍보 행사
+                            </li>
+                            <li>중국 항주공장협업 계약 완료</li>
+                            <li>AMF 겔 IRSI 임상완료</li>
+                            <li>아모레퍼시픽 OEM/ODM 최우수업체 선정</li>
+                            <li>
+                              2014 경기도 하반기 일자리우수기업 인증제 기업 선정
+                            </li>
+                          </ul>
+                        </dd>
+                      </dl>
+                      <dl>
+                        <dt>2013</dt>
+                        <dd>
+                          <ul>
+                            <li>2013 홍콩 코스모프로프 아시아 전시회 참가</li>
+                            <li>
+                              뉴욕 맨해튼 중소 화장품업체들의 공동 홍보관 운영
+                            </li>
+                            <li>아모레퍼시픽 OEM/ODM 최우수업체 선정</li>
+                            <li>
+                              2013 화장품의 날 대한화장품협회장 감사패 수상
+                            </li>
+                            <li>모범납세자 감사패</li>
+                          </ul>
+                        </dd>
+                      </dl>
+                      <dl>
+                        <dt>2012</dt>
+                        <dd>
+                          <ul>
+                            <li>국내 마스크팩 제조 업체 최초 CGMP 인증</li>
+                            <li>아모레퍼시픽 OEM/ODM 최우수업체 선정</li>
+                            <li>
+                              한국보건산업진흥원 말레이시아 쿠알라룸푸르 '한국
+                              화장품 상설 전시 · 판매 · 홍보관' 참여
+                            </li>
+                            <li>2012 경기유망중소기업 선정</li>
+                            <li>
+                              중소기업기술혁신협회 ‘2012 취업하고 싶은 기업’
+                              으로 선정
+                            </li>
+                          </ul>
+                        </dd>
+                      </dl>
+                      <dl>
+                        <dt>2011</dt>
+                        <dd>
+                          <ul>
+                            <li>아모레퍼시픽 OEM/ODM 우수업체 선정</li>
+                          </ul>
+                        </dd>
+                      </dl>
+                    </div>
+                  </div>
+                </div>
+                <div class="imine-history-section" id="history04">
+                  <div
+                    class="imine-history-section-head"
+                    data-aos="fade-up"
+                    data-aos-delay="200"
+                  >
+                    <img
+                      src="./../inc/images/company/history-head04.png"
+                      alt=""
+                    />
+                  </div>
+                  <div class="imine-history-section-item">
+                    <div data-aos="fade-up" data-aos-delay="400">
+                      <div class="imine-history-section__title">
+                        <h3>
+                          <strong>
+                            새로운<br />
+                            도전의 시
+                          </strong>
+                        </h3>
+                        <h5>2010 - 2006</h5>
+                      </div>
+                    </div>
+                    <div
+                      class="imine-history-section__list"
+                      data-aos="fade-up"
+                      data-aos-delay="600"
+                    >
+                      <dl>
+                        <dt>2010</dt>
+                        <dd>
+                          <ul>
+                            <li>
+                              국내 최초 마스크팩 부분 식약청 CGMP 적합업소 기업
+                              지정
+                            </li>
+                            <li>아모레퍼시픽 OEM/ODM 최우수업체 선정</li>
+                            <li>기업부설 연구소 인증서 획득</li>
+                            <li>올리브영 입점</li>
+                          </ul>
+                        </dd>
+                      </dl>
+                      <dl>
+                        <dt>2009</dt>
+                        <dd>
+                          <ul>
+                            <li>ISO 9001 / ISO 14001 갱신 획득</li>
+                            <li>네이처리퍼블릭, 스킨푸드 마스크 업체 선정</li>
+                            <li>기술혁신 중소기업(INNO-BIZ) 확인서 획득</li>
+                          </ul>
+                        </dd>
+                      </dl>
+                      <dl>
+                        <dt>2008</dt>
+                        <dd>
+                          <ul>
+                            <li>
+                              ㈜더페이스샵, ㈜코리아나, 리리코스 (프랑스) 마스크
+                              업체 선정
+                            </li>
+                            <li>
+                              ㈜아모레퍼시픽과 공동특허 개발한 3중 다층
+                              천연셀룰로오스 부직포 제품화
+                            </li>
+                            <li>㈜태평양제약과 메디컬 어플리케이션 제품화</li>
+                            <li>연구개발 전담부서 인증 획득</li>
+                            <li>벤처기업인증 획득</li>
+                          </ul>
+                        </dd>
+                      </dl>
+                      <dl>
+                        <dt>2007</dt>
+                        <dd>
+                          <ul>
+                            <li>㈜아모레퍼시픽 기술전략 파트너 선정</li>
+                          </ul>
+                        </dd>
+                      </dl>
+                      <dl>
+                        <dt>2006</dt>
+                        <dd>
+                          <ul>
+                            <li>이미인 법인 설립</li>
+                            <li>ISO22716 인증</li>
+                            <li>ISO 9001/ISO 14001 획득</li>
+                          </ul>
+                        </dd>
+                      </dl>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="imine-history-text"
+                  data-aos="fade-up"
+                  data-aos-delay="200"
+                >
+                  <h3>
+                    변함없는 신뢰로, 멈추지 않는 혁신으로,<br />
+                    <strong>미래를 향해 나아갑니다</strong>
+                  </h3>
+                </div>
+              </div>
             </section>
           </div>
         </div>

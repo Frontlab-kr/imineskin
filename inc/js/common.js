@@ -18,7 +18,7 @@ $(function () {
   const $depth2Lis = $('.imine-snb > ul > li > ul > li');
 
   // 브레이크포인트 & 오프셋
-  const BP_TABLET = 1000;
+  const BP_TABLET = 1440;
   const OFFSET_BASE = 20;
   const OFFSET_TABLET_ADD = 130;
 
@@ -47,7 +47,7 @@ $(function () {
       const st = $(window).scrollTop();
       const vpTop = st + getOffset() + getActivateTop(); // 상단 여유 반영
       const vpBot = st + $(window).height() - getActivateBottom(); // 하단 여유 반영
-      console.log(vpTop);
+
       // 2뎁스만 active 제거
       $depth2Lis.removeClass('active');
 
@@ -371,33 +371,101 @@ document.addEventListener('click', function (e) {
 
 //
 $(document).ready(function () {
-  const $shareWrap = $(".imine-board-detail-head-info__share");
-  const $shareButton = $shareWrap.find("> button"); // 공유 버튼
-  const $closeButton = $shareWrap.find(".imine-board-detail-head-info__layer-head button"); // 닫기 버튼
-  const $dimButton = $shareWrap.find(".imine-board-detail-head-info__layer-dim"); // dim 버튼
+  const $shareWrap = $('.imine-board-detail-head-info__share');
+  const $shareButton = $shareWrap.find('> button'); // 공유 버튼
+  const $closeButton = $shareWrap.find(
+    '.imine-board-detail-head-info__layer-head button'
+  ); // 닫기 버튼
+  const $dimButton = $shareWrap.find(
+    '.imine-board-detail-head-info__layer-dim'
+  ); // dim 버튼
 
   // 공유 버튼 클릭 시 active 토글
-  $shareButton.on("click", function (e) {
-    e.stopPropagation(); 
-    $shareWrap.toggleClass("active");
+  $shareButton.on('click', function (e) {
+    e.stopPropagation();
+    $shareWrap.toggleClass('active');
   });
 
   // 닫기 버튼 클릭 시 active 제거
-  $closeButton.on("click", function (e) {
+  $closeButton.on('click', function (e) {
     e.stopPropagation();
-    $shareWrap.removeClass("active");
+    $shareWrap.removeClass('active');
   });
 
   // dim 버튼 클릭 시 active 제거
-  $dimButton.on("click", function (e) {
+  $dimButton.on('click', function (e) {
     e.stopPropagation();
-    $shareWrap.removeClass("active");
+    $shareWrap.removeClass('active');
   });
 
   // 바깥 영역 클릭 시 active 제거
-  $(document).on("click", function (e) {
+  $(document).on('click', function (e) {
     if (!$shareWrap.is(e.target) && $shareWrap.has(e.target).length === 0) {
-      $shareWrap.removeClass("active");
+      $shareWrap.removeClass('active');
     }
+  });
+
+  AOS.init({
+    duration: 1000, // 기본 애니메이션 속도 (1초)
+  });
+});
+
+//
+$(function () {
+  $('.imine-rnd-facility-item__title').on('click', function () {
+    const $item = $(this).closest('.imine-rnd-facility-item');
+    // 다른 아이템 active 제거
+    $('.imine-rnd-facility-item').not($item).removeClass('active');
+    // 현재 클릭한 아이템 active 토글
+    $item.toggleClass('active');
+  });
+});
+
+//
+$(document).ready(function () {
+  var swiper01 = new Swiper('.imine-skincare-swiper-type01 .swiper', {
+    slidesPerView: 'auto',
+    spaceBetween: 24,
+    freeMode: true,
+    breakpoints: {
+      800: {
+        // 800px 이상일 때 적용
+        spaceBetween: 24,
+      },
+      0: {
+        // 0 ~ 799px 구간
+        spaceBetween: 16,
+      },
+    },
+  });
+  var swiper02 = new Swiper('.imine-skincare-swiper-type02 .swiper', {
+    slidesPerView: 'auto',
+    spaceBetween: 24,
+    freeMode: true,
+    breakpoints: {
+      800: {
+        // 800px 이상일 때 적용
+        spaceBetween: 24,
+      },
+      0: {
+        // 0 ~ 799px 구간
+        spaceBetween: 16,
+      },
+    },
+  });
+  var swiper02 = new Swiper('.imine-skincare-swiper-type03 .swiper', {
+    slidesPerView: 'auto',
+    spaceBetween: 24,
+    freeMode: true,
+    breakpoints: {
+      800: {
+        // 800px 이상일 때 적용
+        spaceBetween: 24,
+      },
+      0: {
+        // 0 ~ 799px 구간
+        spaceBetween: 16,
+      },
+    },
   });
 });

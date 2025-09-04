@@ -8,12 +8,16 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.css"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css"
+    />
     <link rel="stylesheet" href="../inc/css/common.css" type="text/css" />
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
     <script src="https://unpkg.com/@studio-freight/lenis@1.0.42/dist/lenis.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js"></script>
-
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
     <script src="../inc/js/common.js"></script>
   </head>
   <body>
@@ -26,52 +30,116 @@
       ></div>
       <!-- //header -->
 
-      <main id="content">
+      <main id="content" data-menu="1">
         <div class="imine-head">
-          <img src="../inc/images/head/img01.png" alt="" />
+          <div class="imine-inner">
+            <img src="../inc/images/head/img01.png" alt="" />
+          </div>
         </div>
         <div class="imine-body">
-          <div class="imine-snb">
+          <div class="imine-snb" data-aos="fade-up" data-aos-delay="200">
             <ul>
               <li>
                 <a href="">Overview</a>
                 <ul>
-                  <li><a href="">회사개요</a></li>
-                  <li><a href="">조직도</a></li>
-                  <li><a href="">CI/BI</a></li>
+                  <li><a href="#section01">회사개요</a></li>
+                  <li><a href="#section02">CI/BI</a></li>
                 </ul>
               </li>
               <li>
-                <a href="">CEO 메시지</a>
+                <a href="">철학</a>
                 <ul>
-                  <li><a href="">CEO 인사말</a></li>
-                  <li><a href="">비전/ 철학</a></li>
+                  <li><a href="#section01">경영이념</a></li>
+                  <li><a href="#section02">핵심가치</a></li>
                 </ul>
               </li>
               <li><a href="">연혁</a></li>
-              <li class="active"><a href="">사업장 안내</a></li>
+              <li class="active"><a href="">회사 위치</a></li>
             </ul>
           </div>
           <div class="imine-contents">
-            <section>
-              <h2>사업장 안내</h2>
-              <h3>
-                Where We Create Trustworthy Beauty<br />
-                <strong>
-                  깨끗하고 안전한 공간에서 이로운 아름다움을<br />
-                  연구하고 완성합니다.
-                </strong>
-              </h3>
-              <p>
-                변함없는 신뢰로, 멈추지 않는 혁신으로,<br />
-                <strong>미래를 향해 나아갑니다</strong>
-              </p>
-              <div class="imine-sites">
-                <div class="imine-sites-item">
-                  <h4>이미인 본사</h4>
-                </div>
-                <div class="imine-sites-item">
-                  <h4>오산 사업장</h4>
+            <section id="section01">
+              <div class="imine-location">
+                <h2 data-aos="fade-up" data-aos-delay="200">회사 위치</h2>
+                <h3 data-aos="fade-up" data-aos-delay="400">
+                  <span>Where We Create Trustworthy Beauty</span>
+                  <strong>
+                    깨끗하고 안전한 공간에서 이로운 아름다움을<br />
+                    연구하고 완성합니다.
+                  </strong>
+                </h3>
+                <div class="imine-location-list">
+                  <div class="imine-location-list-item">
+                    <div
+                      class="imine-location-list-item__title"
+                      data-aos="fade-up"
+                      data-aos-delay="600"
+                    >
+                      <h4><strong>오산 본사 제 1공장</strong></h4>
+                    </div>
+                    <ul data-aos="fade-up" data-aos-delay="800">
+                      <li>
+                        <strong>주소</strong>
+                        <p>경기도 오산시 가장산업서북로 40-37</p>
+                      </li>
+                      <li>
+                        <strong>특징</strong>
+                        <p>
+                          시트마스크, 하이드로겔, 기초 (접지 및 충포장 자동화)
+                        </p>
+                      </li>
+                    </ul>
+                    <div
+                      class="imine-location-list-item__map"
+                      data-aos="fade-up"
+                      data-aos-delay="1000"
+                    ></div>
+                  </div>
+                  <div class="imine-location-list-item">
+                    <div
+                      class="imine-location-list-item__title"
+                      data-aos="fade-up"
+                      data-aos-delay="200"
+                    >
+                      <h4><strong>평택 제 2공장</strong></h4>
+                      <h5>2027년 완공 예정</h5>
+                    </div>
+                    <ul data-aos="fade-up" data-aos-delay="400">
+                      <li>
+                        <strong>주소</strong>
+                        <p>경기도 평택시 진위면 동부대로 4-18</p>
+                      </li>
+                      <li>
+                        <strong>특징</strong>
+                        <p>기초 라인 중심 증설 예정</p>
+                      </li>
+                    </ul>
+                    <div
+                      class="imine-location-list-item__map"
+                      data-aos="fade-up"
+                      data-aos-delay="600"
+                    ></div>
+                  </div>
+                  <div class="imine-location-list-item">
+                    <div
+                      class="imine-location-list-item__title"
+                      data-aos="fade-up"
+                      data-aos-delay="200"
+                    >
+                      <h4><strong>양재 영업본부</strong></h4>
+                    </div>
+                    <ul data-aos="fade-up" data-aos-delay="400">
+                      <li>
+                        <strong>주소</strong>
+                        <p>서울특별시 서초구 마방로 60, 13F</p>
+                      </li>
+                    </ul>
+                    <div
+                      class="imine-location-list-item__map"
+                      data-aos="fade-up"
+                      data-aos-delay="600"
+                    ></div>
+                  </div>
                 </div>
               </div>
             </section>
