@@ -18,6 +18,8 @@
     <script src="https://unpkg.com/@studio-freight/lenis@1.0.42/dist/lenis.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
     <script src="../inc/js/common.js"></script>
   </head>
   <body>
@@ -113,6 +115,78 @@
                     <li data-aos="fade-up" data-aos-delay="700"></li>
                   </ul>
                 </div>
+                <script>
+                  gsap.registerPlugin(ScrollTrigger);
+
+                  ScrollTrigger.matchMedia({
+                    // 800px 이상 ~ 1439px 이하
+                    '(min-width: 800px) and (max-width: 1439px)': function () {
+                      gsap.to('.imine-rnd-intro ul li:nth-child(1)', {
+                        minWidth: 400,
+                        width: 400,
+                        height: 400,
+                        ease: 'power2.out',
+                        scrollTrigger: {
+                          trigger: '.imine-rnd-intro',
+                          start: 'top center',
+                          end: 'bottom center',
+                          scrub: true,
+                        },
+                      });
+
+                      gsap.fromTo(
+                        '.imine-rnd-intro ul li:nth-child(1) p',
+                        { opacity: 0, y: 30 },
+                        {
+                          opacity: 1,
+                          y: 0,
+                          scrollTrigger: {
+                            trigger: '.imine-rnd-intro',
+                            start: 'top center',
+                            end: 'bottom center',
+                            scrub: true,
+                          },
+                        }
+                      );
+                    },
+
+                    // 1440px 이상
+                    '(min-width: 1440px)': function () {
+                      gsap.to('.imine-rnd-intro ul li:nth-child(1)', {
+                        minWidth: 640,
+                        width: 640,
+                        height: 640,
+                        ease: 'power2.out',
+                        scrollTrigger: {
+                          trigger: '.imine-rnd-intro',
+                          start: 'top center',
+                          end: 'bottom center',
+                          scrub: true,
+                        },
+                      });
+
+                      gsap.fromTo(
+                        '.imine-rnd-intro ul li:nth-child(1) p',
+                        { opacity: 0, y: 30 },
+                        {
+                          opacity: 1,
+                          y: 0,
+                          scrollTrigger: {
+                            trigger: '.imine-rnd-intro',
+                            start: 'top center',
+                            end: 'bottom center',
+                            scrub: true,
+                          },
+                        }
+                      );
+                    },
+
+                    // 799px 이하 → 아무 동작 없음
+                    '(max-width: 799px)': function () {
+                      // 애니메이션 비활성 (아무 것도 정의 안 하면 됨)
+                    },
+                  });
+                </script>
               </section>
               <section id="section02">
                 <h2 data-aos="fade-up" data-aos-delay="200">MANPOWER</h2>
@@ -667,13 +741,13 @@
                     </div>
                   </div>
                 </div>
-                <div
+                <!-- <div
                   class="imine-rnd-more"
                   data-aos="fade-up"
                   data-aos-delay="650"
                 >
                   <button type="button">더보기</button>
-                </div>
+                </div> -->
               </section>
             </div>
           </div>

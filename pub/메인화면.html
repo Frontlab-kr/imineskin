@@ -369,252 +369,223 @@
                   </a>
                 </div>
               </div>
-              <div
-                class="imine-main-news-swiper"
-                data-aos="fade-up"
-                data-aos-delay="400"
-              >
-                <div class="swiper">
-                  <div class="swiper-wrapper">
-                    <div class="swiper-slide">
-                      <div class="imine-main-news-swiper__thumb">
-                        <video loop muted>
-                          <source
-                            src="../inc/video/news01.mp4"
-                            type="video/mp4"
-                          />
-                        </video>
-                      </div>
-                      <p>탄탄하게 감싸 올리는, UP쎄라 텐션 마스크</p>
-                      <span>1일 전</span>
-                    </div>
-                    <div class="swiper-slide">
-                      <div class="imine-main-news-swiper__thumb">
-                        <video loop muted playsinline>
-                          <source
-                            src="../inc/video/news02.mp4"
-                            type="video/mp4"
-                          />
-                        </video>
-                      </div>
-                      <p>쌀 발효 추출물로 더 촉촉한, 크림 보습 마스크</p>
-                      <span>2주 전</span>
-                    </div>
-                    <div class="swiper-slide">
-                      <div class="imine-main-news-swiper__thumb">
-                        <video loop muted playsinline>
-                          <source
-                            src="../inc/video/news03.mp4"
-                            type="video/mp4"
-                          />
-                        </video>
-                      </div>
-                      <p>데일리 마사지 크림, 매트릭스 탄력 밤</p>
-                      <span>1개월 전</span>
-                    </div>
-                    <div class="swiper-slide">
-                      <div class="imine-main-news-swiper__thumb">
-                        <video loop muted playsinline>
-                          <source
-                            src="../inc/video/news04.mp4"
-                            type="video/mp4"
-                          />
-                        </video>
-                      </div>
-                      <p>거친 각질 숨죽이는 쫀쫀한 젤라임 팩</p>
-                      <span>1개월 전</span>
-                    </div>
-                    <div class="swiper-slide">
-                      <div class="imine-main-news-swiper__thumb">
-                        <video loop muted>
-                          <source
-                            src="../inc/video/news01.mp4"
-                            type="video/mp4"
-                          />
-                        </video>
-                      </div>
-                      <p>탄탄하게 감싸 올리는, UP쎄라 텐션 마스크</p>
-                      <span>1일 전</span>
-                    </div>
-                    <div class="swiper-slide">
-                      <div class="imine-main-news-swiper__thumb">
-                        <video loop muted playsinline>
-                          <source
-                            src="../inc/video/news02.mp4"
-                            type="video/mp4"
-                          />
-                        </video>
-                      </div>
-                      <p>쌀 발효 추출물로 더 촉촉한, 크림 보습 마스크</p>
-                      <span>2주 전</span>
-                    </div>
-                    <div class="swiper-slide">
-                      <div class="imine-main-news-swiper__thumb">
-                        <video loop muted playsinline>
-                          <source
-                            src="../inc/video/news03.mp4"
-                            type="video/mp4"
-                          />
-                        </video>
-                      </div>
-                      <p>데일리 마사지 크림, 매트릭스 탄력 밤</p>
-                      <span>1개월 전</span>
-                    </div>
-                    <div class="swiper-slide">
-                      <div class="imine-main-news-swiper__thumb">
-                        <video loop muted playsinline>
-                          <source
-                            src="../inc/video/news04.mp4"
-                            type="video/mp4"
-                          />
-                        </video>
-                      </div>
-                      <p>거친 각질 숨죽이는 쫀쫀한 젤라임 팩</p>
-                      <span>1개월 전</span>
-                    </div>
-                  </div>
-                  <div class="swiper-pagination"></div>
-                </div>
-                <script>
-                  // Swiper 초기화
-                  var swiperNews = new Swiper(
-                    '.imine-main-news-swiper .swiper',
-                    {
-                      loop: true,
-                      slidesPerView: 'auto',
-                      spaceBetween: 24,
-                      autoplay: {
-                        delay: 2500,
-                        disableOnInteraction: false,
-                      },
-                    }
-                  );
-
-                  const container = document.querySelector(
-                    '.imine-main-news-swiper'
-                  );
-                  const videos = container.querySelectorAll(
-                    '.swiper-slide video'
-                  );
-
-                  // 모든 비디오 정지/리셋
-                  function pauseAllVideos() {
-                    videos.forEach((v) => {
-                      v.pause();
-                      v.currentTime = 0;
-                    });
-                  }
-
-                  // 활성 슬라이드 비디오만 재생
-                  function playActiveSlideVideo() {
-                    pauseAllVideos();
-                    const activeVideo = container.querySelector(
-                      '.swiper-slide-active video'
-                    );
-                    if (activeVideo) {
-                      // 일부 브라우저에서 play()가 Promise를 반환하므로 에러 무시
-                      activeVideo.play().catch(() => {});
-                    }
-                  }
-
-                  // 최초 1회 실행
-                  playActiveSlideVideo();
-
-                  // 슬라이드 전환 완료 시 활성 비디오 재생
-                  swiperNews.on(
-                    'slideChangeTransitionEnd',
-                    playActiveSlideVideo
-                  );
-
-                  // 마우스 오버 시 오토플레이 정지, 마우스가 벗어나면 재개
-                  container.addEventListener('mouseenter', () => {
-                    if (swiperNews.autoplay && swiperNews.autoplay.running) {
-                      swiperNews.autoplay.stop();
-                    }
-                  });
-                  container.addEventListener('mouseleave', () => {
-                    if (swiperNews.autoplay && !swiperNews.autoplay.running) {
-                      swiperNews.autoplay.start();
-                    }
-                    // 컨테이너를 벗어나면 현재 보이는 활성 슬라이드 영상은 계속 재생되도록 유지
-                    playActiveSlideVideo();
-                  });
-
-                  // 슬라이드 안의 비디오에 직접 마우스를 올려도 오토플레이 정지(선택적)
-                  videos.forEach((video) => {
-                    video.addEventListener('mouseenter', () => {
-                      if (swiperNews.autoplay && swiperNews.autoplay.running) {
-                        swiperNews.autoplay.stop();
-                      }
-                      // 활성 슬라이드가 아니면 재생시키지 않음(활성 슬라이드만 재생 원칙)
-                      const isActive = video
-                        .closest('.swiper-slide')
-                        ?.classList.contains('swiper-slide-active');
-                      if (isActive) video.play().catch(() => {});
-                    });
-                    video.addEventListener('mouseleave', () => {
-                      // 비디오는 계속 재생(요구사항상 활성 슬라이드 영상은 재생 유지)
-                      // 필요 시 아래 주석 해제해서 마우스가 비디오에서 나갈 때 정지하도록 변경 가능
-                      // const isActive = video.closest('.swiper-slide')?.classList.contains('swiper-slide-active');
-                      // if (isActive) { video.pause(); video.currentTime = 0; }
-                    });
-                  });
-
-                  // --- 기존 코드 유지 ---
-                  // pauseAllVideos(), playActiveSlideVideo(), swiperNews, container, videos 등은 그대로 사용
-
-                  let hoveredVideo = null;
-
-                  // 슬라이드 안의 비디오에 마우스 오버 시: 모든 비디오 정지 → 해당 비디오만 재생
-                  videos.forEach((video) => {
-                    video.addEventListener('mouseenter', () => {
-                      hoveredVideo = video;
-
-                      // 오토플레이 정지
-                      if (swiperNews.autoplay && swiperNews.autoplay.running) {
-                        swiperNews.autoplay.stop();
-                      }
-
-                      // 다른 모든 비디오 정지/리셋 후 이 비디오만 재생
-                      pauseAllVideos();
-                      video.play().catch(() => {});
-                    });
-
-                    video.addEventListener('mouseleave', () => {
-                      // 현재 슬라이드가 활성 슬라이드가 아니라면 마우스가 떠날 때 정지/리셋
-                      const isActive = video
-                        .closest('.swiper-slide')
-                        ?.classList.contains('swiper-slide-active');
-
-                      if (!isActive) {
-                        video.pause();
-                        video.currentTime = 0;
-                      }
-
-                      // 이 영상에 대한 hover 종료
-                      if (hoveredVideo === video) hoveredVideo = null;
-
-                      // 다른 영상 위로 곧바로 hover가 가지 않았다면, 활성 슬라이드 영상만 재생 상태로 복원
-                      // (조금 뒤에 다른 hover가 들어오면 그쪽 mouseenter가 다시 처리)
-                      setTimeout(() => {
-                        if (!hoveredVideo) {
-                          playActiveSlideVideo();
-                        }
-                      }, 0);
-                    });
-                  });
-
-                  // 컨테이너에서 마우스가 완전히 벗어나면: 오토플레이 재개 + 활성 슬라이드 영상만 재생
-                  container.addEventListener('mouseleave', () => {
-                    if (swiperNews.autoplay && !swiperNews.autoplay.running) {
-                      swiperNews.autoplay.start();
-                    }
-                    hoveredVideo = null;
-                    playActiveSlideVideo();
-                  });
-                </script>
-              </div>
             </div>
+          </div>
+          <div
+            class="imine-main-news-swiper"
+            data-aos="fade-up"
+            data-aos-delay="400"
+          >
+            <div class="swiper">
+              <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                  <div class="imine-main-news-swiper__thumb">
+                    <video loop muted>
+                      <source src="../inc/video/news01.mp4" type="video/mp4" />
+                    </video>
+                  </div>
+                  <p>탄탄하게 감싸 올리는, UP쎄라 텐션 마스크</p>
+                  <span>1일 전</span>
+                </div>
+                <div class="swiper-slide">
+                  <div class="imine-main-news-swiper__thumb">
+                    <video loop muted playsinline>
+                      <source src="../inc/video/news02.mp4" type="video/mp4" />
+                    </video>
+                  </div>
+                  <p>쌀 발효 추출물로 더 촉촉한, 크림 보습 마스크</p>
+                  <span>2주 전</span>
+                </div>
+                <div class="swiper-slide">
+                  <div class="imine-main-news-swiper__thumb">
+                    <video loop muted playsinline>
+                      <source src="../inc/video/news03.mp4" type="video/mp4" />
+                    </video>
+                  </div>
+                  <p>데일리 마사지 크림, 매트릭스 탄력 밤</p>
+                  <span>1개월 전</span>
+                </div>
+                <div class="swiper-slide">
+                  <div class="imine-main-news-swiper__thumb">
+                    <video loop muted playsinline>
+                      <source src="../inc/video/news04.mp4" type="video/mp4" />
+                    </video>
+                  </div>
+                  <p>거친 각질 숨죽이는 쫀쫀한 젤라임 팩</p>
+                  <span>1개월 전</span>
+                </div>
+                <div class="swiper-slide">
+                  <div class="imine-main-news-swiper__thumb">
+                    <video loop muted>
+                      <source src="../inc/video/news01.mp4" type="video/mp4" />
+                    </video>
+                  </div>
+                  <p>탄탄하게 감싸 올리는, UP쎄라 텐션 마스크</p>
+                  <span>1일 전</span>
+                </div>
+                <div class="swiper-slide">
+                  <div class="imine-main-news-swiper__thumb">
+                    <video loop muted playsinline>
+                      <source src="../inc/video/news02.mp4" type="video/mp4" />
+                    </video>
+                  </div>
+                  <p>쌀 발효 추출물로 더 촉촉한, 크림 보습 마스크</p>
+                  <span>2주 전</span>
+                </div>
+                <div class="swiper-slide">
+                  <div class="imine-main-news-swiper__thumb">
+                    <video loop muted playsinline>
+                      <source src="../inc/video/news03.mp4" type="video/mp4" />
+                    </video>
+                  </div>
+                  <p>데일리 마사지 크림, 매트릭스 탄력 밤</p>
+                  <span>1개월 전</span>
+                </div>
+                <div class="swiper-slide">
+                  <div class="imine-main-news-swiper__thumb">
+                    <video loop muted playsinline>
+                      <source src="../inc/video/news04.mp4" type="video/mp4" />
+                    </video>
+                  </div>
+                  <p>거친 각질 숨죽이는 쫀쫀한 젤라임 팩</p>
+                  <span>1개월 전</span>
+                </div>
+              </div>
+              <div class="swiper-button-next"></div>
+            </div>
+            <script>
+              // Swiper 초기화
+              var swiperNews = new Swiper('.imine-main-news-swiper .swiper', {
+                loop: true,
+                slidesPerView: 'auto',
+                spaceBetween: 24,
+                navigation: {
+                  nextEl: '.imine-main-news-swiper .swiper-button-next',
+                },
+                autoplay: {
+                  delay: 2500,
+                  disableOnInteraction: false,
+                },
+              });
+
+              const container = document.querySelector(
+                '.imine-main-news-swiper'
+              );
+              const videos = container.querySelectorAll('.swiper-slide video');
+
+              // 모든 비디오 정지/리셋
+              function pauseAllVideos() {
+                videos.forEach((v) => {
+                  v.pause();
+                  v.currentTime = 0;
+                });
+              }
+
+              // 활성 슬라이드 비디오만 재생
+              function playActiveSlideVideo() {
+                pauseAllVideos();
+                const activeVideo = container.querySelector(
+                  '.swiper-slide-active video'
+                );
+                if (activeVideo) {
+                  // 일부 브라우저에서 play()가 Promise를 반환하므로 에러 무시
+                  activeVideo.play().catch(() => {});
+                }
+              }
+
+              // 최초 1회 실행
+              playActiveSlideVideo();
+
+              // 슬라이드 전환 완료 시 활성 비디오 재생
+              swiperNews.on('slideChangeTransitionEnd', playActiveSlideVideo);
+
+              // 마우스 오버 시 오토플레이 정지, 마우스가 벗어나면 재개
+              container.addEventListener('mouseenter', () => {
+                if (swiperNews.autoplay && swiperNews.autoplay.running) {
+                  swiperNews.autoplay.stop();
+                }
+              });
+              container.addEventListener('mouseleave', () => {
+                if (swiperNews.autoplay && !swiperNews.autoplay.running) {
+                  swiperNews.autoplay.start();
+                }
+                // 컨테이너를 벗어나면 현재 보이는 활성 슬라이드 영상은 계속 재생되도록 유지
+                playActiveSlideVideo();
+              });
+
+              // 슬라이드 안의 비디오에 직접 마우스를 올려도 오토플레이 정지(선택적)
+              videos.forEach((video) => {
+                video.addEventListener('mouseenter', () => {
+                  if (swiperNews.autoplay && swiperNews.autoplay.running) {
+                    swiperNews.autoplay.stop();
+                  }
+                  // 활성 슬라이드가 아니면 재생시키지 않음(활성 슬라이드만 재생 원칙)
+                  const isActive = video
+                    .closest('.swiper-slide')
+                    ?.classList.contains('swiper-slide-active');
+                  if (isActive) video.play().catch(() => {});
+                });
+                video.addEventListener('mouseleave', () => {
+                  // 비디오는 계속 재생(요구사항상 활성 슬라이드 영상은 재생 유지)
+                  // 필요 시 아래 주석 해제해서 마우스가 비디오에서 나갈 때 정지하도록 변경 가능
+                  // const isActive = video.closest('.swiper-slide')?.classList.contains('swiper-slide-active');
+                  // if (isActive) { video.pause(); video.currentTime = 0; }
+                });
+              });
+
+              // --- 기존 코드 유지 ---
+              // pauseAllVideos(), playActiveSlideVideo(), swiperNews, container, videos 등은 그대로 사용
+
+              let hoveredVideo = null;
+
+              // 슬라이드 안의 비디오에 마우스 오버 시: 모든 비디오 정지 → 해당 비디오만 재생
+              videos.forEach((video) => {
+                video.addEventListener('mouseenter', () => {
+                  hoveredVideo = video;
+
+                  // 오토플레이 정지
+                  if (swiperNews.autoplay && swiperNews.autoplay.running) {
+                    swiperNews.autoplay.stop();
+                  }
+
+                  // 다른 모든 비디오 정지/리셋 후 이 비디오만 재생
+                  pauseAllVideos();
+                  video.play().catch(() => {});
+                });
+
+                video.addEventListener('mouseleave', () => {
+                  // 현재 슬라이드가 활성 슬라이드가 아니라면 마우스가 떠날 때 정지/리셋
+                  const isActive = video
+                    .closest('.swiper-slide')
+                    ?.classList.contains('swiper-slide-active');
+
+                  if (!isActive) {
+                    video.pause();
+                    video.currentTime = 0;
+                  }
+
+                  // 이 영상에 대한 hover 종료
+                  if (hoveredVideo === video) hoveredVideo = null;
+
+                  // 다른 영상 위로 곧바로 hover가 가지 않았다면, 활성 슬라이드 영상만 재생 상태로 복원
+                  // (조금 뒤에 다른 hover가 들어오면 그쪽 mouseenter가 다시 처리)
+                  setTimeout(() => {
+                    if (!hoveredVideo) {
+                      playActiveSlideVideo();
+                    }
+                  }, 0);
+                });
+              });
+
+              // 컨테이너에서 마우스가 완전히 벗어나면: 오토플레이 재개 + 활성 슬라이드 영상만 재생
+              container.addEventListener('mouseleave', () => {
+                if (swiperNews.autoplay && !swiperNews.autoplay.running) {
+                  swiperNews.autoplay.start();
+                }
+                hoveredVideo = null;
+                playActiveSlideVideo();
+              });
+            </script>
           </div>
         </div>
       </main>

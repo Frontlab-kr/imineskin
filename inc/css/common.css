@@ -256,7 +256,6 @@ img {
   gap: 8px;
   color: var(--White, #fff);
   /* 본문/본문 16 B */
-  font-family: Pretendard;
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
@@ -294,7 +293,6 @@ img {
 .imine-btn-sm {
   height: 40px;
   padding: 0 16px;
-  font-family: Pretendard;
   font-size: 14px;
   font-style: normal;
   font-weight: 600;
@@ -304,7 +302,6 @@ img {
   .imine-btn-sm {
     height: 32px;
     /* 본문/description title */
-    font-family: Pretendard;
     font-size: 15px;
     font-style: normal;
     font-weight: 600;
@@ -315,7 +312,6 @@ img {
   .imine-btn-sm {
     height: 30px;
     /* 본문/description title */
-    font-family: Pretendard;
     font-size: 14px;
     font-style: normal;
     font-weight: 600;
@@ -345,7 +341,6 @@ img {
   gap: 10px;
   color: var(--Black, #000);
   /* 본문/중간타이틀 */
-  font-family: Pretendard;
   font-size: 24px;
   font-style: normal;
   font-weight: 600;
@@ -381,7 +376,6 @@ img {
   display: flex;
   height: 32px;
   color: var(--Black, #000);
-  font-family: Pretendard;
   font-size: 15px;
   font-style: normal;
   font-weight: 500;
@@ -413,7 +407,6 @@ img {
   padding: 0 12px;
   color: var(--Black, #000);
   /* LNB/1 depth */
-  font-family: Pretendard;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -483,7 +476,6 @@ img {
   }
   .imine-header-gnb-head p {
     color: var(--Black, #000);
-    font-family: Pretendard;
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
@@ -518,7 +510,6 @@ img {
     border-bottom: 1px solid var(--Line, #ebebeb);
     color: var(--Black, #000);
     /* 본문/상세 타이틀 1-국문 */
-    font-family: Pretendard;
     font-size: 18px;
     font-style: normal;
     font-weight: 600;
@@ -561,7 +552,6 @@ img {
     padding: 0 16px;
     color: var(--Black, #000);
     /* 본문/본문 16 */
-    font-family: Pretendard;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
@@ -655,7 +645,6 @@ img {
     border-bottom: 1px solid var(--Line, #ebebeb);
     color: var(--Black, #000);
     /* 본문/상세 타이틀 1-국문 */
-    font-family: Pretendard;
     font-size: 18px;
     font-style: normal;
     font-weight: 600;
@@ -698,7 +687,6 @@ img {
     padding: 0 16px;
     color: var(--Black, #000);
     /* 본문/본문 16 */
-    font-family: Pretendard;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
@@ -772,7 +760,6 @@ img {
 .imine-footer__table table td {
   padding: 1px 0;
   color: var(--White, #fff);
-  font-family: Pretendard;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -789,7 +776,6 @@ img {
 }
 .imine-footer__link a {
   color: var(--White, #fff);
-  font-family: Pretendard;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -804,7 +790,6 @@ img {
 .imine-footer-copyright {
   min-width: 580px;
   color: var(--White, #fff);
-  font-family: Pretendard;
   font-size: 12px;
   font-style: normal;
   font-weight: 400;
@@ -824,7 +809,6 @@ img {
   border: 0;
   background: none;
   color: var(--White, #fff);
-  font-family: Pretendard;
   font-size: 12px;
   font-style: normal;
   font-weight: 500;
@@ -865,7 +849,6 @@ img {
   .imine-footer__table table td {
     padding: 1px 0;
     color: var(--White, #fff);
-    font-family: Pretendard;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -885,7 +868,6 @@ img {
   }
   .imine-footer__link a {
     color: var(--White, #fff);
-    font-family: Pretendard;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -900,7 +882,6 @@ img {
   .imine-footer-copyright {
     min-width: 320px;
     color: var(--White, #fff);
-    font-family: Pretendard;
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
@@ -920,7 +901,6 @@ img {
     border: 0;
     background: none;
     color: var(--White, #fff);
-    font-family: Pretendard;
     font-size: 12px;
     font-style: normal;
     font-weight: 500;
@@ -963,7 +943,6 @@ img {
   .imine-footer__table table td {
     padding: 1px 0;
     color: var(--White, #fff);
-    font-family: Pretendard;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -983,7 +962,6 @@ img {
   }
   .imine-footer__link a {
     color: var(--White, #fff);
-    font-family: Pretendard;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -999,7 +977,6 @@ img {
   .imine-footer-copyright {
     min-width: 320px;
     color: var(--White, #fff);
-    font-family: Pretendard;
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
@@ -1019,7 +996,6 @@ img {
     border: 0;
     background: none;
     color: var(--White, #fff);
-    font-family: Pretendard;
     font-size: 12px;
     font-style: normal;
     font-weight: 500;
@@ -1048,6 +1024,7 @@ img {
   min-height: 654px;
   padding: 0 80px 0 80px;
   background: linear-gradient(243deg, #fafcfe 33.67%, #f5f6fe 77.98%, #fff 82.41%);
+  overflow: hidden;
 }
 .imine-main-introduce__video {
   position: absolute;
@@ -1086,7 +1063,6 @@ img {
 .imine-main-introduce__text {
   margin-top: 37px;
   color: var(--000000, #000);
-  font-family: Pretendard;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -1133,7 +1109,6 @@ img {
   margin: 24px 0;
   color: var(--Black, #000);
   /* 상세/본문 */
-  font-family: Pretendard;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -1142,7 +1117,6 @@ img {
 }
 .imine-main-rnd-title a {
   color: var(--Black, #000);
-  font-family: Pretendard;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -1176,7 +1150,6 @@ img {
 .imine-main-rnd-text-item p {
   margin-top: 16px;
   color: var(--000000, #000);
-  font-family: Pretendard;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -1206,7 +1179,6 @@ img {
 .imine-main-manufacturing-head__text p, .imine-main-marketingsupport-head__text p {
   color: var(--000000, #000);
   /* 상세/본문 */
-  font-family: Pretendard;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -1215,7 +1187,6 @@ img {
 .imine-main-manufacturing-head__text a, .imine-main-marketingsupport-head__text a {
   color: var(--Black, #000);
   /* 상세/본문 */
-  font-family: Pretendard;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -1251,7 +1222,6 @@ img {
   justify-content: center;
   color: var(--White, #fff);
   text-align: center;
-  font-family: Pretendard;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -1269,7 +1239,6 @@ img {
 }
 .imine-main-manufacturing-list-item > p, .imine-main-marketingsupport-list-item > p {
   color: var(--000000, #000);
-  font-family: Pretendard;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -1297,7 +1266,6 @@ img {
   margin-bottom: 16px;
   color: var(--FFFFFF, #fff);
   /* 메인/Banner Title */
-  font-family: Pretendard;
   font-size: 32px;
   font-style: normal;
   font-weight: 600;
@@ -1306,7 +1274,6 @@ img {
 .imine-main-partner a {
   color: var(--CI, #cf035b);
   /* 메인/Banner description */
-  font-family: Pretendard;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -1335,7 +1302,6 @@ img {
 }
 .imine-main-news__tab a {
   color: var(--9A9AAF, #9a9aaf);
-  font-family: Pretendard;
   font-size: 20px;
   font-style: normal;
   font-weight: 600;
@@ -1343,7 +1309,6 @@ img {
 }
 .imine-main-news__tab a.active {
   color: var(--000000, #000);
-  font-family: Pretendard;
   font-size: 20px;
   font-style: normal;
   font-weight: 600;
@@ -1368,7 +1333,6 @@ img {
 .imine-main-news-list-item p {
   color: var(--000000, #000);
   /* 상세/본문 */
-  font-family: Pretendard;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -1383,17 +1347,18 @@ img {
 .imine-main-news-list-item span {
   color: var(--9A9AAF, #9a9aaf);
   /* 상세/description title */
-  font-family: Pretendard;
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
   line-height: 150%; /* 24px */
 }
 .imine-main-news-swiper {
-  margin-left: 145px;
-  margin-right: -80px;
+  margin-left: 50%;
+  margin-right: 0;
   padding: 120px 0;
-  overflow: hidden;
+}
+.imine-main-news-swiper .swiper {
+  margin-left: -500px;
 }
 .imine-main-news-swiper__thumb {
   display: flex;
@@ -1415,7 +1380,6 @@ img {
 .imine-main-news-swiper .swiper-slide p {
   margin: 0 0 8px 0;
   color: var(--000000, #000);
-  font-family: Pretendard;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -1423,11 +1387,20 @@ img {
 }
 .imine-main-news-swiper .swiper-slide span {
   color: #a2a2a2;
-  font-family: Pretendard;
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
   line-height: 150%; /* 21px */
+}
+.imine-main-news-swiper .swiper-button-next {
+  right: 40px;
+  width: 108px;
+  height: 108px;
+  margin-top: -54px;
+  background: url(../images/icon/60/next.svg) no-repeat 50% 50%;
+}
+.imine-main-news-swiper .swiper-button-next:after {
+  display: none;
 }
 @media screen and (max-width: 1440px) {
   .imine-main-introduce {
@@ -1480,7 +1453,6 @@ img {
   .imine-main-introduce__text {
     margin-top: 40px;
     color: var(--000000, #000);
-    font-family: Pretendard;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -1527,7 +1499,6 @@ img {
     margin: 24px 0;
     color: var(--Black, #000);
     /* 본문/본문 16 */
-    font-family: Pretendard;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
@@ -1536,7 +1507,6 @@ img {
   .imine-main-rnd-title a {
     color: var(--Black, #000);
     /* 본문/본문 16 */
-    font-family: Pretendard;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
@@ -1568,7 +1538,6 @@ img {
   .imine-main-rnd-text-item p {
     color: var(--Black, #000);
     /* 본문/본문 16 */
-    font-family: Pretendard;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
@@ -1598,7 +1567,6 @@ img {
   .imine-main-manufacturing-head__text p, .imine-main-marketingsupport-head__text p {
     color: var(--Black, #000);
     /* 본문/본문 16 */
-    font-family: Pretendard;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
@@ -1607,7 +1575,6 @@ img {
   .imine-main-manufacturing-head__text a, .imine-main-marketingsupport-head__text a {
     color: var(--Black, #000);
     /* 본문/본문 16 */
-    font-family: Pretendard;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
@@ -1639,7 +1606,6 @@ img {
     justify-content: center;
     color: var(--White, #fff);
     text-align: center;
-    font-family: Pretendard;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -1657,7 +1623,6 @@ img {
   }
   .imine-main-manufacturing-list-item > p, .imine-main-marketingsupport-list-item > p {
     color: var(--000000, #000);
-    font-family: Pretendard;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
@@ -1685,7 +1650,6 @@ img {
     margin-bottom: 16px;
     color: var(--FFFFFF, #fff);
     /* 메인/Banner Title */
-    font-family: Pretendard;
     font-size: 24px;
     font-style: normal;
     font-weight: 600;
@@ -1694,7 +1658,6 @@ img {
   .imine-main-partner a {
     color: var(--CI, #cf035b);
     /* 메인/Banner description */
-    font-family: Pretendard;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -1723,7 +1686,6 @@ img {
   }
   .imine-main-news__tab a {
     color: var(--9A9AAF, #9a9aaf);
-    font-family: Pretendard;
     font-size: 18px;
     font-style: normal;
     font-weight: 600;
@@ -1731,7 +1693,6 @@ img {
   }
   .imine-main-news__tab a.active {
     color: var(--000000, #000);
-    font-family: Pretendard;
     font-size: 18px;
     font-style: normal;
     font-weight: 600;
@@ -1756,7 +1717,6 @@ img {
   .imine-main-news-list-item p {
     color: var(--000000, #000);
     /* 상세/본문 */
-    font-family: Pretendard;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
@@ -1771,7 +1731,6 @@ img {
   .imine-main-news-list-item span {
     color: var(--9A9AAF, #9a9aaf);
     /* 상세/description title */
-    font-family: Pretendard;
     font-size: 15px;
     font-style: normal;
     font-weight: 600;
@@ -1779,7 +1738,7 @@ img {
   }
   .imine-main-news-swiper {
     margin-left: 0;
-    margin-right: -40px;
+    margin-right: 0;
     padding: 80px 0;
     overflow: hidden;
   }
@@ -1803,7 +1762,6 @@ img {
   .imine-main-news-swiper .swiper-slide p {
     margin: 0 0 8px 0;
     color: var(--000000, #000);
-    font-family: Pretendard;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -1811,14 +1769,28 @@ img {
   }
   .imine-main-news-swiper .swiper-slide span {
     color: #a2a2a2;
-    font-family: Pretendard;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
     line-height: 150%; /* 21px */
   }
+  .imine-main-news-swiper .swiper-button-next {
+    display: none;
+  }
 }
 @media screen and (max-width: 800px) {
+  .imine-main-keyvisual {
+    display: flex;
+    height: 400px;
+    overflow: hidden;
+  }
+  .imine-main-keyvisual video {
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    width: auto;
+    height: 100%;
+  }
   .imine-main-introduce {
     position: relative;
     display: flex;
@@ -1870,7 +1842,6 @@ img {
   .imine-main-introduce__text {
     margin-top: 16px;
     color: var(--000000, #000);
-    font-family: Pretendard;
     font-size: 12px;
     font-style: normal;
     font-weight: 400;
@@ -1919,7 +1890,6 @@ img {
     margin: 8px 0 16px;
     color: var(--Black, #000);
     /* 본문/본문 16 */
-    font-family: Pretendard;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
@@ -1928,7 +1898,6 @@ img {
   .imine-main-rnd-title a {
     color: var(--Black, #000);
     /* 본문/본문 16 */
-    font-family: Pretendard;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
@@ -1962,7 +1931,6 @@ img {
     margin-top: 8px;
     color: var(--Black, #000);
     /* 본문/본문 16 */
-    font-family: Pretendard;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
@@ -1993,7 +1961,6 @@ img {
   .imine-main-manufacturing-head__text p, .imine-main-marketingsupport-head__text p {
     color: var(--Black, #000);
     /* 본문/본문 16 */
-    font-family: Pretendard;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
@@ -2002,7 +1969,6 @@ img {
   .imine-main-manufacturing-head__text a, .imine-main-marketingsupport-head__text a {
     color: var(--Black, #000);
     /* 본문/본문 16 */
-    font-family: Pretendard;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
@@ -2035,7 +2001,6 @@ img {
     justify-content: center;
     color: var(--White, #fff);
     text-align: center;
-    font-family: Pretendard;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
@@ -2053,7 +2018,6 @@ img {
   }
   .imine-main-manufacturing-list-item > p, .imine-main-marketingsupport-list-item > p {
     color: var(--000000, #000);
-    font-family: Pretendard;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
@@ -2083,7 +2047,6 @@ img {
     color: var(--FFFFFF, #fff);
     text-align: center;
     /* 메인/Banner Title */
-    font-family: Pretendard;
     font-size: 16px;
     font-style: normal;
     font-weight: 600;
@@ -2093,7 +2056,6 @@ img {
     color: var(--CI, #cf035b);
     text-align: center;
     /* 메인/Banner description */
-    font-family: Pretendard;
     font-size: 13px;
     font-style: normal;
     font-weight: 400;
@@ -2122,7 +2084,6 @@ img {
   }
   .imine-main-news__tab a {
     color: var(--9A9AAF, #9a9aaf);
-    font-family: Pretendard;
     font-size: 16px;
     font-style: normal;
     font-weight: 600;
@@ -2130,7 +2091,6 @@ img {
   }
   .imine-main-news__tab a.active {
     color: var(--000000, #000);
-    font-family: Pretendard;
     font-size: 16px;
     font-style: normal;
     font-weight: 600;
@@ -2155,7 +2115,6 @@ img {
   .imine-main-news-list-item p {
     color: var(--000000, #000);
     /* 상세/본문 */
-    font-family: Pretendard;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
@@ -2171,7 +2130,6 @@ img {
   .imine-main-news-list-item span {
     color: var(--9A9AAF, #9a9aaf);
     /* 상세/description title */
-    font-family: Pretendard;
     font-size: 14px;
     font-style: normal;
     font-weight: 600;
@@ -2179,7 +2137,7 @@ img {
   }
   .imine-main-news-swiper {
     margin-left: 0;
-    margin-right: -24px;
+    margin-right: 0;
     padding: 40px 0;
     overflow: hidden;
   }
@@ -2203,7 +2161,6 @@ img {
   .imine-main-news-swiper .swiper-slide p {
     margin: 0 0 8px 0;
     color: var(--000000, #000);
-    font-family: Pretendard;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -2211,7 +2168,6 @@ img {
   }
   .imine-main-news-swiper .swiper-slide span {
     color: #a2a2a2;
-    font-family: Pretendard;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -2226,13 +2182,17 @@ img {
 }
 .imine-head .imine-inner {
   display: flex;
+  width: auto;
 }
 .imine-head img {
   position: relative;
   left: 50%;
-  transform: translateX(-50%);
+  transform: translate(-50%, 0);
+  width: 100%;
   height: 160px;
   max-width: none;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 @media screen and (max-width: 1440px) {
   .imine-head {
@@ -2247,7 +2207,6 @@ img {
   padding: 80px 80px 160px 80px;
   color: var(--Black, #000);
   /* 본문/본문 16 */
-  font-family: Pretendard;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -2268,7 +2227,6 @@ img {
     padding: 40px 40px 120px 40px;
     color: var(--Black, #000);
     /* 본문/본문 16 */
-    font-family: Pretendard;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
@@ -2288,7 +2246,6 @@ img {
     padding: 24px 24px 80px 24px;
     color: var(--Black, #000);
     /* 본문/본문 16 */
-    font-family: Pretendard;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
@@ -2326,7 +2283,6 @@ img {
 .imine-snb > ul > li > a {
   display: block;
   color: var(--Black, #000);
-  font-family: Pretendard;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -2348,7 +2304,6 @@ img {
 .imine-snb > ul > li ul li a {
   color: var(--Sub, #9a9aaf);
   /* LNB/2 depth */
-  font-family: Pretendard;
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
@@ -2415,7 +2370,6 @@ img {
     color: var(--Sub, #9a9aaf);
     padding: 14px 0;
     /* LNB/2 depth */
-    font-family: Pretendard;
     font-size: 16px;
     font-style: normal;
     font-weight: 600;
@@ -2457,7 +2411,6 @@ img {
   margin-bottom: 8px;
   color: var(--MainText, #5d013b);
   /* 본문/본문 16 B */
-  font-family: Pretendard;
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
@@ -2468,12 +2421,26 @@ img {
   margin-bottom: 24px;
   color: var(--gray, #8c8c8c);
   /* 본문/본문 타이틀 */
-  font-family: Pretendard;
-  font-size: 48px;
+  font-size: 44px;
   font-style: normal;
   font-weight: 600;
   line-height: 150%; /* 72px */
   word-break: keep-all;
+}
+.imine-contents h3 .imine-h3-black {
+  color: var(--Black, #000);
+  font-family: "neulis-sans";
+  font-weight: 400;
+}
+.imine-contents h3 .imine-h3-secondary {
+  color: #9a9aaf;
+  font-family: "neulis-sans";
+  font-weight: 400;
+}
+.imine-contents h3 .imine-h3-gray {
+  color: #ebebeb;
+  font-family: "neulis-sans";
+  font-weight: 400;
 }
 .imine-contents h3 strong {
   color: var(--Black, #000);
@@ -2482,7 +2449,6 @@ img {
 .imine-contents h4 {
   color: var(--gray, #8c8c8c);
   /* 본문/중간타이틀 */
-  font-family: Pretendard;
   font-size: 36px;
   font-style: normal;
   font-weight: 600;
@@ -2498,7 +2464,6 @@ img {
     margin-bottom: 8px;
     color: var(--MainText, #5d013b);
     /* 본문/본문 16 B */
-    font-family: Pretendard;
     font-size: 15px;
     font-style: normal;
     font-weight: 600;
@@ -2507,7 +2472,6 @@ img {
   .imine-contents h3 {
     margin-bottom: 24px;
     /* 본문/본문 타이틀 */
-    font-family: Pretendard;
     font-size: 40px;
     font-style: normal;
     font-weight: 600;
@@ -2516,7 +2480,6 @@ img {
   }
   .imine-contents h4 {
     /* 본문/중간타이틀 */
-    font-family: Pretendard;
     font-size: 28px;
     font-style: normal;
     font-weight: 600;
@@ -2528,7 +2491,6 @@ img {
     margin-bottom: 8px;
     color: var(--MainText, #5d013b);
     /* 본문/본문 16 B */
-    font-family: Pretendard;
     font-size: 15px;
     font-style: normal;
     font-weight: 600;
@@ -2537,7 +2499,6 @@ img {
   .imine-contents h3 {
     margin-bottom: 24px;
     /* 본문/본문 타이틀 */
-    font-family: Pretendard;
     font-size: 32px;
     font-style: normal;
     font-weight: 600;
@@ -2546,7 +2507,6 @@ img {
   }
   .imine-contents h4 {
     /* 본문/중간타이틀 */
-    font-family: Pretendard;
     font-size: 24px;
     font-style: normal;
     font-weight: 600;
@@ -2568,7 +2528,6 @@ img {
   height: 40px;
   color: var(--Sub, #9a9aaf);
   /* 본문/description title */
-  font-family: Pretendard;
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
@@ -2616,7 +2575,6 @@ img {
   padding: 0 6px;
   border-radius: 4px;
   /* 본문/Badge */
-  font-family: Pretendard;
   font-size: 12px;
   font-style: normal;
   font-weight: 600;
@@ -2634,7 +2592,6 @@ img {
   border: 0;
   color: var(--Black, #000);
   /* 본문/본문 16 */
-  font-family: Pretendard;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -2653,7 +2610,6 @@ img {
     height: 48px;
     padding: 12px 16px;
     /* 본문/본문 16 */
-    font-family: Pretendard;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
@@ -2672,7 +2628,6 @@ img {
   border: 0;
   color: var(--Black, #000);
   /* 본문/본문 16 */
-  font-family: Pretendard;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -2690,7 +2645,6 @@ img {
     width: 100%;
     padding: 12px 16px;
     /* 본문/본문 16 */
-    font-family: Pretendard;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
@@ -2730,7 +2684,6 @@ img {
 .imine-checkbox label {
   color: var(--gray, #8c8c8c);
   /* 본문/본문 16 */
-  font-family: Pretendard;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -2740,7 +2693,6 @@ img {
   display: block;
   color: var(--Black, #000);
   /* 본문/본문 16 B */
-  font-family: Pretendard;
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
@@ -2777,7 +2729,6 @@ img {
   .imine-checkbox label {
     color: var(--gray, #8c8c8c);
     /* 본문/본문 16 */
-    font-family: Pretendard;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
@@ -2787,7 +2738,6 @@ img {
     display: block;
     color: var(--Black, #000);
     /* 본문/본문 16 B */
-    font-family: Pretendard;
     font-size: 15px;
     font-style: normal;
     font-weight: 600;
@@ -2824,7 +2774,6 @@ img {
   align-items: center;
   gap: 8px;
   color: var(--cool-gray, #646f7c);
-  font-family: Pretendard;
   font-size: 15px;
   font-style: normal;
   font-weight: 600;
@@ -2861,7 +2810,6 @@ img {
     align-items: center;
     gap: 8px;
     /* 본문/description title */
-    font-family: Pretendard;
     font-size: 15px;
     font-style: normal;
     font-weight: 600;
@@ -2897,7 +2845,6 @@ img {
     gap: 8px;
     color: var(--cool-gray, #646f7c);
     /* 본문/description title */
-    font-family: Pretendard;
     font-size: 14px;
     font-style: normal;
     font-weight: 600;
@@ -2926,7 +2873,6 @@ img {
   color: var(--gray, #8c8c8c);
   text-align: center;
   /* 본문/description */
-  font-family: Pretendard;
   font-size: 15px;
   font-style: normal;
   font-weight: 400;
@@ -2936,7 +2882,6 @@ img {
   color: var(--Black, #000);
   text-align: center;
   /* 본문/본문 16 B */
-  font-family: Pretendard;
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
@@ -2975,7 +2920,6 @@ img {
   color: var(--Black, #000);
   text-overflow: ellipsis;
   /* 본문/본문 16 */
-  font-family: Pretendard;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -3012,7 +2956,6 @@ img {
     color: var(--gray, #8c8c8c);
     text-align: center;
     /* 본문/description */
-    font-family: Pretendard;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
@@ -3022,7 +2965,6 @@ img {
     color: var(--Black, #000);
     text-align: center;
     /* 본문/본문 16 B */
-    font-family: Pretendard;
     font-size: 15px;
     font-style: normal;
     font-weight: 600;
@@ -3061,7 +3003,6 @@ img {
     color: var(--Black, #000);
     text-overflow: ellipsis;
     /* 본문/본문 16 */
-    font-family: Pretendard;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -3099,7 +3040,6 @@ img {
     color: var(--gray, #8c8c8c);
     text-align: center;
     /* 본문/description */
-    font-family: Pretendard;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -3109,7 +3049,6 @@ img {
     color: var(--Black, #000);
     text-align: center;
     /* 본문/본문 16 B */
-    font-family: Pretendard;
     font-size: 15px;
     font-style: normal;
     font-weight: 600;
@@ -3148,7 +3087,6 @@ img {
     color: var(--Black, #000);
     text-overflow: ellipsis;
     /* 본문/본문 16 */
-    font-family: Pretendard;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -3184,7 +3122,6 @@ img {
   margin-bottom: 8px;
   color: var(--Black, #000);
   /* 본문/본문 16 B */
-  font-family: Pretendard;
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
@@ -3200,7 +3137,6 @@ img {
   margin-top: 8px;
   color: var(--CF035B, #cf035b);
   /* 본문/본문 16 */
-  font-family: Pretendard;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -3216,7 +3152,6 @@ img {
   color: var(--Black, #000);
   text-overflow: ellipsis;
   /* 본문/본문 16 */
-  font-family: Pretendard;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -3232,7 +3167,6 @@ img {
   color: var(--Sub, #9a9aaf);
   text-align: right;
   /* 본문/본문 16 */
-  font-family: Pretendard;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -3286,7 +3220,6 @@ img {
     margin-bottom: 8px;
     color: var(--Black, #000);
     /* 본문/본문 16 B */
-    font-family: Pretendard;
     font-size: 15px;
     font-style: normal;
     font-weight: 600;
@@ -3317,7 +3250,6 @@ img {
     margin-bottom: 8px;
     color: var(--Black, #000);
     /* 본문/본문 16 B */
-    font-family: Pretendard;
     font-size: 15px;
     font-style: normal;
     font-weight: 600;
@@ -3346,7 +3278,6 @@ img {
   border: none;
   background: none;
   /* 본문/description */
-  font-family: Pretendard;
   font-size: 15px;
   font-style: normal;
   font-weight: 400;
@@ -3395,7 +3326,6 @@ img {
   border: 1px solid var(--Line, #ebebeb);
   background: var(--White, #fff);
   color: var(--cool-gray, #646f7c);
-  font-family: Pretendard;
   font-size: 15px;
   font-style: normal;
   font-weight: 600;
@@ -3417,7 +3347,6 @@ img {
 .imine-board-list-head h5 {
   color: var(--Black, #000);
   /* 본문/상세 타이틀 2 */
-  font-family: Pretendard;
   font-size: 20px;
   font-style: normal;
   font-weight: 600;
@@ -3436,7 +3365,6 @@ img {
   color: var(--Black, #000);
   text-align: center;
   /* 본문/본문 16 B */
-  font-family: Pretendard;
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
@@ -3456,7 +3384,6 @@ img {
   color: var(--Black, #000);
   text-align: center;
   /* 본문/본문 16 */
-  font-family: Pretendard;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -3520,7 +3447,6 @@ img {
   color: var(--CI, #cf035b);
   text-align: center;
   /* 본문/상세 타이틀 2 */
-  font-family: Pretendard;
   font-size: 20px;
   font-style: normal;
   font-weight: 600;
@@ -3562,7 +3488,6 @@ img {
   color: var(--Black, #000);
   text-align: center;
   /* 본문/상세 타이틀 2 */
-  font-family: Pretendard;
   font-size: 20px;
   font-style: normal;
   font-weight: 600;
@@ -3640,7 +3565,6 @@ img {
     color: var(--Black, #000);
     text-align: center;
     /* 본문/상세 타이틀 2 */
-    font-family: Pretendard;
     font-size: 16px;
     font-style: normal;
     font-weight: 600;
@@ -3687,7 +3611,6 @@ img {
   margin-top: 8px;
   color: var(--Black, #000);
   /* 본문/상세 타이틀 2 */
-  font-family: Pretendard;
   font-size: 20px;
   font-style: normal;
   font-weight: 600;
@@ -3704,7 +3627,6 @@ img {
   margin-top: 8px;
   color: var(--Sub, #9a9aaf);
   /* 본문/description */
-  font-family: Pretendard;
   font-size: 15px;
   font-style: normal;
   font-weight: 400;
@@ -3730,7 +3652,6 @@ img {
   display: flex;
   align-items: center;
   /* 본문/description title */
-  font-family: Pretendard;
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
@@ -3748,7 +3669,6 @@ img {
 .imine-board-list-body-item__d-day p {
   color: var(--Black, #000);
   /* 본문/description */
-  font-family: Pretendard;
   font-size: 15px;
   font-style: normal;
   font-weight: 400;
@@ -3760,7 +3680,6 @@ img {
   }
   .imine-board-list-body-item__d-day strong {
     /* 본문/description */
-    font-family: Pretendard;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -3778,7 +3697,6 @@ img {
   .imine-board-list-body-item__d-day p {
     color: var(--Black, #000);
     /* 본문/description */
-    font-family: Pretendard;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -3814,7 +3732,6 @@ img {
     color: var(--Black, #000);
     text-align: center;
     /* 본문/본문 16 B */
-    font-family: Pretendard;
     font-size: 15px;
     font-style: normal;
     font-weight: 600;
@@ -3831,7 +3748,6 @@ img {
     height: 86px;
     padding: 0 16px;
     /* 본문/본문 16 */
-    font-family: Pretendard;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
@@ -3877,7 +3793,6 @@ img {
     margin-top: 8px;
     color: var(--Black, #000);
     /* 본문/상세 타이틀 2 */
-    font-family: Pretendard;
     font-size: 18px;
     font-style: normal;
     font-weight: 600;
@@ -3894,7 +3809,6 @@ img {
     margin-top: 8px;
     color: var(--Sub, #9a9aaf);
     /* 본문/description */
-    font-family: Pretendard;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
@@ -4015,7 +3929,6 @@ img {
     margin-top: 8px;
     color: var(--Black, #000);
     /* 본문/상세 타이틀 2 */
-    font-family: Pretendard;
     font-size: 16px;
     font-style: normal;
     font-weight: 600;
@@ -4031,7 +3944,6 @@ img {
   .imine-board-list-body-item__date {
     color: var(--Sub, #9a9aaf);
     /* 본문/description */
-    font-family: Pretendard;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -4079,7 +3991,6 @@ img {
   color: var(--Sub, #9a9aaf);
   text-align: center;
   /* 본문/본문 16 */
-  font-family: Pretendard;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -4187,7 +4098,6 @@ img {
   }
   .imine-board-detail-head-info__layer-head h6 {
     color: var(--Grey-000000, #000);
-    font-family: Pretendard;
     font-size: 20px;
     font-style: normal;
     font-weight: 600;
@@ -4224,7 +4134,6 @@ img {
   .imine-board-detail-head-info__layer-body button p {
     display: block;
     color: #000;
-    font-family: Pretendard;
     font-size: 14px;
     font-style: normal;
     font-weight: 600;
@@ -4235,7 +4144,6 @@ img {
   padding: 40px 0 64px 0;
   color: var(--Black, #000);
   /* 본문/본문 16 */
-  font-family: Pretendard;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -4259,7 +4167,6 @@ img {
   padding: 0;
   color: var(--Black, #000);
   /* 본문/상세 타이틀 2 */
-  font-family: Pretendard;
   font-size: 20px;
   font-style: normal;
   font-weight: 600;
@@ -4281,7 +4188,6 @@ img {
   padding: 0;
   color: var(--Black, #000);
   /* 본문/본문 16 B */
-  font-family: Pretendard;
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
@@ -4325,7 +4231,6 @@ img {
   color: var(--Black, #000);
   text-overflow: ellipsis;
   /* 본문/본문 16 */
-  font-family: Pretendard;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -4361,7 +4266,6 @@ img {
   gap: 24px;
   color: var(--Black, #000);
   /* 본문/상세 타이틀 2 */
-  font-family: Pretendard;
   font-size: 20px;
   font-style: normal;
   font-weight: 600;
@@ -4378,7 +4282,6 @@ img {
   margin: 0;
   color: var(--Black, #000);
   /* 본문/본문 16 */
-  font-family: Pretendard;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -4393,7 +4296,6 @@ img {
 .imine-board-detail-nav-item-date {
   color: var(--gray, #8c8c8c);
   /* 본문/본문 16 */
-  font-family: Pretendard;
   font-size: 15px;
   font-style: normal;
   font-weight: 400;
@@ -4418,7 +4320,6 @@ img {
   }
   .imine-board-detail-head-info__text p {
     /* 본문/본문 16 */
-    font-family: Pretendard;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
@@ -4428,7 +4329,6 @@ img {
     padding: 48px 0 80px 0;
     color: var(--Black, #000);
     /* 본문/본문 16 */
-    font-family: Pretendard;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
@@ -4449,7 +4349,6 @@ img {
     padding: 0;
     color: var(--Black, #000);
     /* 본문/상세 타이틀 2 */
-    font-family: Pretendard;
     font-size: 18px;
     font-style: normal;
     font-weight: 600;
@@ -4471,7 +4370,6 @@ img {
     padding: 0;
     color: var(--Black, #000);
     /* 본문/본문 16 B */
-    font-family: Pretendard;
     font-size: 15px;
     font-style: normal;
     font-weight: 600;
@@ -4514,7 +4412,6 @@ img {
     color: var(--Black, #000);
     text-overflow: ellipsis;
     /* 본문/본문 16 */
-    font-family: Pretendard;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
@@ -4542,7 +4439,6 @@ img {
     gap: 16px;
     color: var(--Black, #000);
     /* 본문/상세 타이틀 2 */
-    font-family: Pretendard;
     font-size: 18px;
     font-style: normal;
     font-weight: 600;
@@ -4559,7 +4455,6 @@ img {
   .imine-board-detail-nav-item-text p {
     color: var(--Black, #000);
     /* 본문/본문 16 */
-    font-family: Pretendard;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
@@ -4568,7 +4463,6 @@ img {
   .imine-board-detail-nav-item-date {
     color: var(--gray, #8c8c8c);
     /* 본문/본문 16 */
-    font-family: Pretendard;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -4592,7 +4486,6 @@ img {
   }
   .imine-board-detail-head-info__text p {
     /* 본문/본문 16 */
-    font-family: Pretendard;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
@@ -4608,7 +4501,6 @@ img {
     padding: 40px 0 32px 0;
     color: var(--Black, #000);
     /* 본문/본문 16 */
-    font-family: Pretendard;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
@@ -4629,7 +4521,6 @@ img {
     padding: 0;
     color: var(--Black, #000);
     /* 본문/상세 타이틀 2 */
-    font-family: Pretendard;
     font-size: 16px;
     font-style: normal;
     font-weight: 600;
@@ -4651,7 +4542,6 @@ img {
     padding: 0;
     color: var(--Black, #000);
     /* 본문/본문 16 B */
-    font-family: Pretendard;
     font-size: 15px;
     font-style: normal;
     font-weight: 600;
@@ -4694,7 +4584,6 @@ img {
     color: var(--Black, #000);
     text-overflow: ellipsis;
     /* 본문/본문 16 */
-    font-family: Pretendard;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
@@ -4722,7 +4611,6 @@ img {
     gap: 8px;
     color: var(--Black, #000);
     /* 본문/상세 타이틀 2 */
-    font-family: Pretendard;
     font-size: 16px;
     font-style: normal;
     font-weight: 600;
@@ -4731,7 +4619,6 @@ img {
   .imine-board-detail-nav-item-text p {
     color: var(--Black, #000);
     /* 본문/본문 16 */
-    font-family: Pretendard;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
@@ -4741,7 +4628,6 @@ img {
     color: var(--gray, #8c8c8c);
     text-align: right;
     /* 본문/본문 16 */
-    font-family: Pretendard;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
@@ -4976,7 +4862,6 @@ img {
   color: var(--Black, #000);
   text-align: center;
   /* 본문/상세 타이틀 2 */
-  font-family: Pretendard;
   font-size: 20px;
   font-style: normal;
   font-weight: 600;
@@ -4987,7 +4872,6 @@ img {
   color: var(--Black, #000);
   text-align: center;
   /* 본문/본문 16 */
-  font-family: Pretendard;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -5099,7 +4983,6 @@ img {
   color: var(--Line, #ebebeb);
   text-align: center;
   /* 본문/본문 타이틀 */
-  font-family: Pretendard;
   font-size: 48px;
   font-style: normal;
   font-weight: 600;
@@ -5110,7 +4993,6 @@ img {
   color: var(--gray, #8c8c8c);
   text-align: center;
   /* 본문/본문 16 */
-  font-family: Pretendard;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -5181,7 +5063,6 @@ img {
     color: var(--Line, #ebebeb);
     text-align: center;
     /* 본문/본문 타이틀 */
-    font-family: Pretendard;
     font-size: 40px;
     font-style: normal;
     font-weight: 600;
@@ -5192,7 +5073,6 @@ img {
     color: var(--gray, #8c8c8c);
     text-align: center;
     /* 본문/본문 16 */
-    font-family: Pretendard;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -5265,7 +5145,6 @@ img {
     color: var(--Line, #ebebeb);
     text-align: center;
     /* 본문/본문 타이틀 */
-    font-family: Pretendard;
     font-size: 32px;
     font-style: normal;
     font-weight: 600;
@@ -5276,7 +5155,6 @@ img {
     color: var(--gray, #8c8c8c);
     text-align: center;
     /* 본문/본문 20 B */
-    font-family: Pretendard;
     font-size: 16px;
     font-style: normal;
     font-weight: 600;
@@ -5310,7 +5188,6 @@ img {
   margin-top: 16px;
   color: var(--Black, #000);
   /* 본문/세부타이틀 */
-  font-family: Pretendard;
   font-size: 28px;
   font-style: normal;
   font-weight: 700;
@@ -5336,7 +5213,6 @@ img {
     margin-top: 16px;
     color: var(--Black, #000);
     /* 본문/세부타이틀 */
-    font-family: Pretendard;
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
@@ -5366,8 +5242,7 @@ img {
     margin-top: 0;
     color: var(--Black, #000);
     /* 본문/세부타이틀 */
-    font-family: Pretendard;
-    font-size: 22px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 700;
     line-height: 150%; /* 33px */
@@ -5403,7 +5278,6 @@ img {
   color: var(--Sub, #9a9aaf);
   text-align: center;
   /* 본문/본문 16 */
-  font-family: Pretendard;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -5413,7 +5287,6 @@ img {
   color: var(--MainText, #5d013b);
   text-align: center;
   /* 본문/description title */
-  font-family: Pretendard;
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
@@ -5425,7 +5298,6 @@ img {
   color: var(--Black, #000);
   text-align: center;
   /* 본문/상세 타이틀 1-국문 */
-  font-family: Pretendard;
   font-size: 24px;
   font-style: normal;
   font-weight: 600;
@@ -5451,7 +5323,6 @@ img {
   background: var(--White, #fff);
   color: var(--Black, #000);
   /* 본문/상세 타이틀 2 */
-  font-family: Pretendard;
   font-size: 20px;
   font-style: normal;
   font-weight: 600;
@@ -5499,7 +5370,6 @@ img {
     color: var(--Sub, #9a9aaf);
     text-align: center;
     /* 본문/본문 16 */
-    font-family: Pretendard;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
@@ -5509,7 +5379,6 @@ img {
     color: var(--MainText, #5d013b);
     text-align: center;
     /* 본문/description title */
-    font-family: Pretendard;
     font-size: 15px;
     font-style: normal;
     font-weight: 600;
@@ -5519,7 +5388,6 @@ img {
     color: var(--Black, #000);
     text-align: center;
     /* 본문/상세 타이틀 1-국문 */
-    font-family: Pretendard;
     font-size: 20px;
     font-style: normal;
     font-weight: 600;
@@ -5546,7 +5414,6 @@ img {
     color: var(--Black, #000);
     color: var(--Black, #000);
     /* 본문/상세 타이틀 2 */
-    font-family: Pretendard;
     font-size: 18px;
     font-style: normal;
     font-weight: 600;
@@ -5597,7 +5464,6 @@ img {
     color: var(--Sub, #9a9aaf);
     text-align: center;
     /* 본문/본문 16 */
-    font-family: Pretendard;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
@@ -5607,7 +5473,6 @@ img {
     color: var(--MainText, #5d013b);
     text-align: center;
     /* 본문/description title */
-    font-family: Pretendard;
     font-size: 14px;
     font-style: normal;
     font-weight: 600;
@@ -5617,7 +5482,6 @@ img {
     color: var(--Black, #000);
     text-align: center;
     /* 본문/상세 타이틀 1-국문 */
-    font-family: Pretendard;
     font-size: 18px;
     font-style: normal;
     font-weight: 600;
@@ -5643,7 +5507,6 @@ img {
     background: var(--White, #fff);
     color: var(--Black, #000);
     /* 본문/상세 타이틀 2 */
-    font-family: Pretendard;
     font-size: 16px;
     font-style: normal;
     font-weight: 600;
@@ -5658,31 +5521,32 @@ img {
     background-size: cover;
   }
 }
-.imine-skincare {
-  overflow: hidden;
-}
 .imine-skincare p {
   max-width: 1040px;
 }
 .imine-skincare-swiper {
+  width: 1352px;
   margin: 80px 0 0 0;
 }
 .imine-skincare-swiper .swiper-slide {
   width: auto;
 }
+.imine-skincare-swiper .swiper-slide:last-child {
+  margin-right: 40px;
+}
 .imine-skincare-swiper .swiper-slide > img {
   display: none;
-  max-width: 324px;
+  max-width: 344px;
 }
 .imine-skincare-swiper .swiper-slide > img.pc {
   display: block;
 }
 .imine-skincare-swiper-item {
-  width: 440px;
+  width: 344px;
   height: 569px;
-  padding: 40px;
-  border-radius: 40px;
-  background: #d19d94;
+  padding: 40px 24px;
+  border-radius: 32px;
+  background: #ed9b9f;
 }
 .imine-skincare-swiper-type02 .imine-skincare-swiper-item {
   background: #94aed1;
@@ -5694,9 +5558,9 @@ img {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  margin-bottom: 32px;
   color: var(--White, #fff);
   /* 본문/본문 20 */
-  font-family: Pretendard;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -5709,7 +5573,7 @@ img {
   align-items: center;
 }
 .imine-skincare-swiper-body h6 {
-  margin: 0 0 16px 0;
+  margin: 5px 0 26px 0;
   color: var(--White, #fff);
   text-align: center;
   /* 메인/Sub Title */
@@ -5721,21 +5585,24 @@ img {
 }
 .imine-skincare-swiper-body h6 strong {
   display: block;
+  margin-bottom: 6px;
   color: var(--White, #fff);
   text-align: center;
-  /* 메인/Banner Title */
+  /* 본문/상세 타이틀 1-국문 */
   font-family: Pretendard;
-  font-size: 32px;
+  font-size: 24px;
   font-style: normal;
   font-weight: 600;
-  line-height: 150%; /* 48px */
+  line-height: 120%; /* 28.8px */
+}
+.imine-skincare-swiper-body img {
+  width: 144px;
 }
 .imine-skincare-swiper-body p {
   margin-bottom: 8px;
   color: var(--White, #fff);
   text-align: center;
   /* 본문/본문 20 */
-  font-family: Pretendard;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -5763,7 +5630,6 @@ img {
   color: var(--CI, #d2015b);
   text-align: center;
   /* 본문/본문 타이틀 */
-  font-family: Pretendard;
   font-size: 48px;
   font-style: normal;
   font-weight: 600;
@@ -5774,7 +5640,6 @@ img {
   color: var(--CI, #d2015b);
   text-align: center;
   /* 본문/상세 타이틀 1-국문 */
-  font-family: Pretendard;
   font-size: 24px;
   font-style: normal;
   font-weight: 600;
@@ -5806,7 +5671,6 @@ img {
   color: var(--Black, #000);
   text-align: center;
   /* 본문/상세 타이틀 1-국문 */
-  font-family: Pretendard;
   font-size: 24px;
   font-style: normal;
   font-weight: 600;
@@ -5817,7 +5681,6 @@ img {
   color: var(--CI, #d2015b);
   text-align: center;
   /* 본문/description */
-  font-family: Pretendard;
   font-size: 15px;
   font-style: normal;
   font-weight: 400;
@@ -5875,7 +5738,6 @@ img {
 .imine-skincare-mask-formulation-list-item dl dt strong {
   color: var(--White, #fff);
   /* 본문/상세 타이틀 1-국문 */
-  font-family: Pretendard;
   font-size: 24px;
   font-style: normal;
   font-weight: 600;
@@ -5894,7 +5756,6 @@ img {
           backdrop-filter: blur(20px);
   color: var(--White, #fff);
   /* 본문/description title */
-  font-family: Pretendard;
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
@@ -5905,7 +5766,6 @@ img {
   padding: 0;
   color: var(--White, #fff);
   /* 본문/본문 16 */
-  font-family: Pretendard;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -5967,7 +5827,6 @@ img {
   padding: 0;
   color: var(--White, #fff);
   /* 본문/본문 20 B */
-  font-family: Pretendard;
   font-size: 20px;
   font-style: normal;
   font-weight: 600;
@@ -6000,7 +5859,6 @@ img {
   padding: 0;
   color: var(--Black, #000);
   /* 본문/상세 타이틀 2 */
-  font-family: Pretendard;
   font-size: 20px;
   font-style: normal;
   font-weight: 600;
@@ -6016,7 +5874,6 @@ img {
   margin: 0;
   color: var(--MainText, #5d013b);
   /* 본문/description title */
-  font-family: Pretendard;
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
@@ -6064,7 +5921,6 @@ img {
   color: var(--White, #fff);
   text-align: center;
   /* 본문/세부타이틀 */
-  font-family: Pretendard;
   font-size: 28px;
   font-style: normal;
   font-weight: 700;
@@ -6075,7 +5931,6 @@ img {
   padding: 0;
   color: var(--Black, #000);
   text-align: center;
-  font-family: Pretendard;
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -6086,7 +5941,6 @@ img {
   color: var(--Sub, #9a9aaf);
   text-align: center;
   /* 본문/본문 16 */
-  font-family: Pretendard;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -6102,11 +5956,15 @@ img {
 }
 @media screen and (max-width: 1440px) {
   .imine-skincare-swiper {
+    width: 100%;
     margin: 64px 0 0 0;
+  }
+  .imine-skincare-swiper .swiper {
+    margin-right: -40px;
   }
   .imine-skincare-swiper .swiper-slide > img {
     display: none;
-    max-width: 243px;
+    max-width: 248px;
   }
   .imine-skincare-swiper .swiper-slide > img.pc {
     display: none;
@@ -6115,18 +5973,18 @@ img {
     display: block;
   }
   .imine-skincare-swiper-item {
-    width: 352px;
-    height: 455px;
-    padding: 32px;
-    border-radius: 40px;
+    width: 248px;
+    height: 408px;
+    padding: 24px 16px;
+    border-radius: 24px;
   }
   .imine-skincare-swiper-head {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 2px;
     color: var(--White, #fff);
     /* 본문/본문 16 */
-    font-family: Pretendard;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
@@ -6138,26 +5996,26 @@ img {
     align-items: center;
   }
   .imine-skincare-swiper-body img {
-    width: 120px;
+    width: 96px;
   }
   .imine-skincare-swiper-body h6 {
-    margin: 0 0 16px 0;
+    margin: 8px 0 8px 0;
     color: var(--White, #fff);
     text-align: center;
     /* 메인/Sub Title */
     font-family: "neulis-sans";
-    font-size: 18px;
+    font-size: 15px;
     font-style: normal;
     font-weight: 400;
     line-height: 120%; /* 24px */
   }
   .imine-skincare-swiper-body h6 strong {
     display: block;
+    margin: 0;
     color: var(--White, #fff);
     text-align: center;
     /* 본문/세부타이틀 */
-    font-family: Pretendard;
-    font-size: 24px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 700;
     line-height: 150%; /* 36px */
@@ -6167,7 +6025,6 @@ img {
     color: var(--White, #fff);
     text-align: center;
     /* 본문/본문 16 */
-    font-family: Pretendard;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
@@ -6196,7 +6053,6 @@ img {
     color: var(--CI, #d2015b);
     text-align: center;
     /* 본문/본문 타이틀 */
-    font-family: Pretendard;
     font-size: 40px;
     font-style: normal;
     font-weight: 600;
@@ -6208,7 +6064,6 @@ img {
     color: var(--CI, #d2015b);
     text-align: center;
     /* 본문/상세 타이틀 1-국문 */
-    font-family: Pretendard;
     font-size: 20px;
     font-style: normal;
     font-weight: 600;
@@ -6241,7 +6096,6 @@ img {
     color: var(--CI, #d2015b);
     text-align: center;
     /* 본문/상세 타이틀 1-국문 */
-    font-family: Pretendard;
     font-size: 20px;
     font-style: normal;
     font-weight: 600;
@@ -6252,7 +6106,6 @@ img {
     color: var(--CI, #d2015b);
     text-align: center;
     /* 본문/description */
-    font-family: Pretendard;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
@@ -6311,7 +6164,6 @@ img {
   .imine-skincare-mask-formulation-list-item dl dt strong {
     color: var(--White, #fff);
     /* 본문/상세 타이틀 1-국문 */
-    font-family: Pretendard;
     font-size: 20px;
     font-style: normal;
     font-weight: 600;
@@ -6330,7 +6182,6 @@ img {
             backdrop-filter: blur(20px);
     color: var(--White, #fff);
     /* 본문/description title */
-    font-family: Pretendard;
     font-size: 15px;
     font-style: normal;
     font-weight: 600;
@@ -6341,7 +6192,6 @@ img {
     padding: 0;
     color: var(--White, #fff);
     /* 본문/본문 16 */
-    font-family: Pretendard;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
@@ -6400,7 +6250,6 @@ img {
     padding: 0;
     color: var(--White, #fff);
     /* 본문/본문 20 B */
-    font-family: Pretendard;
     font-size: 18px;
     font-style: normal;
     font-weight: 600;
@@ -6433,7 +6282,6 @@ img {
     padding: 0;
     color: var(--Black, #000);
     /* 본문/상세 타이틀 2 */
-    font-family: Pretendard;
     font-size: 18px;
     font-style: normal;
     font-weight: 600;
@@ -6444,7 +6292,6 @@ img {
     padding: 0;
     color: var(--Black, #000);
     /* 본문/본문 16 */
-    font-family: Pretendard;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
@@ -6456,7 +6303,6 @@ img {
     margin: 0;
     color: var(--MainText, #5d013b);
     /* 본문/description title */
-    font-family: Pretendard;
     font-size: 15px;
     font-style: normal;
     font-weight: 600;
@@ -6504,7 +6350,6 @@ img {
     color: var(--White, #fff);
     text-align: center;
     /* 본문/세부타이틀 */
-    font-family: Pretendard;
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
@@ -6515,7 +6360,6 @@ img {
     padding: 0;
     color: var(--Black, #000);
     text-align: center;
-    font-family: Pretendard;
     font-size: 15px;
     font-style: normal;
     font-weight: 500;
@@ -6526,7 +6370,6 @@ img {
     color: var(--Sub, #9a9aaf);
     text-align: center;
     /* 본문/본문 16 */
-    font-family: Pretendard;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
@@ -6547,7 +6390,7 @@ img {
   }
   .imine-skincare-swiper .swiper-slide > img {
     display: none;
-    max-width: 185px;
+    max-width: 184px;
   }
   .imine-skincare-swiper .swiper-slide > img.pc {
     display: none;
@@ -6559,9 +6402,9 @@ img {
     display: block;
   }
   .imine-skincare-swiper-item {
-    width: 268px;
-    height: 347px;
-    padding: 24px;
+    width: 184px;
+    height: 304px;
+    padding: 16px 10px;
     border-radius: 16px;
   }
   .imine-skincare-swiper-head {
@@ -6570,8 +6413,7 @@ img {
     justify-content: space-between;
     color: var(--White, #fff);
     /* 본문/본문 16 */
-    font-family: Pretendard;
-    font-size: 15px;
+    font-size: 12px;
     font-style: normal;
     font-weight: 400;
     line-height: 150%; /* 22.5px */
@@ -6582,26 +6424,25 @@ img {
     align-items: center;
   }
   .imine-skincare-swiper-body img {
-    width: 84px;
+    width: 80px;
   }
   .imine-skincare-swiper-body h6 {
-    margin: 0 0 8px 0;
+    margin: 0 0 12px 0;
     color: var(--White, #fff);
     text-align: center;
     /* 메인/Sub Title */
     font-family: "neulis-sans";
-    font-size: 14px;
+    font-size: 12px;
     font-style: normal;
     font-weight: 400;
-    line-height: 120%; /* 24px */
+    line-height: 150%; /* 24px */
   }
   .imine-skincare-swiper-body h6 strong {
     display: block;
     color: var(--White, #fff);
     text-align: center;
     /* 본문/세부타이틀 */
-    font-family: Pretendard;
-    font-size: 18px;
+    font-size: 14px;
     font-style: normal;
     font-weight: 700;
     line-height: 150%; /* 36px */
@@ -6611,8 +6452,7 @@ img {
     color: var(--White, #fff);
     text-align: center;
     /* 본문/본문 16 */
-    font-family: Pretendard;
-    font-size: 14px;
+    font-size: 11px;
     font-style: normal;
     font-weight: 400;
     line-height: 150%; /* 22.5px */
@@ -6640,7 +6480,6 @@ img {
     color: var(--CI, #d2015b);
     text-align: center;
     /* 본문/본문 타이틀 */
-    font-family: Pretendard;
     font-size: 32px;
     font-style: normal;
     font-weight: 600;
@@ -6652,7 +6491,6 @@ img {
     color: var(--CI, #d2015b);
     text-align: center;
     /* 본문/상세 타이틀 1-국문 */
-    font-family: Pretendard;
     font-size: 18px;
     font-style: normal;
     font-weight: 600;
@@ -6685,7 +6523,6 @@ img {
     color: var(--CI, #d2015b);
     text-align: center;
     /* 본문/상세 타이틀 1-국문 */
-    font-family: Pretendard;
     font-size: 18px;
     font-style: normal;
     font-weight: 600;
@@ -6696,7 +6533,6 @@ img {
     color: var(--CI, #d2015b);
     text-align: center;
     /* 본문/description */
-    font-family: Pretendard;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -6757,7 +6593,6 @@ img {
   .imine-skincare-mask-formulation-list-item dl dt strong {
     color: var(--White, #fff);
     /* 본문/상세 타이틀 1-국문 */
-    font-family: Pretendard;
     font-size: 18px;
     font-style: normal;
     font-weight: 600;
@@ -6776,7 +6611,6 @@ img {
             backdrop-filter: blur(20px);
     color: var(--White, #fff);
     /* 본문/description title */
-    font-family: Pretendard;
     font-size: 14px;
     font-style: normal;
     font-weight: 600;
@@ -6787,7 +6621,6 @@ img {
     padding: 0;
     color: var(--White, #fff);
     /* 본문/본문 16 */
-    font-family: Pretendard;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
@@ -6847,7 +6680,6 @@ img {
     padding: 0;
     color: var(--White, #fff);
     /* 본문/본문 20 B */
-    font-family: Pretendard;
     font-size: 16px;
     font-style: normal;
     font-weight: 600;
@@ -6880,7 +6712,6 @@ img {
     padding: 0;
     color: var(--Black, #000);
     /* 본문/상세 타이틀 2 */
-    font-family: Pretendard;
     font-size: 16px;
     font-style: normal;
     font-weight: 600;
@@ -6891,7 +6722,6 @@ img {
     padding: 0;
     color: var(--Black, #000);
     /* 본문/본문 16 */
-    font-family: Pretendard;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
@@ -6936,7 +6766,6 @@ img {
     color: var(--White, #fff);
     text-align: center;
     /* 본문/세부타이틀 */
-    font-family: Pretendard;
     font-size: 22px;
     font-style: normal;
     font-weight: 700;
@@ -6947,7 +6776,6 @@ img {
     padding: 0;
     color: var(--Black, #000);
     text-align: center;
-    font-family: Pretendard;
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
@@ -6959,7 +6787,6 @@ img {
     color: var(--Sub, #9a9aaf);
     text-align: center;
     /* 본문/본문 16 */
-    font-family: Pretendard;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
@@ -7004,9 +6831,9 @@ img {
   padding: 0;
 }
 .imine-rnd-intro ul li:nth-child(1) {
-  min-width: 640px;
-  width: 640px;
-  height: 640px;
+  min-width: 482px;
+  width: 482px;
+  height: 482px;
   background: url(../images/rnd/img01.png) no-repeat 50% 50%;
   background-size: cover;
 }
@@ -7021,7 +6848,6 @@ img {
   color: var(--White, #fff);
   text-align: center;
   /* 본문/세부타이틀 */
-  font-family: Pretendard;
   font-size: 28px;
   font-style: normal;
   font-weight: 700;
@@ -7048,7 +6874,6 @@ img {
   padding: 0;
   color: var(--Black, #000);
   /* 본문/중간타이틀 */
-  font-family: Pretendard;
   font-size: 36px;
   font-style: normal;
   font-weight: 600;
@@ -7059,7 +6884,6 @@ img {
   padding: 0;
   color: var(--Black, #000);
   /* 본문/본문 20 B */
-  font-family: Pretendard;
   font-size: 20px;
   font-style: normal;
   font-weight: 600;
@@ -7088,7 +6912,6 @@ img {
   color: var(--White, #fff);
   text-align: center;
   /* 본문/상세 타이틀 2 */
-  font-family: Pretendard;
   font-size: 20px;
   font-style: normal;
   font-weight: 600;
@@ -7118,7 +6941,7 @@ img {
   border: 1px solid var(--Line, #ebebeb);
   background: var(--White, #fff);
   box-shadow: 0 2px 16px 0 rgba(0, 0, 0, 0.04);
-  transition: all 0.4s ease;
+  transition: all 1s ease;
 }
 .imine-rnd-facility-item__title {
   position: relative;
@@ -7153,7 +6976,6 @@ img {
   background: var(--CI-Background, #fdf2f7);
   color: var(--CI, #d2015b);
   /* 본문/본문 16 B */
-  font-family: Pretendard;
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
@@ -7162,7 +6984,6 @@ img {
 .imine-rnd-facility-item__title strong {
   color: var(--Black, #000);
   /* 본문/세부타이틀 */
-  font-family: Pretendard;
   font-size: 28px;
   font-style: normal;
   font-weight: 700;
@@ -7208,7 +7029,6 @@ img {
 .imine-rnd-facility-item__contents dl dd ul li strong {
   color: var(--Black, #000);
   /* 본문/상세 타이틀 1-국문 */
-  font-family: Pretendard;
   font-size: 24px;
   font-style: normal;
   font-weight: 600;
@@ -7217,15 +7037,11 @@ img {
 .imine-rnd-facility-item__contents dl dd ul li p {
   margin: 16px 0 0 0;
   color: var(--gray, #8c8c8c);
-  font-family: Pretendard;
   font-size: 18px;
   font-style: normal;
   font-weight: 500;
   line-height: 120%; /* 21.6px */
   letter-spacing: -0.36px;
-}
-.imine-rnd-facility-item.active {
-  padding: 40px 40px;
 }
 .imine-rnd-facility-item.active .imine-rnd-facility-item__title::after {
   transform: rotate(0);
@@ -7265,7 +7081,6 @@ img {
 .imine-rnd-list-text dl dt strong {
   color: #533cff;
   /* 본문/description title */
-  font-family: Pretendard;
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
@@ -7275,7 +7090,6 @@ img {
   margin: 8px 0 0 0;
   color: var(--Black, #000);
   /* 본문/상세 타이틀 1-국문 */
-  font-family: Pretendard;
   font-size: 24px;
   font-style: normal;
   font-weight: 600;
@@ -7286,7 +7100,6 @@ img {
   padding: 0;
   color: var(--Black, #000);
   /* 본문/본문 16 */
-  font-family: Pretendard;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -7301,7 +7114,6 @@ img {
 .imine-rnd-list-info p {
   color: var(--gray, #8c8c8c);
   /* 본문/description */
-  font-family: Pretendard;
   font-size: 15px;
   font-style: normal;
   font-weight: 400;
@@ -7325,7 +7137,6 @@ img {
   background: none;
   color: var(--Black, #000);
   /* 본문/본문 16 B */
-  font-family: Pretendard;
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
@@ -7370,9 +7181,9 @@ img {
     padding: 0;
   }
   .imine-rnd-intro ul li:nth-child(1) {
-    min-width: 400px;
-    width: 400px;
-    height: 400px;
+    min-width: 280px;
+    width: 280px;
+    height: 280px;
     background: url(../images/rnd/img01.png) no-repeat 50% 50%;
     background-size: cover;
   }
@@ -7387,7 +7198,6 @@ img {
     color: var(--White, #fff);
     text-align: center;
     /* 본문/세부타이틀 */
-    font-family: Pretendard;
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
@@ -7414,7 +7224,6 @@ img {
     padding: 0;
     color: var(--Black, #000);
     /* 본문/중간타이틀 */
-    font-family: Pretendard;
     font-size: 28px;
     font-style: normal;
     font-weight: 600;
@@ -7425,7 +7234,6 @@ img {
     padding: 0;
     color: var(--Black, #000);
     /* 본문/본문 20 B */
-    font-family: Pretendard;
     font-size: 18px;
     font-style: normal;
     font-weight: 600;
@@ -7454,7 +7262,6 @@ img {
     color: var(--White, #fff);
     text-align: center;
     /* 본문/상세 타이틀 2 */
-    font-family: Pretendard;
     font-size: 18px;
     font-style: normal;
     font-weight: 600;
@@ -7519,7 +7326,6 @@ img {
     border-radius: 8px;
     background: var(--CI-Background, #fdf2f7);
     color: var(--CI, #d2015b);
-    font-family: Pretendard;
     font-size: 14px;
     font-style: normal;
     font-weight: 600;
@@ -7528,7 +7334,6 @@ img {
   .imine-rnd-facility-item__title strong {
     color: #000;
     /* 본문/세부타이틀 */
-    font-family: Pretendard;
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
@@ -7568,7 +7373,6 @@ img {
   .imine-rnd-facility-item__contents dl dd ul li strong {
     color: var(--Black, #000);
     /* 본문/상세 타이틀 1-국문 */
-    font-family: Pretendard;
     font-size: 20px;
     font-style: normal;
     font-weight: 600;
@@ -7577,7 +7381,6 @@ img {
   .imine-rnd-facility-item__contents dl dd ul li p {
     margin: 16px 0 0 0;
     color: var(--gray, #8c8c8c);
-    font-family: Pretendard;
     font-size: 18px;
     font-style: normal;
     font-weight: 500;
@@ -7628,7 +7431,6 @@ img {
   .imine-rnd-list-text dl dt strong {
     color: #533cff;
     /* 본문/description title */
-    font-family: Pretendard;
     font-size: 15px;
     font-style: normal;
     font-weight: 600;
@@ -7638,7 +7440,6 @@ img {
     margin: 8px 0 0 0;
     color: var(--Black, #000);
     /* 본문/상세 타이틀 1-국문 */
-    font-family: Pretendard;
     font-size: 20px;
     font-style: normal;
     font-weight: 600;
@@ -7649,7 +7450,6 @@ img {
     padding: 0;
     color: var(--Black, #000);
     /* 본문/본문 16 */
-    font-family: Pretendard;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
@@ -7664,7 +7464,6 @@ img {
   .imine-rnd-list-info p {
     color: var(--gray, #8c8c8c);
     /* 본문/description */
-    font-family: Pretendard;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
@@ -7688,7 +7487,6 @@ img {
     background: none;
     color: var(--Black, #000);
     /* 본문/본문 16 B */
-    font-family: Pretendard;
     font-size: 15px;
     font-style: normal;
     font-weight: 600;
@@ -7750,7 +7548,6 @@ img {
     color: var(--White, #fff);
     text-align: center;
     /* 본문/세부타이틀 */
-    font-family: Pretendard;
     font-size: 22px;
     font-style: normal;
     font-weight: 700;
@@ -7780,7 +7577,6 @@ img {
     padding: 0;
     color: var(--Black, #000);
     /* 본문/중간타이틀 */
-    font-family: Pretendard;
     font-size: 24px;
     font-style: normal;
     font-weight: 600;
@@ -7791,7 +7587,6 @@ img {
     padding: 0;
     color: var(--Black, #000);
     /* 본문/본문 20 B */
-    font-family: Pretendard;
     font-size: 16px;
     font-style: normal;
     font-weight: 600;
@@ -7820,7 +7615,6 @@ img {
     color: var(--White, #fff);
     text-align: center;
     /* 본문/상세 타이틀 2 */
-    font-family: Pretendard;
     font-size: 16px;
     font-style: normal;
     font-weight: 600;
@@ -7886,7 +7680,6 @@ img {
     border-radius: 4px;
     background: var(--CI-Background, #fdf2f7);
     color: var(--CI, #d2015b);
-    font-family: Pretendard;
     font-size: 14px;
     font-style: normal;
     font-weight: 600;
@@ -7895,7 +7688,6 @@ img {
   .imine-rnd-facility-item__title strong {
     color: #000;
     /* 본문/세부타이틀 */
-    font-family: Pretendard;
     font-size: 22px;
     font-style: normal;
     font-weight: 700;
@@ -7935,7 +7727,6 @@ img {
   .imine-rnd-facility-item__contents dl dd ul li strong {
     color: var(--Black, #000);
     /* 본문/상세 타이틀 1-국문 */
-    font-family: Pretendard;
     font-size: 18px;
     font-style: normal;
     font-weight: 600;
@@ -7944,7 +7735,6 @@ img {
   .imine-rnd-facility-item__contents dl dd ul li p {
     margin: 16px 0 0 0;
     color: var(--gray, #8c8c8c);
-    font-family: Pretendard;
     font-size: 18px;
     font-style: normal;
     font-weight: 500;
@@ -7995,7 +7785,6 @@ img {
   .imine-rnd-list-text dl dt strong {
     color: #533cff;
     /* 본문/description title */
-    font-family: Pretendard;
     font-size: 14px;
     font-style: normal;
     font-weight: 600;
@@ -8005,7 +7794,6 @@ img {
     margin: 8px 0 0 0;
     color: var(--Black, #000);
     /* 본문/상세 타이틀 1-국문 */
-    font-family: Pretendard;
     font-size: 18px;
     font-style: normal;
     font-weight: 600;
@@ -8016,7 +7804,6 @@ img {
     padding: 0;
     color: var(--Black, #000);
     /* 본문/본문 16 */
-    font-family: Pretendard;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
@@ -8032,7 +7819,6 @@ img {
   .imine-rnd-list-info p {
     color: var(--gray, #8c8c8c);
     /* 본문/description */
-    font-family: Pretendard;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -8056,7 +7842,6 @@ img {
     background: none;
     color: var(--Black, #000);
     /* 본문/본문 16 B */
-    font-family: Pretendard;
     font-size: 14px;
     font-style: normal;
     font-weight: 600;
@@ -8155,7 +7940,6 @@ img {
   margin: 16px 0 0 0;
   color: var(--White, #fff);
   /* 본문/본문 20 B */
-  font-family: Pretendard;
   font-size: 20px;
   font-style: normal;
   font-weight: 600;
@@ -8250,7 +8034,6 @@ img {
   padding: 0;
   color: #626262;
   /* 본문/본문 16 */
-  font-family: Pretendard;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -8306,7 +8089,6 @@ img {
   padding: 0;
   color: var(--Black, #000);
   /* 본문/중간타이틀 */
-  font-family: Pretendard;
   font-size: 36px;
   font-style: normal;
   font-weight: 600;
@@ -8322,7 +8104,6 @@ img {
 .imine-marketing-planning-item dl dd p {
   color: var(--gray, #8c8c8c);
   /* 본문/description */
-  font-family: Pretendard;
   font-size: 15px;
   font-style: normal;
   font-weight: 400;
@@ -8419,7 +8200,6 @@ img {
     margin: 16px 0 0 0;
     color: var(--White, #fff);
     /* 본문/본문 20 B */
-    font-family: Pretendard;
     font-size: 18px;
     font-style: normal;
     font-weight: 600;
@@ -8514,7 +8294,6 @@ img {
     padding: 0;
     color: #626262;
     /* 본문/본문 16 */
-    font-family: Pretendard;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
@@ -8570,7 +8349,6 @@ img {
     margin: 0 0 16px 0;
     color: var(--Black, #000);
     /* 본문/중간타이틀 */
-    font-family: Pretendard;
     font-size: 28px;
     font-style: normal;
     font-weight: 600;
@@ -8586,7 +8364,6 @@ img {
   .imine-marketing-planning-item dl dd p {
     color: var(--gray, #8c8c8c);
     /* 본문/description */
-    font-family: Pretendard;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
@@ -8684,7 +8461,6 @@ img {
     margin: 8px 0 0 0;
     color: var(--White, #fff);
     /* 본문/본문 20 B */
-    font-family: Pretendard;
     font-size: 16px;
     font-style: normal;
     font-weight: 600;
@@ -8781,7 +8557,6 @@ img {
     padding: 0;
     color: #626262;
     /* 본문/본문 16 */
-    font-family: Pretendard;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
@@ -8838,7 +8613,6 @@ img {
     margin: 0 0 8px 0;
     color: var(--Black, #000);
     /* 본문/중간타이틀 */
-    font-family: Pretendard;
     font-size: 24px;
     font-style: normal;
     font-weight: 600;
@@ -8855,7 +8629,6 @@ img {
   .imine-marketing-planning-item dl dd p {
     color: var(--gray, #8c8c8c);
     /* 본문/description */
-    font-family: Pretendard;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -8906,7 +8679,6 @@ img {
   color: var(--gray, #8c8c8c);
   text-align: center;
   /* 본문/중간타이틀 */
-  font-family: Pretendard;
   font-size: 36px;
   font-style: normal;
   font-weight: 600;
@@ -8921,7 +8693,6 @@ img {
   color: var(--Black, #000);
   text-align: center;
   /* 메인/Banner Title */
-  font-family: Pretendard;
   font-size: 32px;
   font-style: normal;
   font-weight: 600;
@@ -8932,7 +8703,6 @@ img {
   color: var(--Black, #000);
   text-align: center;
   /* 본문/본문 */
-  font-family: Pretendard;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -8953,7 +8723,6 @@ img {
     color: var(--gray, #8c8c8c);
     text-align: center;
     /* 본문/중간타이틀 */
-    font-family: Pretendard;
     font-size: 28px;
     font-style: normal;
     font-weight: 600;
@@ -8968,7 +8737,6 @@ img {
     color: var(--Black, #000);
     text-align: center;
     /* 메인/Banner Title */
-    font-family: Pretendard;
     font-size: 24px;
     font-style: normal;
     font-weight: 600;
@@ -8979,7 +8747,6 @@ img {
     color: var(--Black, #000);
     text-align: center;
     /* 본문/본문 */
-    font-family: Pretendard;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
@@ -9001,7 +8768,6 @@ img {
     color: var(--gray, #8c8c8c);
     text-align: center;
     /* 본문/중간타이틀 */
-    font-family: Pretendard;
     font-size: 24px;
     font-style: normal;
     font-weight: 600;
@@ -9016,7 +8782,6 @@ img {
     color: var(--Black, #000);
     text-align: center;
     /* 메인/Banner Title */
-    font-family: Pretendard;
     font-size: 16px;
     font-style: normal;
     font-weight: 600;
@@ -9027,7 +8792,6 @@ img {
     color: var(--Black, #000);
     text-align: center;
     /* 본문/본문 */
-    font-family: Pretendard;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -9072,7 +8836,6 @@ img {
   color: var(--000000, #000);
   text-align: center;
   /* 본문/description title */
-  font-family: Pretendard;
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
@@ -9082,7 +8845,6 @@ img {
   color: var(--9A9AAF, #9a9aaf);
   text-align: center;
   /* 본문/description */
-  font-family: Pretendard;
   font-size: 15px;
   font-style: normal;
   font-weight: 400;
@@ -9120,7 +8882,6 @@ img {
     color: var(--000000, #000);
     text-align: center;
     /* 본문/description title */
-    font-family: Pretendard;
     font-size: 15px;
     font-style: normal;
     font-weight: 600;
@@ -9130,7 +8891,6 @@ img {
     color: var(--9A9AAF, #9a9aaf);
     text-align: center;
     /* 본문/description */
-    font-family: Pretendard;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -9175,7 +8935,6 @@ img {
     color: var(--000000, #000);
     text-align: center;
     /* 본문/description title */
-    font-family: Pretendard;
     font-size: 14px;
     font-style: normal;
     font-weight: 600;
@@ -9185,7 +8944,6 @@ img {
     color: var(--9A9AAF, #9a9aaf);
     text-align: center;
     /* 본문/description */
-    font-family: Pretendard;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -9221,7 +8979,6 @@ img {
   color: var(--White, #fff);
   text-align: center;
   /* 본문/상세 타이틀 2 */
-  font-family: Pretendard;
   font-size: 20px;
   font-style: normal;
   font-weight: 600;
@@ -9240,7 +8997,6 @@ img {
   margin-bottom: 16px;
   color: var(--MainText, #5d013b);
   /* 본문/상세 타이틀 2 */
-  font-family: Pretendard;
   font-size: 20px;
   font-style: normal;
   font-weight: 600;
@@ -9272,7 +9028,6 @@ img {
   min-width: 88px;
   color: var(--cool-gray, #646f7c);
   /* 본문/description title */
-  font-family: Pretendard;
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
@@ -9282,7 +9037,6 @@ img {
   margin: 0;
   color: var(--cool-gray, #646f7c);
   /* 본문/description */
-  font-family: Pretendard;
   font-size: 15px;
   font-style: normal;
   font-weight: 400;
@@ -9309,7 +9063,6 @@ img {
     margin-top: 6px;
     text-align: center;
     /* 본문/상세 타이틀 2 */
-    font-family: Pretendard;
     font-size: 18px;
     font-style: normal;
     font-weight: 600;
@@ -9330,7 +9083,6 @@ img {
     margin-bottom: 16px;
     color: var(--MainText, #5d013b);
     /* 본문/description title */
-    font-family: Pretendard;
     font-size: 18px;
     font-style: normal;
     font-weight: 600;
@@ -9362,7 +9114,6 @@ img {
     min-width: 88px;
     color: var(--cool-gray, #646f7c);
     /* 본문/description title */
-    font-family: Pretendard;
     font-size: 15px;
     font-style: normal;
     font-weight: 600;
@@ -9372,7 +9123,6 @@ img {
     margin: 0;
     color: var(--cool-gray, #646f7c);
     /* 본문/description */
-    font-family: Pretendard;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
@@ -9412,7 +9162,6 @@ img {
     margin-bottom: 16px;
     color: var(--MainText, #5d013b);
     /* 본문/description title */
-    font-family: Pretendard;
     font-size: 16px;
     font-style: normal;
     font-weight: 600;
@@ -9444,7 +9193,6 @@ img {
     min-width: 80px;
     color: var(--cool-gray, #646f7c);
     /* 본문/description title */
-    font-family: Pretendard;
     font-size: 14px;
     font-style: normal;
     font-weight: 600;
@@ -9479,7 +9227,6 @@ img {
   margin-bottom: 16px;
   color: var(--MainText, #5d013b);
   /* 본문/상세 타이틀 2 */
-  font-family: Pretendard;
   font-size: 20px;
   font-style: normal;
   font-weight: 600;
@@ -9509,7 +9256,6 @@ img {
   padding: 0;
   color: var(--cool-gray, #646f7c);
   /* 본문/description */
-  font-family: Pretendard;
   font-size: 15px;
   font-style: normal;
   font-weight: 400;
@@ -9545,7 +9291,6 @@ img {
     margin-bottom: 16px;
     color: var(--MainText, #5d013b);
     /* 본문/상세 타이틀 2 */
-    font-family: Pretendard;
     font-size: 18px;
     font-style: normal;
     font-weight: 600;
@@ -9575,7 +9320,6 @@ img {
     padding: 0;
     color: var(--cool-gray, #646f7c);
     /* 본문/description */
-    font-family: Pretendard;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
@@ -9612,7 +9356,6 @@ img {
     margin-bottom: 16px;
     color: var(--MainText, #5d013b);
     /* 본문/상세 타이틀 2 */
-    font-family: Pretendard;
     font-size: 16px;
     font-style: normal;
     font-weight: 600;
@@ -9643,7 +9386,6 @@ img {
     color: var(--cool-gray, #646f7c);
     color: var(--cool-gray, #646f7c);
     /* 본문/description */
-    font-family: Pretendard;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -9670,7 +9412,6 @@ img {
   color: var(--White, #fff);
   text-align: center;
   /* 본문/세부타이틀 */
-  font-family: Pretendard;
   font-size: 28px;
   font-style: normal;
   font-weight: 700;
@@ -9681,7 +9422,6 @@ img {
   color: var(--White, #fff);
   text-align: center;
   /* 본문/본문 20 B */
-  font-family: Pretendard;
   font-size: 20px;
   font-style: normal;
   font-weight: 600;
@@ -9729,7 +9469,6 @@ img {
 .imine-certification-list-item-type01 dl dd strong {
   color: var(--White, #fff);
   /* 본문/상세 타이틀 1-국문 */
-  font-family: Pretendard;
   font-size: 24px;
   font-style: normal;
   font-weight: 600;
@@ -9740,7 +9479,6 @@ img {
   padding: 0;
   color: var(--White, #fff);
   /* 본문/본문 20 B */
-  font-family: Pretendard;
   font-size: 20px;
   font-style: normal;
   font-weight: 600;
@@ -9774,7 +9512,6 @@ img {
   margin-bottom: 16px;
   color: var(--MainText, #5d013b);
   /* 본문/상세 타이틀 1-국문 */
-  font-family: Pretendard;
   font-size: 24px;
   font-style: normal;
   font-weight: 600;
@@ -9791,7 +9528,6 @@ img {
   padding: 0;
   color: var(--Black, #000);
   /* 본문/본문 20 B */
-  font-family: Pretendard;
   font-size: 20px;
   font-style: normal;
   font-weight: 600;
@@ -9806,7 +9542,6 @@ img {
   margin: 0;
   color: var(--Black, #000);
   /* 본문/본문 20 B */
-  font-family: Pretendard;
   font-size: 20px;
   font-style: normal;
   font-weight: 600;
@@ -9827,7 +9562,6 @@ img {
   padding: 9px 0 0 0;
   color: var(--Black, #000);
   /* 본문/상세 타이틀 1-국문 */
-  font-family: Pretendard;
   font-size: 24px;
   font-style: normal;
   font-weight: 600;
@@ -9838,7 +9572,6 @@ img {
   padding: 0 0 10px 0;
   color: var(--Sub, #9a9aaf);
   /* 본문/본문 20 B */
-  font-family: Pretendard;
   font-size: 20px;
   font-style: normal;
   font-weight: 600;
@@ -9865,7 +9598,6 @@ img {
   padding: 0;
   color: var(--gray, #8c8c8c);
   /* 본문/본문 16 */
-  font-family: Pretendard;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -9891,7 +9623,6 @@ img {
     color: var(--White, #fff);
     text-align: center;
     /* 본문/세부타이틀 */
-    font-family: Pretendard;
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
@@ -9901,7 +9632,6 @@ img {
     color: var(--White, #fff);
     text-align: center;
     /* 본문/본문 20 B */
-    font-family: Pretendard;
     font-size: 18px;
     font-style: normal;
     font-weight: 600;
@@ -9952,7 +9682,6 @@ img {
   .imine-certification-list-item-type01 dl dd strong {
     color: var(--White, #fff);
     /* 본문/상세 타이틀 1-국문 */
-    font-family: Pretendard;
     font-size: 20px;
     font-style: normal;
     font-weight: 600;
@@ -9963,7 +9692,6 @@ img {
     padding: 0;
     color: var(--White, #fff);
     /* 본문/본문 20 B */
-    font-family: Pretendard;
     font-size: 18px;
     font-style: normal;
     font-weight: 600;
@@ -10000,7 +9728,6 @@ img {
     margin-bottom: 16px;
     color: var(--MainText, #5d013b);
     /* 본문/상세 타이틀 1-국문 */
-    font-family: Pretendard;
     font-size: 20px;
     font-style: normal;
     font-weight: 600;
@@ -10015,7 +9742,6 @@ img {
     gap: 5px;
     color: var(--Black, #000);
     /* 본문/본문 20 B */
-    font-family: Pretendard;
     font-size: 18px;
     font-style: normal;
     font-weight: 600;
@@ -10030,7 +9756,6 @@ img {
     margin: 0;
     color: var(--Black, #000);
     /* 본문/본문 20 B */
-    font-family: Pretendard;
     font-size: 18px;
     font-style: normal;
     font-weight: 600;
@@ -10055,7 +9780,6 @@ img {
     padding: 0;
     color: var(--Black, #000);
     /* 본문/상세 타이틀 1-국문 */
-    font-family: Pretendard;
     font-size: 20px;
     font-style: normal;
     font-weight: 600;
@@ -10066,7 +9790,6 @@ img {
     padding: 0 0 0 0;
     color: var(--Sub, #9a9aaf);
     /* 본문/본문 20 B */
-    font-family: Pretendard;
     font-size: 18px;
     font-style: normal;
     font-weight: 600;
@@ -10093,7 +9816,6 @@ img {
     padding: 0;
     color: var(--gray, #8c8c8c);
     /* 본문/본문 16 */
-    font-family: Pretendard;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
@@ -10121,7 +9843,6 @@ img {
     color: var(--White, #fff);
     text-align: center;
     /* 본문/세부타이틀 */
-    font-family: Pretendard;
     font-size: 22px;
     font-style: normal;
     font-weight: 700;
@@ -10131,7 +9852,6 @@ img {
     color: var(--White, #fff);
     text-align: center;
     /* 본문/본문 20 B */
-    font-family: Pretendard;
     font-size: 16px;
     font-style: normal;
     font-weight: 600;
@@ -10184,7 +9904,6 @@ img {
   .imine-certification-list-item-type01 dl dd strong {
     color: var(--White, #fff);
     /* 본문/상세 타이틀 1-국문 */
-    font-family: Pretendard;
     font-size: 18px;
     font-style: normal;
     font-weight: 600;
@@ -10195,7 +9914,6 @@ img {
     padding: 0;
     color: var(--White, #fff);
     /* 본문/본문 20 B */
-    font-family: Pretendard;
     font-size: 16px;
     font-style: normal;
     font-weight: 600;
@@ -10232,7 +9950,6 @@ img {
     margin-bottom: 8px;
     color: var(--MainText, #5d013b);
     /* 본문/상세 타이틀 1-국문 */
-    font-family: Pretendard;
     font-size: 18px;
     font-style: normal;
     font-weight: 600;
@@ -10247,7 +9964,6 @@ img {
     gap: 5px;
     color: var(--Black, #000);
     /* 본문/본문 20 B */
-    font-family: Pretendard;
     font-size: 16px;
     font-style: normal;
     font-weight: 600;
@@ -10262,7 +9978,6 @@ img {
     margin: 0;
     color: var(--Black, #000);
     /* 본문/본문 20 B */
-    font-family: Pretendard;
     font-size: 16px;
     font-style: normal;
     font-weight: 600;
@@ -10288,7 +10003,6 @@ img {
     padding: 0;
     color: var(--Black, #000);
     /* 본문/상세 타이틀 1-국문 */
-    font-family: Pretendard;
     font-size: 18px;
     font-style: normal;
     font-weight: 600;
@@ -10297,7 +10011,6 @@ img {
   .imine-certification-list-item-type03 dl dd {
     color: var(--Sub, #9a9aaf);
     /* 본문/본문 20 B */
-    font-family: Pretendard;
     font-size: 16px;
     font-style: normal;
     font-weight: 600;
@@ -10324,7 +10037,6 @@ img {
     padding: 0;
     color: var(--gray, #8c8c8c);
     /* 본문/본문 16 */
-    font-family: Pretendard;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
@@ -10361,7 +10073,6 @@ img {
   color: var(--gray, #8c8c8c);
   text-align: center;
   /* 본문/Count */
-  font-family: Pretendard;
   font-size: 28px;
   font-style: normal;
   font-weight: 600;
@@ -10403,7 +10114,6 @@ img {
   color: var(--White, #fff);
   text-align: center;
   /* 본문/본문 20 B */
-  font-family: Pretendard;
   font-size: 20px;
   font-style: normal;
   font-weight: 600;
@@ -10430,7 +10140,6 @@ img {
   color: var(--Black, #000);
   text-align: center;
   /* 본문/중간타이틀 */
-  font-family: Pretendard;
   font-size: 36px;
   font-style: normal;
   font-weight: 600;
@@ -10442,7 +10151,6 @@ img {
   color: var(--Black, #000);
   text-align: center;
   /* 본문/본문 20 */
-  font-family: Pretendard;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -10483,7 +10191,6 @@ img {
   color: var(--Black, #000);
   text-align: center;
   /* 본문/description title */
-  font-family: Pretendard;
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
@@ -10538,7 +10245,6 @@ img {
     color: var(--gray, #8c8c8c);
     text-align: center;
     /* 본문/Count */
-    font-family: Pretendard;
     font-size: 24px;
     font-style: normal;
     font-weight: 600;
@@ -10578,7 +10284,6 @@ img {
     text-align: center;
     transform: translateX(100%);
     /* 본문/본문 20 B */
-    font-family: Pretendard;
     font-size: 18px;
     font-style: normal;
     font-weight: 600;
@@ -10605,7 +10310,6 @@ img {
     color: var(--Black, #000);
     text-align: center;
     /* 본문/중간타이틀 */
-    font-family: Pretendard;
     font-size: 28px;
     font-style: normal;
     font-weight: 600;
@@ -10615,7 +10319,6 @@ img {
     color: var(--Black, #000);
     text-align: center;
     /* 본문/본문 20 */
-    font-family: Pretendard;
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
@@ -10656,7 +10359,6 @@ img {
     color: var(--Black, #000);
     text-align: center;
     /* 본문/description title */
-    font-family: Pretendard;
     font-size: 15px;
     font-style: normal;
     font-weight: 600;
@@ -10702,7 +10404,6 @@ img {
     color: var(--gray, #8c8c8c);
     text-align: center;
     /* 본문/Count */
-    font-family: Pretendard;
     font-size: 20px;
     font-style: normal;
     font-weight: 600;
@@ -10748,7 +10449,6 @@ img {
     color: var(--White, #fff);
     text-align: center;
     /* 본문/본문 20 B */
-    font-family: Pretendard;
     font-size: 16px;
     font-style: normal;
     font-weight: 600;
@@ -10769,7 +10469,6 @@ img {
     color: var(--Black, #000);
     text-align: center;
     /* 본문/중간타이틀 */
-    font-family: Pretendard;
     font-size: 24px;
     font-style: normal;
     font-weight: 600;
@@ -10780,7 +10479,6 @@ img {
     color: var(--Black, #000);
     text-align: center;
     /* 본문/본문 20 */
-    font-family: Pretendard;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -10821,7 +10519,6 @@ img {
     color: var(--Black, #000);
     text-align: center;
     /* 본문/description title */
-    font-family: Pretendard;
     font-size: 14px;
     font-style: normal;
     font-weight: 600;
@@ -10847,7 +10544,6 @@ img {
 .imine-qna-head h5 {
   color: var(--Black, #000);
   /* 본문/상세 타이틀 1-국문 */
-  font-family: Pretendard;
   font-size: 24px;
   font-style: normal;
   font-weight: 600;
@@ -10856,7 +10552,6 @@ img {
 .imine-qna-head p {
   color: var(--Sub, #9a9aaf);
   /* 본문/description */
-  font-family: Pretendard;
   font-size: 15px;
   font-style: normal;
   font-weight: 400;
@@ -10874,7 +10569,6 @@ img {
   margin: 0 0 16px 0;
   color: var(--Black, #000);
   /* 본문/상세 타이틀 1-국문 */
-  font-family: Pretendard;
   font-size: 24px;
   font-style: normal;
   font-weight: 600;
@@ -10892,7 +10586,6 @@ img {
   padding: 3px 0;
   color: var(--gray, #8c8c8c);
   /* 본문/본문 16 */
-  font-family: Pretendard;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -10925,7 +10618,6 @@ img {
   .imine-qna-head h5 {
     color: var(--Black, #000);
     /* 본문/상세 타이틀 1-국문 */
-    font-family: Pretendard;
     font-size: 20px;
     font-style: normal;
     font-weight: 600;
@@ -10934,7 +10626,6 @@ img {
   .imine-qna-head p {
     color: var(--Sub, #9a9aaf);
     /* 본문/description */
-    font-family: Pretendard;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
@@ -10949,7 +10640,6 @@ img {
     margin: 0 0 16px 0;
     color: var(--Black, #000);
     /* 본문/상세 타이틀 1-국문 */
-    font-family: Pretendard;
     font-size: 20px;
     font-style: normal;
     font-weight: 600;
@@ -10967,7 +10657,6 @@ img {
     padding: 3px 0;
     color: var(--gray, #8c8c8c);
     /* 본문/본문 16 */
-    font-family: Pretendard;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -11001,7 +10690,6 @@ img {
   .imine-qna-head h5 {
     color: var(--Black, #000);
     /* 본문/상세 타이틀 1-국문 */
-    font-family: Pretendard;
     font-size: 18px;
     font-style: normal;
     font-weight: 600;
@@ -11010,7 +10698,6 @@ img {
   .imine-qna-head p {
     color: var(--Sub, #9a9aaf);
     /* 본문/description */
-    font-family: Pretendard;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -11025,7 +10712,6 @@ img {
     margin: 0 0 16px 0;
     color: var(--Black, #000);
     /* 본문/상세 타이틀 1-국문 */
-    font-family: Pretendard;
     font-size: 18px;
     font-style: normal;
     font-weight: 600;
@@ -11043,7 +10729,6 @@ img {
     padding: 3px 0;
     color: var(--gray, #8c8c8c);
     /* 본문/본문 16 */
-    font-family: Pretendard;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
@@ -11084,7 +10769,6 @@ img {
   padding: 0;
   color: var(--Black, #000);
   /* 본문/상세 타이틀 2 */
-  font-family: Pretendard;
   font-size: 20px;
   font-style: normal;
   font-weight: 600;
@@ -11095,7 +10779,6 @@ img {
   padding: 0;
   color: var(--Black, #000);
   /* 본문/본문 16 */
-  font-family: Pretendard;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -11105,7 +10788,6 @@ img {
   margin: 16px 0 0 0;
   color: var(--Sub, #9a9aaf);
   /* 본문/본문 16 */
-  font-family: Pretendard;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -11131,7 +10813,6 @@ img {
     margin: 0 0 4px 0;
     color: var(--Black, #000);
     /* 본문/상세 타이틀 2 */
-    font-family: Pretendard;
     font-size: 18px;
     font-style: normal;
     font-weight: 600;
@@ -11140,7 +10821,6 @@ img {
   .imine-faq-info dl dd {
     color: var(--Black, #000);
     /* 본문/본문 16 */
-    font-family: Pretendard;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
@@ -11150,7 +10830,6 @@ img {
     margin: 16px 0 0 0;
     color: var(--Sub, #9a9aaf);
     /* 본문/본문 16 */
-    font-family: Pretendard;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
@@ -11173,7 +10852,6 @@ img {
     margin: 0 0 4px 0;
     color: var(--Black, #000);
     /* 본문/상세 타이틀 2 */
-    font-family: Pretendard;
     font-size: 16px;
     font-style: normal;
     font-weight: 600;
@@ -11182,7 +10860,6 @@ img {
   .imine-faq-info dl dd {
     color: var(--Black, #000);
     /* 본문/본문 16 */
-    font-family: Pretendard;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
@@ -11192,7 +10869,6 @@ img {
     margin: 16px 0 0 0;
     color: var(--Sub, #9a9aaf);
     /* 본문/본문 16 */
-    font-family: Pretendard;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
@@ -11221,7 +10897,6 @@ img {
 .imine-newsletter-head__text strong {
   color: var(--White, #fff);
   /* 본문/중간타이틀 */
-  font-family: Pretendard;
   font-size: 36px;
   font-style: normal;
   font-weight: 600;
@@ -11231,7 +10906,6 @@ img {
   margin-top: 12px;
   color: var(--White, #fff);
   /* 본문/본문 16 */
-  font-family: Pretendard;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -11280,7 +10954,6 @@ img {
   .imine-newsletter-head__text strong {
     color: var(--White, #fff);
     /* 본문/중간타이틀 */
-    font-family: Pretendard;
     font-size: 28px;
     font-style: normal;
     font-weight: 600;
@@ -11290,7 +10963,6 @@ img {
     margin-top: 4px;
     color: var(--White, #fff);
     /* 본문/본문 16 */
-    font-family: Pretendard;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
@@ -11334,7 +11006,6 @@ img {
     color: var(--White, #fff);
     text-align: center;
     /* 본문/중간타이틀 */
-    font-family: Pretendard;
     font-size: 24px;
     font-style: normal;
     font-weight: 600;
@@ -11346,7 +11017,6 @@ img {
     color: var(--White, #fff);
     text-align: center;
     /* 본문/본문 16 */
-    font-family: Pretendard;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
@@ -11438,7 +11108,6 @@ img {
   padding: 0;
   color: var(--CI, #cf035b);
   /* 본문/Count */
-  font-family: Pretendard;
   font-size: 28px;
   font-style: normal;
   font-weight: 600;
@@ -11454,7 +11123,6 @@ img {
 .imine-achievements-list dl dd p {
   color: var(--Black, #000);
   /* 본문/description */
-  font-family: Pretendard;
   font-size: 15px;
   font-style: normal;
   font-weight: 400;
@@ -11481,7 +11149,6 @@ img {
     margin: 0 0 8px 0;
     color: var(--CI, #cf035b);
     /* 본문/Count */
-    font-family: Pretendard;
     font-size: 24px;
     font-style: normal;
     font-weight: 600;
@@ -11497,7 +11164,6 @@ img {
   .imine-achievements-list dl dd p {
     color: var(--Black, #000);
     /* 본문/description */
-    font-family: Pretendard;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
@@ -11525,7 +11191,6 @@ img {
     margin: 0 0 8px 0;
     color: var(--CI, #cf035b);
     /* 본문/Count */
-    font-family: Pretendard;
     font-size: 20px;
     font-style: normal;
     font-weight: 600;
@@ -11541,7 +11206,6 @@ img {
   .imine-achievements-list dl dd p {
     color: var(--Black, #000);
     /* 본문/description */
-    font-family: Pretendard;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -11573,7 +11237,6 @@ img {
 }
 .imine-logosystem > p {
   color: var(--Black, #000);
-  font-family: Pretendard;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -11609,7 +11272,6 @@ img {
   }
   .imine-logosystem > p {
     color: var(--Black, #000);
-    font-family: Pretendard;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
@@ -11646,7 +11308,6 @@ img {
   }
   .imine-logosystem > p {
     color: var(--Black, #000);
-    font-family: Pretendard;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -11685,7 +11346,6 @@ img {
 }
 .imine-colorsystem > p {
   color: var(--Black, #000);
-  font-family: Pretendard;
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -11723,7 +11383,6 @@ img {
   padding: 0;
   color: var(--White, #fff);
   /* 본문/description */
-  font-family: Pretendard;
   font-size: 15px;
   font-style: normal;
   font-weight: 400;
@@ -11734,7 +11393,6 @@ img {
   padding: 0;
   color: var(--White, #fff);
   /* 메인/Banner description */
-  font-family: Pretendard;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -11745,7 +11403,6 @@ img {
   margin-bottom: 8px;
   color: var(--White, #fff);
   /* 본문/세부타이틀 */
-  font-family: Pretendard;
   font-size: 28px;
   font-style: normal;
   font-weight: 700;
@@ -11761,7 +11418,6 @@ img {
   padding: 0;
   color: var(--White, #fff);
   /* 본문/description title */
-  font-family: Pretendard;
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
@@ -11807,7 +11463,6 @@ img {
   }
   .imine-colorsystem > p {
     color: var(--Black, #000);
-    font-family: Pretendard;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
@@ -11844,7 +11499,6 @@ img {
     margin: 0 0 24px 0;
     color: var(--White, #fff);
     /* 본문/description */
-    font-family: Pretendard;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
@@ -11855,7 +11509,6 @@ img {
     padding: 0;
     color: var(--White, #fff);
     /* 메인/Banner description */
-    font-family: Pretendard;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -11866,7 +11519,6 @@ img {
     margin-bottom: 8px;
     color: var(--White, #fff);
     /* 본문/세부타이틀 */
-    font-family: Pretendard;
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
@@ -11881,7 +11533,6 @@ img {
     padding: 0;
     color: var(--White, #fff);
     /* 본문/description title */
-    font-family: Pretendard;
     font-size: 15px;
     font-style: normal;
     font-weight: 600;
@@ -11897,7 +11548,6 @@ img {
   }
   .imine-colorsystem > p {
     color: var(--Black, #000);
-    font-family: Pretendard;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
@@ -11934,7 +11584,6 @@ img {
   .imine-colorsystem-item dt {
     margin: 0 0 16px 0;
     color: var(--White, #fff);
-    font-family: Pretendard;
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
@@ -11945,7 +11594,6 @@ img {
     padding: 0;
     color: var(--White, #fff);
     /* 메인/Banner description */
-    font-family: Pretendard;
     font-size: 13px;
     font-style: normal;
     font-weight: 400;
@@ -11955,7 +11603,6 @@ img {
     display: block;
     margin-bottom: 0;
     color: var(--White, #fff);
-    font-family: Pretendard;
     font-size: 18px;
     font-style: normal;
     font-weight: 700;
@@ -11969,7 +11616,6 @@ img {
     margin: 0 0 16px 0;
     color: var(--White, #fff);
     /* 본문/description title */
-    font-family: Pretendard;
     font-size: 14px;
     font-style: normal;
     font-weight: 600;
@@ -11987,7 +11633,6 @@ img {
 .imine-ceo__text {
   color: var(--Black, #000);
   /* 본문/본문 20 B */
-  font-family: Pretendard;
   font-size: 20px;
   font-style: normal;
   font-weight: 600;
@@ -12005,7 +11650,6 @@ img {
 .imine-ceo__sign p {
   color: var(--Black, #000);
   text-align: right;
-  font-family: Pretendard;
   font-size: 20px;
   font-style: normal;
   font-weight: 600;
@@ -12029,7 +11673,6 @@ img {
   .imine-ceo__text {
     color: var(--Black, #000);
     /* 본문/본문 20 B */
-    font-family: Pretendard;
     font-size: 18px;
     font-style: normal;
     font-weight: 600;
@@ -12046,7 +11689,6 @@ img {
   .imine-ceo__sign p {
     color: var(--Black, #000);
     text-align: right;
-    font-family: Pretendard;
     font-size: 20px;
     font-style: normal;
     font-weight: 600;
@@ -12075,7 +11717,6 @@ img {
   .imine-ceo__text {
     color: var(--Black, #000);
     /* 본문/본문 20 B */
-    font-family: Pretendard;
     font-size: 16px;
     font-style: normal;
     font-weight: 600;
@@ -12092,7 +11733,6 @@ img {
   .imine-ceo__sign p {
     color: var(--Black, #000);
     text-align: right;
-    font-family: Pretendard;
     font-size: 18px;
     font-style: normal;
     font-weight: 600;
@@ -12127,7 +11767,6 @@ img {
 .imine-vision-item__text {
   color: var(--Sub, #9a9aaf);
   /* 본문/description */
-  font-family: Pretendard;
   font-size: 15px;
   font-style: normal;
   font-weight: 400;
@@ -12165,7 +11804,6 @@ img {
   .imine-vision-item__text {
     color: var(--gray, #8c8c8c);
     /* 본문/description */
-    font-family: Pretendard;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
@@ -12206,7 +11844,6 @@ img {
     color: var(--gray, #8c8c8c);
     text-align: center;
     /* 본문/description */
-    font-family: Pretendard;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -12227,7 +11864,7 @@ img {
 }
 .imine-history-tab {
   display: inline-flex;
-  margin-bottom: 80px;
+  margin-bottom: 64px;
   padding: 8px;
   border-radius: 100px;
   border: 1px solid var(--Line, #ebebeb);
@@ -12244,7 +11881,6 @@ img {
   color: var(--Black, #000);
   text-align: center;
   /* 본문/description */
-  font-family: Pretendard;
   font-size: 15px;
   font-style: normal;
   font-weight: 400;
@@ -12263,7 +11899,7 @@ img {
   margin-top: 0;
 }
 .imine-history-section {
-  margin-top: 240px;
+  margin-top: 160px;
 }
 .imine-history-section-head {
   display: flex;
@@ -12311,8 +11947,7 @@ img {
 .imine-history-section__title h5 {
   color: var(--Sub, #9a9aaf);
   /* 본문/상세 타이틀 1-국문 */
-  font-family: Pretendard;
-  font-size: 24px;
+  font-size: 28px;
   font-style: normal;
   font-weight: 600;
   line-height: 120%; /* 28.8px */
@@ -12331,7 +11966,6 @@ img {
   color: var(--Sub, #9a9aaf);
   text-align: center;
   /* 본문/description */
-  font-family: Pretendard;
   font-size: 15px;
   font-style: normal;
   font-weight: 400;
@@ -12364,7 +11998,6 @@ img {
   padding: 0;
   color: var(--Black, #000);
   /* 본문/본문 타이틀 */
-  font-family: Pretendard;
   font-size: 48px;
   font-style: normal;
   font-weight: 600;
@@ -12400,7 +12033,6 @@ img {
   padding: 0 0 0 24px;
   color: var(--Black, #000);
   /* 본문/본문 16 */
-  font-family: Pretendard;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -12447,7 +12079,6 @@ img {
     color: var(--Black, #000);
     text-align: center;
     /* 본문/description */
-    font-family: Pretendard;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
@@ -12466,7 +12097,7 @@ img {
     margin-top: 0;
   }
   .imine-history-section {
-    margin-top: 160px;
+    margin-top: 120px;
   }
   .imine-history-section-head {
     display: flex;
@@ -12489,7 +12120,6 @@ img {
   .imine-history-section__title h5 {
     color: var(--Sub, #9a9aaf);
     /* 본문/상세 타이틀 1-국문 */
-    font-family: Pretendard;
     font-size: 20px;
     font-style: normal;
     font-weight: 600;
@@ -12509,7 +12139,6 @@ img {
     color: var(--Sub, #9a9aaf);
     text-align: center;
     /* 본문/description */
-    font-family: Pretendard;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
@@ -12543,7 +12172,6 @@ img {
     padding: 0;
     color: var(--Black, #000);
     /* 본문/본문 타이틀 */
-    font-family: Pretendard;
     font-size: 40px;
     font-style: normal;
     font-weight: 600;
@@ -12580,7 +12208,6 @@ img {
     padding: 0 0 0 24px;
     color: var(--Black, #000);
     /* 본문/본문 16 */
-    font-family: Pretendard;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
@@ -12635,7 +12262,6 @@ img {
     color: var(--Black, #000);
     text-align: center;
     /* 본문/description */
-    font-family: Pretendard;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -12656,7 +12282,7 @@ img {
     margin-top: 0;
   }
   .imine-history-section {
-    margin-top: 120px;
+    margin-top: 80px;
   }
   .imine-history-section-head {
     display: flex;
@@ -12680,7 +12306,6 @@ img {
   .imine-history-section__title h5 {
     color: var(--Sub, #9a9aaf);
     /* 본문/상세 타이틀 1-국문 */
-    font-family: Pretendard;
     font-size: 18px;
     font-style: normal;
     font-weight: 600;
@@ -12699,7 +12324,6 @@ img {
     color: var(--Sub, #9a9aaf);
     text-align: center;
     /* 본문/description */
-    font-family: Pretendard;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -12734,7 +12358,6 @@ img {
     padding: 0;
     color: var(--Black, #000);
     /* 본문/본문 타이틀 */
-    font-family: Pretendard;
     font-size: 32px;
     font-style: normal;
     font-weight: 600;
@@ -12771,7 +12394,6 @@ img {
     padding: 0 0 0 24px;
     color: var(--Black, #000);
     /* 본문/본문 16 */
-    font-family: Pretendard;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
@@ -12815,7 +12437,6 @@ img {
   margin-top: 8px;
   color: var(--cool-gray, #646f7c);
   /* 본문/본문 16 */
-  font-family: Pretendard;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -12840,7 +12461,6 @@ img {
   min-width: 88px;
   color: var(--Black, #000);
   /* 본문/상세 타이틀 2 */
-  font-family: Pretendard;
   font-size: 20px;
   font-style: normal;
   font-weight: 600;
@@ -12850,7 +12470,6 @@ img {
   margin: 0;
   color: var(--Black, #000);
   /* 본문/본문 20 B */
-  font-family: Pretendard;
   font-size: 20px;
   font-style: normal;
   font-weight: 600;
@@ -12879,7 +12498,6 @@ img {
     margin-top: 8px;
     color: var(--cool-gray, #646f7c);
     /* 본문/본문 16 */
-    font-family: Pretendard;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
@@ -12903,7 +12521,6 @@ img {
     min-width: 80px;
     color: var(--Black, #000);
     /* 본문/상세 타이틀 2 */
-    font-family: Pretendard;
     font-size: 18px;
     font-style: normal;
     font-weight: 600;
@@ -12912,7 +12529,6 @@ img {
   .imine-location-list-item ul li p {
     color: var(--Black, #000);
     /* 본문/본문 20 B */
-    font-family: Pretendard;
     font-size: 18px;
     font-style: normal;
     font-weight: 600;
@@ -12940,7 +12556,6 @@ img {
     margin-top: 8px;
     color: var(--cool-gray, #646f7c);
     /* 본문/본문 16 */
-    font-family: Pretendard;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
@@ -12965,7 +12580,6 @@ img {
     min-width: 60px;
     color: var(--Black, #000);
     /* 본문/상세 타이틀 2 */
-    font-family: Pretendard;
     font-size: 16px;
     font-style: normal;
     font-weight: 600;
@@ -12974,7 +12588,6 @@ img {
   .imine-location-list-item ul li p {
     color: var(--Black, #000);
     /* 본문/본문 20 B */
-    font-family: Pretendard;
     font-size: 16px;
     font-style: normal;
     font-weight: 600;
@@ -13013,7 +12626,6 @@ img {
   display: block;
   color: var(--MainText, #5d013b);
   /* 본문/description title */
-  font-family: Pretendard;
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
@@ -13024,7 +12636,6 @@ img {
   margin-top: 8px;
   color: var(--Black, #000);
   /* 본문/상세 타이틀 1-국문 */
-  font-family: Pretendard;
   font-size: 24px;
   font-style: normal;
   font-weight: 600;
@@ -13043,7 +12654,6 @@ img {
   margin: 0;
   color: var(--Black, #000);
   /* 본문/본문 16 */
-  font-family: Pretendard;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -13109,7 +12719,6 @@ img {
     display: block;
     color: var(--MainText, #5d013b);
     /* 본문/description title */
-    font-family: Pretendard;
     font-size: 15px;
     font-style: normal;
     font-weight: 600;
@@ -13120,7 +12729,6 @@ img {
     margin-top: 8px;
     color: var(--Black, #000);
     /* 본문/상세 타이틀 1-국문 */
-    font-family: Pretendard;
     font-size: 20px;
     font-style: normal;
     font-weight: 600;
@@ -13139,7 +12747,6 @@ img {
     width: 100%;
     color: var(--Black, #000);
     /* 본문/본문 16 */
-    font-family: Pretendard;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
@@ -13177,7 +12784,6 @@ img {
     display: block;
     color: var(--MainText, #5d013b);
     /* 본문/description title */
-    font-family: Pretendard;
     font-size: 14px;
     font-style: normal;
     font-weight: 600;
@@ -13188,7 +12794,6 @@ img {
     margin-top: 8px;
     color: var(--Black, #000);
     /* 본문/상세 타이틀 1-국문 */
-    font-family: Pretendard;
     font-size: 18px;
     font-style: normal;
     font-weight: 600;
@@ -13207,7 +12812,6 @@ img {
     width: 100%;
     color: var(--Black, #000);
     /* 본문/본문 16 */
-    font-family: Pretendard;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
@@ -13264,7 +12868,6 @@ img {
   padding: 0;
   color: var(--Sub, #9a9aaf);
   /* 본문/description title */
-  font-family: Pretendard;
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
@@ -13281,7 +12884,6 @@ img {
   color: var(--Black, #000);
   text-align: right;
   /* 본문/세부타이틀 */
-  font-family: Pretendard;
   font-size: 28px;
   font-style: normal;
   font-weight: 700;
@@ -13333,7 +12935,6 @@ img {
     padding: 0;
     color: var(--Sub, #9a9aaf);
     /* 본문/description title */
-    font-family: Pretendard;
     font-size: 15px;
     font-style: normal;
     font-weight: 600;
@@ -13350,7 +12951,6 @@ img {
     color: var(--Black, #000);
     text-align: right;
     /* 본문/세부타이틀 */
-    font-family: Pretendard;
     font-size: 24px;
     font-style: normal;
     font-weight: 700;
@@ -13404,7 +13004,6 @@ img {
     padding: 0;
     color: var(--Sub, #9a9aaf);
     /* 본문/description title */
-    font-family: Pretendard;
     font-size: 14px;
     font-style: normal;
     font-weight: 600;
@@ -13421,7 +13020,6 @@ img {
     color: var(--Black, #000);
     text-align: right;
     /* 본문/세부타이틀 */
-    font-family: Pretendard;
     font-size: 22px;
     font-style: normal;
     font-weight: 700;
@@ -13462,7 +13060,6 @@ img {
   color: var(--MainText, #5d013b);
   text-align: center;
   /* 본문/상세 타이틀 2 */
-  font-family: Pretendard;
   font-size: 20px;
   font-style: normal;
   font-weight: 600;
@@ -13480,7 +13077,6 @@ img {
   margin-bottom: 16px;
   color: var(--MainText, #5d013b);
   /* 본문/description title */
-  font-family: Pretendard;
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
@@ -13512,7 +13108,6 @@ img {
   min-width: 88px;
   color: var(--cool-gray, #646f7c);
   /* 본문/description title */
-  font-family: Pretendard;
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
@@ -13522,7 +13117,6 @@ img {
   margin: 0;
   color: var(--cool-gray, #646f7c);
   /* 본문/description */
-  font-family: Pretendard;
   font-size: 15px;
   font-style: normal;
   font-weight: 400;
@@ -13564,7 +13158,6 @@ img {
   padding: 0;
   color: var(--Black, #000);
   /* 본문/본문 16 */
-  font-family: Pretendard;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -13617,7 +13210,6 @@ img {
     color: var(--MainText, #5d013b);
     text-align: center;
     /* 본문/상세 타이틀 2 */
-    font-family: Pretendard;
     font-size: 18px;
     font-style: normal;
     font-weight: 600;
@@ -13638,7 +13230,6 @@ img {
     margin-bottom: 16px;
     color: var(--MainText, #5d013b);
     /* 본문/description title */
-    font-family: Pretendard;
     font-size: 15px;
     font-style: normal;
     font-weight: 600;
@@ -13670,7 +13261,6 @@ img {
     min-width: 88px;
     color: var(--cool-gray, #646f7c);
     /* 본문/description title */
-    font-family: Pretendard;
     font-size: 15px;
     font-style: normal;
     font-weight: 600;
@@ -13680,7 +13270,6 @@ img {
     margin: 0;
     color: var(--cool-gray, #646f7c);
     /* 본문/description */
-    font-family: Pretendard;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
@@ -13717,7 +13306,6 @@ img {
   .imine-businessarea-head-list-item dl dd {
     color: var(--Black, #000);
     /* 본문/본문 16 */
-    font-family: Pretendard;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
@@ -13782,7 +13370,6 @@ img {
     margin-bottom: 16px;
     color: var(--MainText, #5d013b);
     /* 본문/description title */
-    font-family: Pretendard;
     font-size: 14px;
     font-style: normal;
     font-weight: 600;
@@ -13814,7 +13401,6 @@ img {
     min-width: 80px;
     color: var(--cool-gray, #646f7c);
     /* 본문/description title */
-    font-family: Pretendard;
     font-size: 14px;
     font-style: normal;
     font-weight: 600;
@@ -13854,7 +13440,6 @@ img {
   .imine-businessarea-head-list-item dl dd {
     color: var(--Black, #000);
     /* 본문/본문 16 */
-    font-family: Pretendard;
     font-size: 15px;
     font-style: normal;
     font-weight: 400;
@@ -13898,6 +13483,7 @@ img {
 }
 .imine-businessarea-item-head p {
   display: flex;
+  flex-wrap: wrap;
   gap: 16px;
   margin-top: 24px;
 }
@@ -13914,18 +13500,17 @@ img {
           backdrop-filter: blur(20px);
   color: var(--White, #fff);
   /* 본문/description title */
-  font-family: Pretendard;
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
   line-height: 150%; /* 24px */
+  white-space: noWrap;
 }
 .imine-businessarea-item-head__text {
   position: relative;
   z-index: 20;
   color: var(--Black, #000);
   /* 본문/본문 16 */
-  font-family: Pretendard;
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -13961,7 +13546,6 @@ img {
   min-width: 80px;
   color: var(--gray, #8c8c8c);
   /* 본문/description title */
-  font-family: Pretendard;
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
@@ -13971,7 +13555,6 @@ img {
   margin: 0;
   color: var(--gray, #8c8c8c);
   /* 본문/description */
-  font-family: Pretendard;
   font-size: 15px;
   font-style: normal;
   font-weight: 400;
@@ -14044,7 +13627,6 @@ img {
             backdrop-filter: blur(20px);
     color: var(--White, #fff);
     /* 본문/description title */
-    font-family: Pretendard;
     font-size: 15px;
     font-style: normal;
     font-weight: 600;
@@ -14055,7 +13637,6 @@ img {
     z-index: 20;
     color: var(--Black, #000);
     /* 본문/본문 16 */
-    font-family: Pretendard;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
@@ -14122,7 +13703,7 @@ img {
     gap: 16px;
     position: relative;
     height: 240px;
-    padding: 24px;
+    padding: 16px 0 16px 24px;
     background: url(../images/business/businessarea-section01-01.png) no-repeat 50% 50%;
     background-size: cover;
     border-radius: 12px;
@@ -14153,7 +13734,6 @@ img {
     z-index: 20;
     color: var(--Black, #000);
     /* 본문/본문 16 */
-    font-family: Pretendard;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
