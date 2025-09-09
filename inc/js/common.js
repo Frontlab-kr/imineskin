@@ -426,6 +426,10 @@ $(function () {
 //
 $(document).ready(function () {
   var swiper01 = new Swiper('.imine-skincare-swiper-type01 .swiper', {
+    //loop: true,
+    navigation: {
+      nextEl: '.imine-skincare-swiper-type01 .swiper-button-next',
+    },
     slidesPerView: 'auto',
     spaceBetween: 24,
     freeMode: true,
@@ -441,6 +445,9 @@ $(document).ready(function () {
     },
   });
   var swiper02 = new Swiper('.imine-skincare-swiper-type02 .swiper', {
+    navigation: {
+      nextEl: '.imine-skincare-swiper-type02 .swiper-button-next',
+    },
     slidesPerView: 'auto',
     spaceBetween: 24,
     freeMode: true,
@@ -455,7 +462,10 @@ $(document).ready(function () {
       },
     },
   });
-  var swiper02 = new Swiper('.imine-skincare-swiper-type03 .swiper', {
+  var swiper03 = new Swiper('.imine-skincare-swiper-type03 .swiper', {
+    navigation: {
+      nextEl: '.imine-skincare-swiper-type03 .swiper-button-next',
+    },
     slidesPerView: 'auto',
     spaceBetween: 24,
     freeMode: true,

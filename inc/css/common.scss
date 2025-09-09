@@ -5800,9 +5800,20 @@ img {
         > img {
           display: none;
           max-width: 344px;
+          object-fit: cover;
           &.pc {
             display: block;
           }
+        }
+      }
+      .swiper-button-next {
+        right: 40px;
+        width: 108px;
+        height: 108px;
+        margin-top: -54px;
+        background: url(../images/icon/60/next.svg) no-repeat 50% 50%;
+        &:after {
+          display: none;
         }
       }
       &-item {
@@ -6276,12 +6287,15 @@ img {
         width: 100%;
         margin: 64px 0 0 0;
         .swiper {
+          margin-left: -40px;
           margin-right: -40px;
+          padding-left: 40px;
         }
         .swiper-slide {
           > img {
             display: none;
             max-width: 248px;
+            height: 408px;
             &.pc {
               display: none;
             }
@@ -6289,6 +6303,9 @@ img {
               display: block;
             }
           }
+        }
+        .swiper-button-next {
+          display: none;
         }
         &-item {
           width: 248px;
@@ -6757,10 +6774,16 @@ img {
     @media screen and (max-width: $bp-mobile) {
       &-swiper {
         margin: 28px 0 0 0;
+        .swiper {
+          margin-left: -24px;
+          margin-right: -24px;
+          padding-left: 24px;
+        }
         .swiper-slide {
           > img {
             display: none;
             max-width: 184px;
+            height: 304px;
             &.pc {
               display: none;
             }

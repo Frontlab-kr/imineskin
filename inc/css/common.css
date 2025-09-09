@@ -5537,9 +5537,21 @@ img {
 .imine-skincare-swiper .swiper-slide > img {
   display: none;
   max-width: 344px;
+  -o-object-fit: cover;
+     object-fit: cover;
 }
 .imine-skincare-swiper .swiper-slide > img.pc {
   display: block;
+}
+.imine-skincare-swiper .swiper-button-next {
+  right: 40px;
+  width: 108px;
+  height: 108px;
+  margin-top: -54px;
+  background: url(../images/icon/60/next.svg) no-repeat 50% 50%;
+}
+.imine-skincare-swiper .swiper-button-next:after {
+  display: none;
 }
 .imine-skincare-swiper-item {
   width: 344px;
@@ -5960,17 +5972,23 @@ img {
     margin: 64px 0 0 0;
   }
   .imine-skincare-swiper .swiper {
+    margin-left: -40px;
     margin-right: -40px;
+    padding-left: 40px;
   }
   .imine-skincare-swiper .swiper-slide > img {
     display: none;
     max-width: 248px;
+    height: 408px;
   }
   .imine-skincare-swiper .swiper-slide > img.pc {
     display: none;
   }
   .imine-skincare-swiper .swiper-slide > img.ta {
     display: block;
+  }
+  .imine-skincare-swiper .swiper-button-next {
+    display: none;
   }
   .imine-skincare-swiper-item {
     width: 248px;
@@ -6388,9 +6406,15 @@ img {
   .imine-skincare-swiper {
     margin: 28px 0 0 0;
   }
+  .imine-skincare-swiper .swiper {
+    margin-left: -24px;
+    margin-right: -24px;
+    padding-left: 24px;
+  }
   .imine-skincare-swiper .swiper-slide > img {
     display: none;
     max-width: 184px;
+    height: 304px;
   }
   .imine-skincare-swiper .swiper-slide > img.pc {
     display: none;
