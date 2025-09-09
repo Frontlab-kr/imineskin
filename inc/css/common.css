@@ -5544,7 +5544,9 @@ img {
   display: block;
 }
 .imine-skincare-swiper .swiper-button-next {
+  left: 64vw;
   right: 40px;
+  right: auto;
   width: 108px;
   height: 108px;
   margin-top: -54px;
