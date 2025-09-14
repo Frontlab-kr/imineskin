@@ -645,6 +645,70 @@
       <!-- footer -->
       <div include-html="../inc/layout/footer.html"></div>
       <!-- //footer -->
+
+      <div class="imine-modal fade" id="modal01" tabindex="-1">
+        <div
+          class="imine-modal-dialog imine-modal-today"
+          style="position: absolute; top: 160px; left: 80px"
+        >
+          <div class="imine-modal-content">
+            <button
+              type="button"
+              class="imine-modal-close"
+              data-bs-dismiss="modal"
+            >
+              닫기
+            </button>
+            <div class="imine-modal-body">
+              <img src="https://picsum.photos/1200/300" alt="" />
+            </div>
+            <div class="imine-modal-footer">
+              <button
+                type="button"
+                class="imine-btn imine-btn-outline w-100 btn-today"
+                data-bs-dismiss="modal"
+              >
+                오늘 하루 보지않기
+              </button>
+              <button
+                type="button"
+                class="imine-btn imine-btn-primary w-100"
+                data-bs-dismiss="modal"
+              >
+                확인
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <script>
+        (function () {
+          const MODAL_SELECTOR = '#modal01';
+          const STORAGE_KEY = 'hideModalDate_modal01'; // 모달별로 키를 분리하면 안전
+          const today = new Date().toISOString().split('T')[0];
+
+          document.addEventListener('DOMContentLoaded', function () {
+            const modal = document.querySelector(MODAL_SELECTOR);
+            if (!modal) return;
+
+            // 저장된 날짜가 오늘과 같지 않으면 모달 오픈
+            const saved = localStorage.getItem(STORAGE_KEY);
+            if (saved !== today) {
+              openModal(MODAL_SELECTOR);
+            }
+
+            // "오늘 하루 보지않기" 버튼 클릭 시 저장 + 닫기
+            const dontShowBtn = modal.querySelector('.btn-today');
+            if (dontShowBtn) {
+              dontShowBtn.addEventListener('click', function () {
+                localStorage.setItem(STORAGE_KEY, today);
+                closeModal(modal);
+              });
+            }
+          });
+        })();
+      </script>
     </div>
   </body>
 </html>

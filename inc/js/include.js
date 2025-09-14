@@ -80,6 +80,21 @@
         $('.imine-header-gnb-item').removeClass('active');
         $(this).parent('.imine-header-gnb-item').addClass('active');
       });
+
+      //
+      const $includeheader = $('.include-header');
+      const $header = $('.imine-header'); // 대상 헤더
+      const headerHeight = $header.outerHeight(); // 헤더 높이
+
+      $(window).on('scroll', function () {
+        if ($(this).scrollTop() > headerHeight) {
+          $includeheader.addClass('active');
+          $header.addClass('active');
+        } else {
+          $includeheader.removeClass('active');
+          $header.removeClass('active');
+        }
+      });
     });
   });
 })();

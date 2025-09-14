@@ -85,7 +85,10 @@ $(function () {
     $(this).parent('li').addClass('active');
 
     $('html, body').animate(
-      { scrollTop: $target.offset().top - getOffset() },
+      {
+        scrollTop:
+          $target.offset().top - getOffset() - $('.imine-header').outerHeight(),
+      },
       600,
       () => onScroll() // 도착 후 한번 더 동기화
     );
