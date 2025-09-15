@@ -114,6 +114,8 @@ img {
 }
 
 .include-header {
+  position: sticky !important;
+  top: 0;
   &.active {
     position: sticky !important;
     top: 0;
@@ -121,6 +123,15 @@ img {
   @media screen and (max-width: $bp-tablet) {
     position: sticky !important;
     top: 0;
+  }
+}
+select.imine-input {
+  appearance: none;
+  background: var(--Light-gray, #f8f8f8) url(../images/icon/24/select.svg)
+    no-repeat calc(100% - 24px) 50%;
+  @media screen and (max-width: $bp-mobile) {
+    background: var(--Light-gray, #f8f8f8) url(../images/icon/24/select.svg)
+      no-repeat calc(100% - 16px) 50%;
   }
 }
 .imine {
@@ -231,16 +242,16 @@ img {
     }
   }
   &-header {
+    position: sticky;
+    top: 0;
     display: flex;
     flex-direction: column;
     gap: 32px;
     padding: 40px 80px 13px 80px;
     background: #fff;
-    transition: all 1s ease;
+    transition: all 0.6s ease;
     @media screen and (min-width: 1439px) {
       &.active {
-        position: sticky;
-        top: 0;
         align-items: center;
         flex-direction: row;
         padding: 12px 80px 12px 80px;
@@ -9977,10 +9988,22 @@ img {
               }
             }
             dd {
+              position: relative;
               margin: -108px 0 0 0;
               padding: 32px;
               border-radius: 16px;
               background: var(--Light-gray, #f8f8f8);
+              &:after {
+                content: '';
+                display: block;
+                position: absolute;
+                top: 32px;
+                right: 32px;
+                width: 136px;
+                height: 64px;
+                background: url(../images/business/ico-cgmp-iso.svg) no-repeat
+                  50% 50%;
+              }
               h6 {
                 display: flex;
                 align-items: center;
@@ -10039,6 +10062,16 @@ img {
                     font-weight: 400;
                     line-height: 150%; /* 22.5px */
                   }
+                }
+              }
+              @media screen and (max-width: $bp-mobile) {
+                &:after {
+                  content: '';
+                  display: block;
+                  position: relative;
+                  top: auto;
+                  right: auto;
+                  margin-top: 16px;
                 }
               }
             }
@@ -10165,7 +10198,7 @@ img {
               }
               dd {
                 margin: -100px 0 0 0;
-                padding: 32px 16px;
+                padding: 24px 16px;
                 border-radius: 16px;
                 background: var(--Light-gray, #f8f8f8);
                 h6 {
@@ -14220,7 +14253,7 @@ img {
       margin: 80px 0 160px 0;
       &__img {
         position: sticky;
-        top: 20px;
+        top: 76px;
         min-width: 496px;
       }
       &-list {
@@ -14478,10 +14511,21 @@ img {
             }
           }
           dd {
+            position: relative;
             margin: -92px 0 0 0;
             padding: 32px;
             border-radius: 16px;
             background: var(--Light-gray, #f8f8f8);
+            &:after {
+              content: '';
+              display: block;
+              position: absolute;
+              top: 32px;
+              right: 32px;
+              width: 64px;
+              height: 64px;
+              background: url(../images/business/ico-cgmp.svg) no-repeat 50% 50%;
+            }
             h6 {
               display: flex;
               gap: 4px;
@@ -14538,6 +14582,16 @@ img {
                   font-weight: 400;
                   line-height: 150%; /* 22.5px */
                 }
+              }
+            }
+            @media screen and (max-width: $bp-mobile) {
+              &:after {
+                content: '';
+                display: block;
+                position: relative;
+                top: auto;
+                right: auto;
+                margin-top: 16px;
               }
             }
           }
@@ -14815,7 +14869,7 @@ img {
             }
             dd {
               margin: -100px 0 0 0;
-              padding: 32px 16px;
+              padding: 24px 16px;
               border-radius: 16px;
               background: var(--Light-gray, #f8f8f8);
               h6 {
