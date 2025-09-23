@@ -112,3 +112,36 @@ $bp-mobile: 800px;
   height: 40px;
   background: url(../images/icon/40/share.svg);
 }
+.ico-20-newwindow {
+  display: inline-flex;
+  min-width: 20px;
+  height: 20px;
+  background: url(../images/icon/20/newwindow.svg) no-repeat 50% 50%;
+}
+.ico-24-global {
+  display: inline-flex;
+  min-width: 24px;
+  height: 24px;
+  background: url(../images/icon/24/global.svg);
+}
+.ico-24-subtract {
+  display: inline-flex;
+  min-width: 24px;
+  width: 24px;
+  height: 24px;
+  background: url(../images/icon/24/Subtract.svg) no-repeat 50% 50%;
+}
+.ico-40-close {
+  display: inline-flex;
+  min-width: 40px;
+  width: 40px;
+  height: 40px;
+  background: url(../images/icon/40/close.svg) no-repeat 50% 50%;
+}
+.ico-24-skip {
+  display: inline-flex;
+  min-width: 24px;
+  width: 24px;
+  height: 24px;
+  background: url(../images/icon/24/skip.svg) no-repeat 50% 50%;
+}

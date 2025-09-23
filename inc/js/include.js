@@ -71,6 +71,24 @@
           .addClass('active');
       });
 
+      $(function () {
+        // 버튼 클릭 시 active 토글
+        $('.imine-header-lang > button').on('click', function (e) {
+          e.stopPropagation(); // 문서 클릭으로 전파 막기
+          $('.imine-header-lang').toggleClass('active');
+        });
+
+        // 래퍼 영역 클릭 시 전파 막기 (내부 클릭은 닫히지 않도록)
+        $('.imine-header-lang').on('click', function (e) {
+          e.stopPropagation();
+        });
+
+        // 문서 바깥 클릭 시 active 제거
+        $(document).on('click', function () {
+          $('.imine-header-lang').removeClass('active');
+        });
+      });
+
       $(
         '.imine-header-menu__toggle, .imine-header-gnb-head, .imine-header-menu__dim'
       ).on('click', function () {

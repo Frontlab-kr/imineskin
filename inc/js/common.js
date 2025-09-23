@@ -431,6 +431,7 @@ $(document).ready(function () {
   var swiper01 = new Swiper('.imine-skincare-swiper-type01 .swiper', {
     //loop: true,
     navigation: {
+      prevEl: '.imine-skincare-swiper-type01 .swiper-button-prev',
       nextEl: '.imine-skincare-swiper-type01 .swiper-button-next',
     },
     slidesPerView: 'auto',
@@ -446,9 +447,13 @@ $(document).ready(function () {
         spaceBetween: 16,
       },
     },
+    scrollbar: {
+      el: '.imine-skincare-swiper-type01 .swiper-scrollbar',
+    },
   });
   var swiper02 = new Swiper('.imine-skincare-swiper-type02 .swiper', {
     navigation: {
+      prevEl: '.imine-skincare-swiper-type02 .swiper-button-prev',
       nextEl: '.imine-skincare-swiper-type02 .swiper-button-next',
     },
     slidesPerView: 'auto',
@@ -464,9 +469,13 @@ $(document).ready(function () {
         spaceBetween: 16,
       },
     },
+    scrollbar: {
+      el: '.imine-skincare-swiper-type02 .swiper-scrollbar',
+    },
   });
   var swiper03 = new Swiper('.imine-skincare-swiper-type03 .swiper', {
     navigation: {
+      prevEl: '.imine-skincare-swiper-type03 .swiper-button-prev',
       nextEl: '.imine-skincare-swiper-type03 .swiper-button-next',
     },
     slidesPerView: 'auto',
@@ -481,6 +490,9 @@ $(document).ready(function () {
         // 0 ~ 799px 구간
         spaceBetween: 16,
       },
+    },
+    scrollbar: {
+      el: '.imine-skincare-swiper-type03 .swiper-scrollbar',
     },
   });
 });

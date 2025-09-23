@@ -21,7 +21,7 @@
     <script src="../inc/js/common.js"></script>
   </head>
   <body>
-    <div class="imine">
+    <div class="imine imine--teaser">
       <!-- header -->
       <div
         include-html="../inc/layout/header.html"
@@ -41,7 +41,7 @@
             <div
               class="imine-main-introduce"
               data-aos="fade-up"
-              data-aos-delay="600"
+              data-aos-delay="300"
             >
               <div class="imine-main-introduce__video">
                 <video autoplay loop muted playsinline>
@@ -64,7 +64,7 @@
               <div
                 class="imine-main-rnd-title"
                 data-aos="fade-up"
-                data-aos-delay="200"
+                data-aos-delay="100"
               >
                 <div class="imine-main-rnd-title__thumb">
                   <video autoplay loop muted playsinline>
@@ -84,7 +84,7 @@
                 <div
                   class="imine-main-rnd-text-item"
                   data-aos="fade-up"
-                  data-aos-delay="600"
+                  data-aos-delay="300"
                 >
                   <div class="imine-main-rnd-text-item__thumb">
                     <img src="../inc/images/main/rnd-thumb01.png" alt="" />
@@ -99,7 +99,7 @@
                 <div
                   class="imine-main-rnd-text-item"
                   data-aos="fade-up"
-                  data-aos-delay="700"
+                  data-aos-delay="350"
                 >
                   <div class="imine-main-rnd-text-item__thumb">
                     <img src="../inc/images/main/rnd-thumb02.png" alt="" />
@@ -113,7 +113,7 @@
                 <div
                   class="imine-main-rnd-text-item"
                   data-aos="fade-up"
-                  data-aos-delay="800"
+                  data-aos-delay="400"
                 >
                   <div class="imine-main-rnd-text-item__thumb">
                     <img src="../inc/images/main/rnd-thumb03.png" alt="" />
@@ -130,7 +130,7 @@
               <div
                 class="imine-main-manufacturing-head"
                 data-aos="fade-up"
-                data-aos-delay="400"
+                data-aos-delay="200"
               >
                 <h4>Manufacturing</h4>
                 <div class="imine-main-manufacturing-head__text">
@@ -146,7 +146,7 @@
                 <div
                   class="imine-main-manufacturing-list-item"
                   data-aos="fade-up"
-                  data-aos-delay="600"
+                  data-aos-delay="300"
                 >
                   <div class="imine-main-manufacturing-list-item__thumb">
                     <img
@@ -163,7 +163,7 @@
                 <div
                   class="imine-main-manufacturing-list-item"
                   data-aos="fade-up"
-                  data-aos-delay="800"
+                  data-aos-delay="400"
                 >
                   <div class="imine-main-manufacturing-list-item__thumb">
                     <img
@@ -183,7 +183,7 @@
               <div
                 class="imine-main-marketingsupport-head"
                 data-aos="fade-up"
-                data-aos-delay="400"
+                data-aos-delay="200"
               >
                 <h4>Marketing Support</h4>
                 <div class="imine-main-marketingsupport-head__text">
@@ -199,7 +199,7 @@
                 <div
                   class="imine-main-marketingsupport-list-item"
                   data-aos="fade-up"
-                  data-aos-delay="500"
+                  data-aos-delay="250"
                 >
                   <div class="imine-main-marketingsupport-list-item__thumb">
                     <img
@@ -215,7 +215,7 @@
                 <div
                   class="imine-main-marketingsupport-list-item"
                   data-aos="fade-up"
-                  data-aos-delay="600"
+                  data-aos-delay="300"
                 >
                   <div class="imine-main-marketingsupport-list-item__thumb">
                     <img
@@ -232,7 +232,7 @@
                 <div
                   class="imine-main-marketingsupport-list-item"
                   data-aos="fade-up"
-                  data-aos-delay="800"
+                  data-aos-delay="400"
                 >
                   <div class="imine-main-marketingsupport-list-item__thumb">
                     <img
@@ -252,7 +252,7 @@
           <div
             class="imine-main-partner"
             data-aos="fade-up"
-            data-aos-delay="400"
+            data-aos-delay="200"
           >
             <div
               class="imine-inner"
@@ -331,7 +331,7 @@
               <div
                 class="imine-main-news__contents"
                 data-aos="fade-up"
-                data-aos-delay="200"
+                data-aos-delay="100"
               >
                 <h4>Latest News</h4>
                 <div class="imine-main-news__tab">
@@ -374,7 +374,7 @@
           <div
             class="imine-main-news-swiper"
             data-aos="fade-up"
-            data-aos-delay="400"
+            data-aos-delay="200"
           >
             <div class="swiper">
               <div class="swiper-wrapper">
@@ -590,7 +590,7 @@
         </div>
       </main>
 
-      <div class="imine-footer-brand" data-aos="fade-up" data-aos-delay="200">
+      <div class="imine-footer-brand" data-aos="fade-up" data-aos-delay="100">
         <div class="swiper">
           <div class="swiper-wrapper">
             <div class="swiper-slide">
@@ -682,6 +682,31 @@
         </div>
       </div>
 
+      <div class="imine-teaser">
+        <div class="imine-teaser-head">
+          <div class="imine-teaser-head__today">
+            <div class="imine-checkbox">
+              <input type="checkbox" id="today" />
+              <label for="today">오늘 하루 보지않기</label>
+            </div>
+          </div>
+          <button class="imine-teaser-head__close">
+            <i class="ico-40-close"></i>
+          </button>
+        </div>
+        <div class="imine-teaser-body">
+          <video autoplay loop muted playsinline>
+            <source src="../inc/video/teaser.mp4" type="video/mp4" />
+          </video>
+        </div>
+        <div class="imine-teaser-foot">
+          <button>
+            홍보영상 Skip
+            <i class="ico-24-skip"></i>
+          </button>
+        </div>
+      </div>
+
       <script>
         (function () {
           const MODAL_SELECTOR = '#modal01';
@@ -707,6 +732,46 @@
               });
             }
           });
+        })();
+      </script>
+
+      <script>
+        (function () {
+          const KEY = 'imineTeaserHideUntil';
+          const teaser = document.querySelector('.imine');
+
+          if (!teaser) return; // DOM 없으면 종료
+
+          // 오늘 하루 보지 않기 만료시간 계산
+          function endOfTodayTs() {
+            const now = new Date();
+            const end = new Date(now);
+            end.setHours(23, 59, 59, 999);
+            return end.getTime();
+          }
+
+          // 저장된 값 확인
+          const until = Number(localStorage.getItem(KEY));
+          if (until && Date.now() < until) {
+            teaser.classList.remove('imine--teaser'); // 오늘 하루 숨김
+          } else {
+            teaser.classList.add('imine--teaser'); // 표시
+          }
+
+          // 닫기/Skip 버튼
+          const closeBtn = teaser.querySelector('.imine-teaser-head__close');
+          const skipBtn = teaser.querySelector('.imine-teaser-foot > button');
+          const todayChk = teaser.querySelector('#today');
+
+          function hideTeaser() {
+            teaser.classList.remove('imine--teaser');
+            if (todayChk?.checked) {
+              localStorage.setItem(KEY, String(endOfTodayTs())); // 오늘 하루 숨김 기록
+            }
+          }
+
+          closeBtn?.addEventListener('click', hideTeaser);
+          skipBtn?.addEventListener('click', hideTeaser);
         })();
       </script>
     </div>

@@ -18,6 +18,8 @@
     <script src="https://unpkg.com/@studio-freight/lenis@1.0.42/dist/lenis.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/11.0.5/swiper-bundle.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
     <script src="../inc/js/common.js"></script>
   </head>
   <body>
@@ -37,7 +39,7 @@
           </div>
         </div>
         <div class="imine-body">
-          <div class="imine-snb" data-aos="fade-up" data-aos-delay="200">
+          <div class="imine-snb" data-aos="fade-up" data-aos-delay="100">
             <ul>
               <li>
                 <a href="">R&D</a>
@@ -67,7 +69,6 @@
                 <ul>
                   <li class="active"><a href="#section01">생산</a></li>
                   <li><a href="#section02">품질관리</a></li>
-                  <li><a href="#section03">품질보증</a></li>
                 </ul>
               </li>
               <li>
@@ -77,104 +78,308 @@
           </div>
           <div class="imine-contents">
             <section id="section01">
-              <div class="imine-production">
-                <h2 data-aos="fade-up" data-aos-delay="200">생산</h2>
-                <div class="imine-production-title">
-                  <h3 data-aos="fade-up" data-aos-delay="400">
+              <h2 data-aos="fade-up" data-aos-delay="100">생산</h2>
+              <div class="imine-rnd-title">
+                <h3 data-aos="fade-up" data-aos-delay="200">
+                  <strong>
+                    지속으로 다지고, <br />
+                    혁신으로 성장합니다.
+                  </strong>
+                </h3>
+                <p data-aos="fade-up" data-aos-delay="250">
+                  저희는 지속적인 설비 첨단화를 통해 원가와 품질의 선진화를
+                  도모하고 있으며, <br />
+                  생산관리와 생산기술의 고도화, 그리고 현장 인력의 꾸준한 숙련을
+                  통해 <br />
+                  안정적인 경쟁력을 쌓아가고 있습니다. <br />
+                  <br />
+                  더불어 신공장 확대로 생산 능력을 70% 이상 확대하고,
+                  스마트팩토리와 <br />
+                  제조 AI 기반의 자율제조를 차분히 준비하며 고객과 함께 미래를
+                  열어가고자 합니다.
+                </p>
+              </div>
+              <div class="imine-rnd-intro imine-rnd-intro--02">
+                <ul>
+                  <li data-aos="fade-up" data-aos-delay="300">
+                    <p>
+                      첨단 자동화 설비로 위생적이고<br />
+                      안정적인 제품 생산 환경을 완성합니다.
+                    </p>
+                    <video autoplay loop muted playsinline>
+                      <source src="../inc/video/rnd01.mp4" type="video/mp4" />
+                    </video>
+                  </li>
+                  <li data-aos="fade-up" data-aos-delay="350">
+                    <video autoplay loop muted playsinline>
+                      <source src="../inc/video/rnd02.mp4" type="video/mp4" />
+                    </video>
+                  </li>
+                </ul>
+              </div>
+              <script>
+                gsap.registerPlugin(ScrollTrigger);
+
+                ScrollTrigger.matchMedia({
+                  // 800px 이상 ~ 1439px 이하
+                  '(min-width: 800px) and (max-width: 1439px)': function () {
+                    gsap.to('.imine-rnd-intro ul li:nth-child(1)', {
+                      minWidth: 400,
+                      width: 400,
+                      height: 400,
+                      ease: 'power2.out',
+                      scrollTrigger: {
+                        trigger: '.imine-rnd-intro',
+                        start: 'top center',
+                        end: 'bottom center',
+                        scrub: true,
+                      },
+                    });
+
+                    gsap.fromTo(
+                      '.imine-rnd-intro ul li:nth-child(1) p',
+                      { opacity: 0, y: 30 },
+                      {
+                        opacity: 1,
+                        y: 0,
+                        scrollTrigger: {
+                          trigger: '.imine-rnd-intro',
+                          start: 'top center',
+                          end: 'bottom center',
+                          scrub: true,
+                        },
+                      }
+                    );
+                  },
+
+                  // 1440px 이상
+                  '(min-width: 1440px)': function () {
+                    gsap.to('.imine-rnd-intro ul li:nth-child(1)', {
+                      minWidth: 640,
+                      width: 640,
+                      height: 640,
+                      ease: 'power2.out',
+                      scrollTrigger: {
+                        trigger: '.imine-rnd-intro',
+                        start: 'top center',
+                        end: 'bottom center',
+                        scrub: true,
+                      },
+                    });
+
+                    gsap.fromTo(
+                      '.imine-rnd-intro ul li:nth-child(1) p',
+                      { opacity: 0, y: 30 },
+                      {
+                        opacity: 1,
+                        y: 0,
+                        scrollTrigger: {
+                          trigger: '.imine-rnd-intro',
+                          start: 'top center',
+                          end: 'bottom center',
+                          scrub: true,
+                        },
+                      }
+                    );
+                  },
+
+                  // 799px 이하 → 아무 동작 없음
+                  '(max-width: 799px)': function () {
+                    // 애니메이션 비활성 (아무 것도 정의 안 하면 됨)
+                  },
+                });
+              </script>
+            </section>
+            <section id="section02">
+              <h2 data-aos="fade-up" data-aos-delay="100">POWER</h2>
+              <div class="imine-rnd-power">
+                <div
+                  class="imine-rnd-power-item"
+                  data-aos="fade-up"
+                  data-aos-delay="150"
+                >
+                  <img src="../inc/images/rnd/power01.png" alt="" />
+                  <p>
                     <strong>
-                      완벽한 품질은<br />
-                      설비에서 시작됩니다.
+                      품질과 규제준수<br />
+                      (환경과 공정)
                     </strong>
-                  </h3>
-                  <p data-aos="fade-up" data-aos-delay="500">
-                    총 3개 층으로 구성된 iM1NE의 생산라인에서는<br />
-                    스킨케어는 물론, 마스크, 하이드로겔 등의 다양한 패치
-                    상품까지 이미인에서 취급하는 모든 제품을 직접 생산합니다.<br />
-                    <br />
-                    세밀한 공정 제어와 첨단 자동화 설비를 통해<br />
-                    위생적이고 안정적인 제품 생산 환경을 완성합니다.
+                    CGMP/ISO22716 기준충족 등
                   </p>
                 </div>
-                <div class="imine-production-list">
-                  <div
-                    class="imine-production-list-title"
-                    data-aos="fade-up"
-                    data-aos-delay="600"
-                  >
-                    총 생산 Capacity는 월 19,739,520개로<br />
-                    세계 각국 고객사들의 납기일을 준수합니다.
+                <div
+                  class="imine-rnd-power-item"
+                  data-aos="fade-up"
+                  data-aos-delay="200"
+                >
+                  <img src="../inc/images/rnd/power02.png" alt="" />
+                  <p>
+                    <strong> 생산효율성과 유연성 </strong>
+                    자동화 설비 적용 → 불량률 감소<br />
+                    생산성 향상,다양한 제형(크림, 세럼, 마스크, 하이드로겔 등)에
+                    대응 가능한 다양한 라인 구축
+                  </p>
+                </div>
+                <div
+                  class="imine-rnd-power-item"
+                  data-aos="fade-up"
+                  data-aos-delay="250"
+                >
+                  <img src="../inc/images/rnd/power03.png" alt="" />
+                  <p>
+                    <strong> 고객중심, 시장대응 </strong>
+                    고객 중심·시장 대응: 소량 다품종 생산(MOQ 유연성) 대응,
+                    글로벌 고객 요구에 맞춘 ODM/OEM 서비스 강화 등등
+                  </p>
+                </div>
+                <div
+                  class="imine-rnd-power-item"
+                  data-aos="fade-up"
+                  data-aos-delay="300"
+                >
+                  <img src="../inc/images/rnd/power04.png" alt="" />
+                  <p>
+                    <strong> 연구개발 연계 혁신성 </strong>
+                    일럿 생산라인으로 소량 테스트 및 신제품 스케일업 가능
+                  </p>
+                </div>
+                <div
+                  class="imine-rnd-power-item"
+                  data-aos="fade-up"
+                  data-aos-delay="350"
+                >
+                  <img src="../inc/images/rnd/power05.png" alt="" />
+                  <p>
+                    <strong> 안전/위생/환경 </strong>
+                    클린룸(급지및 공조,압차관리),RO/EDI급수시스템
+                  </p>
+                </div>
+                <div
+                  class="imine-rnd-power-item"
+                  data-aos="fade-up"
+                  data-aos-delay="400"
+                >
+                  <img src="../inc/images/rnd/power06.png" alt="" />
+                  <p>
+                    <strong> 생산시스템 </strong>
+                    이미인 R&D 센터는 내부 조직 중 가장 큰 규모로 전체 인력의 약
+                    15%를 차지하고 있습니다.<br />
+                    차별화 된 전문성을 갖춘 연구원을 대거 영입하여 인적 인프라를
+                    한층 강화했습니다.
+                  </p>
+                </div>
+              </div>
+
+              <h2 data-aos="fade-up" data-aos-delay="100">
+                Capability & Facility
+              </h2>
+              <div class="imine-rnd-cf">
+                <div
+                  class="imine-rnd-cf-item"
+                  data-aos="fade-up"
+                  data-aos-delay="150"
+                >
+                  <div class="imine-rnd-cf-item-head">
+                    <h6>스킨케어</h6>
+                    <div>
+                      <p>R&D FACILITY 01</p>
+                    </div>
                   </div>
-                  <div
-                    class="imine-production-list-item"
-                    data-aos="fade-up"
-                    data-aos-delay="200"
-                  >
-                    <strong>칭량시스템</strong>
-                    <p>
-                      칭량시스템/MTS 사용과 바코드 시스템 사용으로<br />
-                      원료 오칭량 및 오투입 없는 환경에서 업무 진행
-                    </p>
-                    <img src="../inc/images/production/img01.png" alt="" />
+                  <div class="imine-rnd-cf-item-text">
+                    충전 및 포장 자동화 설비 +
+                    <p>연간 6,000,000 → 58,080,000  개/년(27”)</p>
                   </div>
-                  <div
-                    class="imine-production-list-item"
-                    data-aos="fade-up"
-                    data-aos-delay="200"
-                  >
-                    <strong>제조시스템</strong>
-                    <p>
-                      제조시스템/MTS 사용과 바코드 시스템 사용으로<br />
-                      처방 공정도 준수 및 오제조 없는 환경에서 제조 진행
-                    </p>
-                    <img src="../inc/images/production/img02.png" alt="" />
+                </div>
+                <div
+                  class="imine-rnd-cf-item"
+                  data-aos="fade-up"
+                  data-aos-delay="200"
+                >
+                  <div class="imine-rnd-cf-item-head">
+                    <h6>시트 마스크</h6>
+                    <div>
+                      <p>R&D FACILITY 02</p>
+                    </div>
                   </div>
-                  <div
-                    class="imine-production-list-item"
-                    data-aos="fade-up"
-                    data-aos-delay="200"
-                  >
-                    <strong>겔패치</strong>
-                    <p>
-                      기존 수작업에서 자동화(로봇팔) 도입으로<br />
-                      성인화 및 생산CAPA 증량 진행
-                    </p>
-                    <img src="../inc/images/production/img03.png" alt="" />
+                  <div class="imine-rnd-cf-item-text">
+                    시트자동화, 다병렬충전설비 +
+                    <p>연간120,000,000 매 +</p>
                   </div>
-                  <div
-                    class="imine-production-list-item"
-                    data-aos="fade-up"
-                    data-aos-delay="200"
-                  >
-                    <strong>덕용아이패치</strong>
-                    <p>
-                      겔패치를 용기에 담아 소비자가 보름~한달동안<br />
-                      사용할 수 있는 제품이며, 자동화설비 개발하여 진행
-                    </p>
-                    <img src="../inc/images/production/img04.png" alt="" />
+                </div>
+                <div
+                  class="imine-rnd-cf-item"
+                  data-aos="fade-up"
+                  data-aos-delay="250"
+                >
+                  <div class="imine-rnd-cf-item-head">
+                    <h6>
+                      하이드로겔 마스크<br />
+                      아이패치
+                    </h6>
+                    <div>
+                      <p>R&D FACILITY 03</p>
+                    </div>
                   </div>
-                  <div
-                    class="imine-production-list-item"
-                    data-aos="fade-up"
-                    data-aos-delay="200"
-                  >
-                    <strong>기초</strong>
-                    <p>
-                      기초패드/일반기초 등 라인 자동화 진행하여<br />
-                      성인화 및 생산CAPA 증량 진행
-                    </p>
-                    <img src="../inc/images/production/img05.png" alt="" />
+                  <div class="imine-rnd-cf-item-text">
+                    독자 코팅설비, 로봇자동화 설비, <br />
+                    블리스터 자동화 +
+                    <p>연간 68,920,000 매 +</p>
+                  </div>
+                </div>
+                <div
+                  class="imine-rnd-cf-item"
+                  data-aos="fade-up"
+                  data-aos-delay="300"
+                >
+                  <div class="imine-rnd-cf-item-head">
+                    <h6>다매 아이패치</h6>
+                    <div>
+                      <p>R&D FACILITY 04</p>
+                    </div>
+                  </div>
+                  <div class="imine-rnd-cf-item-text">
+                    독자 덕용패치 자동화설비 +
+                    <p>연간 2,160,000 개 +</p>
+                  </div>
+                </div>
+                <div
+                  class="imine-rnd-cf-item"
+                  data-aos="fade-up"
+                  data-aos-delay="350"
+                >
+                  <div class="imine-rnd-cf-item-head">
+                    <h6>패드</h6>
+                    <div>
+                      <p>R&D FACILITY 05</p>
+                    </div>
+                  </div>
+                  <div class="imine-rnd-cf-item-text">
+                    독자 덕용설비 +
+                    <p>연간 9,312,000 개 +</p>
                   </div>
                 </div>
               </div>
+              <h3 data-aos="fade-up" data-aos-delay="150">
+                <strong>이미인</strong>은 새로운 제형의 제품에 <br />
+                <strong>두려움 없이 도전</strong>합니다.
+              </h3>
+              <p data-aos="fade-up" data-aos-delay="200">
+                시즌별 인벤토리 개발 외에도 고객이 바라는 새로운 제형에 대해
+                생산설비 투자는 물론, 양산을 위한 사전 검증활동에 적극적으로
+                임하고 있습니다.<br />
+                다양한 기술 네트워크와의 협업을 통해 시장을 선도할 수 있는
+                생산기술을 끊임없이 개척하고 있습니다.
+              </p>
             </section>
-            <section id="section02">
+
+            <!-- <section id="section02">
               <div class="imine-production">
-                <h2 data-aos="fade-up" data-aos-delay="200">품질관리</h2>
+                <h2 data-aos="fade-up" data-aos-delay="100">품질관리</h2>
                 <div class="imine-production-contents">
-                  <h3 data-aos="fade-up" data-aos-delay="400">
+                  <h3 data-aos="fade-up" data-aos-delay="200">
                     <strong> 철저한 품질관리 및 안전성 검증 </strong>
                   </h3>
-                  <p data-aos="fade-up" data-aos-delay="500">
+                  <p data-aos="fade-up" data-aos-delay="250">
                     이미인은 수십 개의 품질 테스트와 안전성 검증을 거칩니다.
                     원료 입고부터 시장 출하까지, 원자재 시험, 물성 시험, 기기
                     분석, 미생물 한도 시험 등 모든 공정은 국내외 화장품
@@ -187,7 +392,7 @@
                 <div
                   class="imine-production-contents-text"
                   data-aos="fade-up"
-                  data-aos-delay="600"
+                  data-aos-delay="300"
                 >
                   <h4>
                     <strong>
@@ -220,12 +425,12 @@
             </section>
             <section id="section03">
               <div class="imine-production">
-                <h2 data-aos="fade-up" data-aos-delay="200">품질보증</h2>
+                <h2 data-aos="fade-up" data-aos-delay="100">품질보증</h2>
                 <div class="imine-production-cgmp">
-                  <h3 data-aos="fade-up" data-aos-delay="400">
+                  <h3 data-aos="fade-up" data-aos-delay="200">
                     <strong>글로벌 스탠더드 준수 및 각종 인증 획득</strong>
                   </h3>
-                  <p data-aos="fade-up" data-aos-delay="500">
+                  <p data-aos="fade-up" data-aos-delay="250">
                     이미인은 전 세계 화장품 시장의 규제와 품질 기준을 정확히
                     이해하고, 국가별·제품별 인허가 절차를 효과적으로 대응할 수
                     있는 글로벌 수준의 품질보증 체계를 갖추고 있습니다. CGMP 등
@@ -239,7 +444,7 @@
                   <div
                     class="imine-production-cgmp-head"
                     data-aos="fade-up"
-                    data-aos-delay="500"
+                    data-aos-delay="250"
                   >
                     <div class="imine-production-cgmp-head-title">
                       <dl>
@@ -299,7 +504,7 @@
                   <div
                     class="imine-production-cgmp-list"
                     data-aos="fade-up"
-                    data-aos-delay="600"
+                    data-aos-delay="300"
                   >
                     <div class="imine-production-cgmp-list-item">
                       <img src="../inc/images/production/img09.png" alt="" />
@@ -330,7 +535,7 @@
                   </div>
                 </div>
               </div>
-            </section>
+            </section> -->
           </div>
         </div>
       </main>
