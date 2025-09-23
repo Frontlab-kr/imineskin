@@ -7636,8 +7636,26 @@ select.imine-input {
   height: 1280px;
   border-radius: 320px;
 }
+.imine-rnd-intro ul li:last-child video {
+  width: 880px;
+  height: 880px;
+}
 @media screen and (max-width: 1440px) {
   .imine-rnd-intro ul li video {
+    width: 720px;
+    height: 720px;
+  }
+  .imine-rnd-intro ul li:last-child video {
+    width: 640px;
+    height: 640px;
+  }
+}
+@media screen and (max-width: 800px) {
+  .imine-rnd-intro ul li video {
+    width: 640px;
+    height: 640px;
+  }
+  .imine-rnd-intro ul li:last-child video {
     width: 640px;
     height: 640px;
   }

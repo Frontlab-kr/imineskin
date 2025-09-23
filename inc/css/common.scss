@@ -8120,10 +8120,34 @@ select.imine-input {
             height: 1280px;
             border-radius: 320px;
           }
+          &:last-child {
+            video {
+              width: 880px;
+              height: 880px;
+            } 
+          }
           @media screen and (max-width: $bp-tablet) {
+            video {
+              width: 720px;
+              height: 720px;
+            }
+            &:last-child {
+              video {
+                width: 640px;
+                height: 640px;
+              } 
+            }
+          }
+          @media screen and (max-width: $bp-mobile) {
             video {
               width: 640px;
               height: 640px;
+            }
+            &:last-child {
+              video {
+                width: 640px;
+                height: 640px;
+              } 
             }
           }
           &:nth-child(1) {
