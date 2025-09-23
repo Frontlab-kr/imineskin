@@ -458,6 +458,14 @@ select.imine-input {
   color: var(--CF035B, #cf035b);
   font-weight: 600;
 }
+.imine-header-gnb-item--ta {
+  display: none;
+}
+@media screen and (max-width: 1440px) {
+  .imine-header-gnb-item--ta {
+    display: block;
+  }
+}
 .imine-header-gnb-item-menu {
   display: flex;
   flex-direction: column;
@@ -1331,7 +1339,6 @@ select.imine-input {
     left: 0;
     height: 100vh;
     padding: 120px 40px 0;
-    z-index: 200;
     background: rgba(0, 0, 0, 0.5);
     opacity: 0;
     visibility: hidden;

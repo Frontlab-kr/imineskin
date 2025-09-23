@@ -298,6 +298,12 @@ select.imine-input {
             font-weight: 600;
           }
         }
+        &--ta {
+          display: none;
+          @media screen and (max-width: $bp-tablet) {
+            display: block;
+          }
+        }
         &-menu {
           display: flex;
           flex-direction: column;
@@ -1246,7 +1252,7 @@ select.imine-input {
       left: 0;
       height: 100vh;
       padding: 120px 40px 0;
-      z-index: 200;
+      
       background: rgba(0, 0, 0, 0.5);
       opacity: 0;
       visibility: hidden;
