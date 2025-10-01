@@ -3902,7 +3902,6 @@ select.imine-input {
 .imine-board-list-body--faq .imine-board-list-body-item__title {
   position: relative;
   display: flex;
-  align-items: center;
   gap: 24px;
   min-height: 87px;
   margin: 0;
@@ -3963,7 +3962,6 @@ select.imine-input {
   .imine-board-list-body--faq .imine-board-list-body-item__title {
     position: relative;
     display: flex;
-    align-items: center;
     gap: 24px;
     min-height: 84px;
     margin: 0;
@@ -5961,6 +5959,7 @@ select.imine-input {
   display: flex;
   align-items: center;
   justify-content: center;
+  flex-direction: column;
   gap: 8px;
   margin: 0 0 8px 0;
   padding: 0;
@@ -5980,6 +5979,9 @@ select.imine-input {
   font-style: normal;
   font-weight: 600;
   line-height: 150%; /* 24px */
+}
+.imine-recruitment-item__text dl dt strong br {
+  display: none;
 }
 .imine-recruitment-item__text dl dd {
   margin: 0;
